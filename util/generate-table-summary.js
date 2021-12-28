@@ -137,7 +137,7 @@ function createBody (availableLangs) {
 }
 
 function createLegend () {
-    return `${COMPLETE_SYMBOL} translation completed — ${PARTIAL_SYMBOL} partial translation — ${MISSING_SYMBOL} translation missing`
+    return `${COMPLETE_SYMBOL} translation completed — ${PARTIAL_SYMBOL} partial translation (look for comments "**// TODO**") — ${MISSING_SYMBOL} translation missing`
 }
 
 function createTable (availableLangs) {

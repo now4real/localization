@@ -58,6 +58,9 @@ export default {
     'status-header.notRememberedLogin': 'Provvisoriamente',
     // means that the login status is temporary and will not be remembered next time
 
+    'status-header.editUserProfileModal': 'Per cambiare il tuo nome e la tua immagine, <a>modifica il tuo profilo</a>',
+    // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
+
     /**
      * Tab labels and tooltips
      */

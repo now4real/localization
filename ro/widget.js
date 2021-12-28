@@ -58,6 +58,9 @@ export default {
     'status-header.notRememberedLogin': 'Nu-mi amintesc',
     // means that the login status is temporary and will not be remembered next time
 
+    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
+
     /**
      * Tab labels and tooltips
      */
