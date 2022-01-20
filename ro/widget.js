@@ -97,13 +97,10 @@ export default {
     /**
      * Chat
      */
-    'chat.welcomeFirstMessagePage': 'Chat in timp real cu vizitatorii acestei pagini',
-    'chat.welcomeFirstMessageSite': 'Chat in timp real cu vizitatorii site-ului',
-
-    'chat.welcomeSecondMessage': 'Mesajele tale sunt publice si dispar dupa $N $A',
-    'chat.welcomeSecondMessageJWT': 'Mesajele tale sunt publice si dispar dupa $N $A',
+    'chat.welcomeMessage': 'Chat cu ceilalți vizitatori în timp real. Mesajele sunt publice și dispar după $N $A.',
+    'chat.welcomeMessageJWT': 'Chat cu ceilalți vizitatori în timp real. Mesajele pot fi publice și dispar după $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Please remember that your messages are public and disappear after 2 hours"
+    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
 
     'chat.messageDeleted.byYou': 'You deleted this message', // TODO
     'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO

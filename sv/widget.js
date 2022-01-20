@@ -97,13 +97,10 @@ export default {
     /**
      * Chat
      */
-    'chat.welcomeFirstMessagePage': 'Chatta med andra besökare på denna sida i realtid',
-    'chat.welcomeFirstMessageSite': 'Chatta med andra besökare på denna webbplats i realtid',
-
-    'chat.welcomeSecondMessage': 'Kom ihåg att det du skriver i chatten är offentligt och försvinner efter $N $A',
-    'chat.welcomeSecondMessageJWT': 'Kom ihåg att det du skriver i chatten kan vara offentligt och försvinner efter $N $A',
+    'chat.welcomeMessage': 'Chatta med de andra besökarna i realtid. Meddelanden är offentliga och försvinner efter $N $A.',
+    'chat.welcomeMessageJWT': 'Chatta med de andra besökarna i realtid. Meddelanden kan vara offentliga och försvinna efter $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Please remember that your messages are public and disappear after 2 hours"
+    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
 
     'chat.messageDeleted.byYou': 'Du raderade det här meddelandet',
     'chat.messageDeleted.byAuthor': 'Meddelande raderat av författaren',

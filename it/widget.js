@@ -97,13 +97,10 @@ export default {
     /**
      * Chat
      */
-    'chat.welcomeFirstMessagePage': 'Chatta con le altre persone presenti su questa pagina',
-    'chat.welcomeFirstMessageSite': 'Chatta con le altre persone presenti su questo sito',
-
-    'chat.welcomeSecondMessage': 'Ricorda che quello che scrivi in chat è pubblico e scompare dopo $N $A',
-    'chat.welcomeSecondMessageJWT': 'Ricorda che quello che scrivi in chat potrebbe essere pubblico e scompare dopo $N $A',
+    'chat.welcomeMessage': 'Chatta con gli altri visitatori in tempo reale. I messaggi sono pubblici e scompaiono dopo $N $A.',
+    'chat.welcomeMessageJWT': 'Chatta con gli altri visitatori in tempo reale. I messaggi potrebbero essere pubblici e scompaiono dopo $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Please remember that your messages are public and disappear after 2 hours"
+    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
 
     'chat.messageDeleted.byYou': 'Hai cancellato questo messaggio',
     'chat.messageDeleted.byAuthor': 'Messaggio cancellato dall\'autore',
