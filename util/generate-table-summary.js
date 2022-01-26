@@ -17,6 +17,10 @@ const COMPLETE = 2
 const PARTIAL = 1
 const MISSING = 0
 
+function escapeRegExp (string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 function longestOfList (list) {
     return Math.max(...(list.map(el => el.length)))
 }
@@ -30,19 +34,40 @@ function validate (lang, file) {
         const fileContent = fs.readFileSync(`${LOCALIZATION_PATH}${lang}/${file}`, 'utf8')
 
         // validate js file
-        if (file.endsWith('.js')) {
+        if (lang !== 'en' && file.endsWith('.js')) {
             const enFileContent = fs.readFileSync(`${LOCALIZATION_PATH}en/${file}`, 'utf8')
 
-            const objKeys = Object.keys(getJSObject(fileContent))
-            const enObjKeys = Object.keys(getJSObject(enFileContent))
+            const obj = getJSObject(fileContent)
+            const enObj = getJSObject(enFileContent)
+
+            const objKeys = Object.keys(obj)
+            const enObjKeys = Object.keys(enObj)
 
             // the 2 files should contains the same number of keys
-            console.assert(objKeys.length === enObjKeys.length, `${lang} - inconsistent size for the ${file} file`.red)
+            console.assert(objKeys.length === enObjKeys.length, `${lang} - inconsistent size for the ${file} file\n`.red)
 
             // all the keys of the en version should be present in the new file
             const notFounded = enObjKeys.filter(el => !objKeys.includes(el))
 
             console.assert(!notFounded.length, `${lang} - inconsistent content for the ${file} file. Missing: ${notFounded.join(', ')}\n`.red)
+
+            // in general all the values must differ
+            // consider that there are cases in which the same translation would like to be used
+            // enable the check with:
+            // node generate-table-summary.js all
+            // node generate-table-summary.js mn
+            const args = process.argv.slice(2)
+            const firstArg = args && args[0]
+
+            if (firstArg && (firstArg === lang || firstArg === 'all')) {
+                const untranslated = enObjKeys.filter(el => {
+                    const isTODO = fileContent.match(new RegExp(`^.*${escapeRegExp(el)}.*TODO.*$`, 'gm'))
+
+                    return obj[el] === enObj[el] && !isTODO
+                })
+
+                console.assert(!untranslated.length, `${lang} - inconsistent content for the ${file} file. Untranslated: ${untranslated.join(', ')}\n`.red)
+            }
         }
 
         // search for TODO
