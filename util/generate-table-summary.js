@@ -44,12 +44,37 @@ function validate (lang, file) {
             const enObjKeys = Object.keys(enObj)
 
             // the 2 files should contains the same number of keys
-            console.assert(objKeys.length === enObjKeys.length, `${lang} - inconsistent size for the ${file} file\n`.red)
+            console.assert(objKeys.length === enObjKeys.length, `${lang} - inconsistent size for the ${file.underline} file\n`.red)
 
             // all the keys of the en version should be present in the new file
             const notFounded = enObjKeys.filter(el => !objKeys.includes(el))
 
-            console.assert(!notFounded.length, `${lang} - inconsistent content for the ${file} file. Missing: ${notFounded.join(', ')}\n`.red)
+            console.assert(!notFounded.length, `${lang} - inconsistent content for the ${file.underline} file. Missing: ${notFounded.join(', ')}\n`.red)
+
+            // all the values cannot be empty
+            const empty = enObjKeys.filter(el => obj[el] === '')
+
+            console.assert(!empty.length, `${lang} - inconsistent content for the ${file.underline} file. Empty: ${empty.join(', ')}\n`.red)
+
+            // all the corresponding values should have the same type
+            const wrongType = enObjKeys.filter(el => obj[el] && typeof(obj[el]) !== typeof(enObj[el]))
+
+            console.assert(!wrongType.length, `${lang} - inconsistent content for the ${file.underline} file. Wrong type: ${wrongType.join(', ')}\n`.red)
+
+            // every placeholder on the english version should be present
+            const missingPlaceholder = enObjKeys.filter(el => {
+                if (typeof(enObj[el]) !== 'string' || typeof(obj[el]) !== 'string') return false
+
+                // get all the placeholders on the en version
+                const enPlaceholders = enObj[el].match(/\$[A-Z]/g)
+
+                if (enPlaceholders)
+                    return enPlaceholders.filter(placeholder => obj[el].indexOf(placeholder) === -1).length > 0
+
+                return false
+            })
+
+            console.assert(!missingPlaceholder.length, `${lang} - inconsistent content for the ${file.underline} file. Missing placeholder: ${missingPlaceholder.join(', ')}\n`.red)
 
             // in general all the values must differ
             // consider that there are cases in which the same translation would like to be used
@@ -66,7 +91,7 @@ function validate (lang, file) {
                     return obj[el] === enObj[el] && !isTODO
                 })
 
-                console.assert(!untranslated.length, `${lang} - inconsistent content for the ${file} file. Untranslated: ${untranslated.join(', ')}\n`.red)
+                console.assert(!untranslated.length, `${lang} - inconsistent content for the ${file.underline} file. Untranslated: ${untranslated.join(', ')}\n`.red)
             }
         }
 
