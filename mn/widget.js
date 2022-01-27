@@ -30,7 +30,7 @@ export default {
        'commons.signedWith.email': 'Мэйл хаягаар нэвтрэх',
        'commons.signedWith.jwt': 'Энэ сайтын бүртгэлээр нэвтрэх',
  
-       'commons.close': 'Close', // close button
+       'commons.close': 'Хаах', // close button
  
        /**
         * Tooltips and balloons on closed widget
@@ -53,10 +53,13 @@ export default {
        'status-header.privacy': 'Нууцлалын бодлого',
        'status-header.signout': 'Гарах',
        'status-header.signin': 'Орох',
- 
+       'status-header.editUserProfile': 'Профайл засварлах',
        'status-header.notRememberedLogin': 'Сануулаагүй',
        // means that the login status is temporary and will not be remembered next time
  
+       'status-header.editUserProfileModal': 'Дэлгэцийн нэр болон зургийг солихын тулд <a>Профайл засварлах</a> дээр дарна уу',
+       // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"   
+
        /**
         * Tab labels and tooltips
         */
@@ -93,6 +96,11 @@ export default {
        /**
         * Chat
         */
+        'chat.welcomeMessage': 'Бусад зочидтой шууд чат бич. Бичсэн чат нийтэд харагдах ба $N $A хугацааны дараа алга болно.',
+        'chat.welcomeMessageJWT': 'Бусад зочидтой шууд чат бич. Бичсэн чат нийтэд харагдах ба $N $A хугацааны дараа алга болно.',
+      // $N is a number and $A in a time unit taken from timeUnit.
+      // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    
        'chat.welcomeFirstMessagePage': 'Хуудсын зочидтой хийх рийл-тайм чаат',
        'chat.welcomeFirstMessageSite': 'Сайтын зочидтой хийх рийл-тайм чаат',
  
@@ -125,6 +133,7 @@ export default {
        'chat.signinRequired': 'Чаатад <a>Холбогдох</a>',
        // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
  
+       
        'chat.viewOnly': 'View-only горим',
  
        // below are the actions on messages that appear in a contextual menu
@@ -132,6 +141,7 @@ export default {
        'chat.deleteBtn': 'Устгах', // means "delete this message"
        'chat.muteBtn': 'Дууг хаах', // means "mute this user"
  
+       'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
        /**
         * Presence
         */
