@@ -2,9 +2,9 @@
  * MONGOLIAN
  ****************************************************************************************/
  export default {
-    'socialLoginTitle': 'Now4real Social Login',
-    'emailLoginTitle': 'Now4real Email Login',
-    'editProfileTitle': 'Edit Your Profile - Now4real',
+    'socialLoginTitle': 'Now4real Сошиал нэвтрэлт',
+    'emailLoginTitle': 'Now4real Имэйл нэвтрэлт',
+    'editProfileTitle': 'Профайл засварлах - Now4real',
 
     'genericError': 'Уучлаарай алдаа гарлаа',
     'sessionExpiredError': 'Холболт салсан тул дахин хандна уу',
