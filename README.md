@@ -11,7 +11,7 @@
 | 🇵🇱 `pl`                   | :warning:                | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | 🇵🇹 `pt`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :warning:                |
 | 🇷🇴 `ro`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| 🇸🇻 `sv`                   | :heavy_check_mark:       | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
+| 🇸🇻 `sv`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
 
 :heavy_check_mark: translation completed — :warning: partial translation (look for comments "**// TODO**") — :heavy_multiplication_x: translation missing
 

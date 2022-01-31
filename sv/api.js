@@ -6,7 +6,7 @@ export default {
     /**
      * Login redirect pages
      */
-    'login-redirect.title': 'Now4real Login',
+    'login-redirect.title': 'Now4real inloggning',
 
     'login-redirect.step2.msg': 'Du skickas vidare, var god vänta...',
 

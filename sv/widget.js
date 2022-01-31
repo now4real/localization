@@ -53,12 +53,12 @@ export default {
     'status-header.privacy': 'Integritetspolicy',
     'status-header.signout': 'Logga ut',
     'status-header.signin': 'Logga in',
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.editUserProfile': 'Redigera profil',
 
     'status-header.notRememberedLogin': 'Sparas inte',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'För att ändra ditt visningsnamn och bild, <a>redigera din profil</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -133,7 +133,7 @@ export default {
     'chat.deleteBtn': 'Radera',
     'chat.muteBtn': 'Tysta', // means "mute this user"
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Användarens fingeravtryck',
 
     /**
      * Presence
