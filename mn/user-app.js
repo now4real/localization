@@ -70,7 +70,7 @@ export default {
 
     'editProfile.updatedFeedback': 'Таны мэдээллийг шинэчилж дууслаа. Энэ цонхыг хаана уу',
 
-    'editProfile.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a> .',
+    'editProfile.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
     'editProfile.update': 'Шинэчлэх'
