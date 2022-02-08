@@ -6,7 +6,7 @@
     'emailLoginTitle': 'Now4real Имэйл нэвтрэлт',
     'editProfileTitle': 'Профайл засварлах - Now4real',
 
-    'genericError': 'Уучлаарай алдаа гарлаа',
+    'genericError': 'Уучлаарай! Алдаа гарлаа',
     'sessionExpiredError': 'Холболт салсан тул дахин хандна уу',
     'recaptchaError': 'Уучлаарай, таны хандалт сэжигтэй байна',
     'sendThrottlingError': 'Шинэ код авахын тулд өмнөх имэйл илгээснээс хойш хамгийн багадаа $N минутын дараа дахин хандна уу',
@@ -47,7 +47,7 @@
 
     'emailSigninStep3.feedback': 'Код баталгаажсан. Сүүлийн алхам...',
 
-    'emailSigninStep3.nameInfo': 'Дэлгэцэнд харагдах нэр (нийтийн чатанд харагдах боно)',
+    'emailSigninStep3.nameInfo': 'Дэлгэцэнд харагдах нэр (нийтийн чатанд харагдна)',
     'emailSigninStep3.namePlaceholder': 'Нэр',
 
     'emailSigninStep3.emailInfo': 'Таны имэйл хаяг (бусдад харагдахгүй)',
@@ -70,7 +70,7 @@
 
     'editProfile.updatedFeedback': 'Таны мэдээллийг шинэчилж дууслаа. Энэ цонхыг хаана уу',
 
-    'editProfile.gravatarInfo': 'Gravatar ыг ашиглан таны зургийг харуулдаг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a> .',
+    'editProfile.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a> .',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
     'editProfile.update': 'Шинэчлэх'

@@ -14,10 +14,10 @@ export default {
  
        'timeUnit.minutes': 'минут',
        'timeUnit.hours': 'цаг',
-       'timeUnit.days': 'өдөр',
+       'timeUnit.days': 'өдөр',  // We dont say "өдрүүд" for date format. We just call it өдөр 
        'timeUnit.weeks': 'долоо хоног',
        'timeUnit.months': 'сар',
-       'timeUnit.years': 'жилд',
+       'timeUnit.years': 'жил',
        'timeUnit.forever': 'үүрд',
  
        /**
@@ -37,7 +37,7 @@ export default {
         */
        'monitor.pageViewersTitle': 'Хуудсыг үзэж буй хүмүүс',
        'monitor.siteViewersTitle': 'Сайтыг үзэж буй хүмүүс',
-       'monitor.chatBalloon': 'ЧААТ', // keep upper case, if applicable
+       'monitor.chatBalloon': 'ЧАТ', // keep upper case, if applicable
        'monitor.presenceBalloon': 'Холбогдсон хүмүүс',
  
        /**
@@ -54,7 +54,7 @@ export default {
        'status-header.signout': 'Гарах',
        'status-header.signin': 'Орох',
        'status-header.editUserProfile': 'Профайл засварлах',
-       'status-header.notRememberedLogin': 'Сануулаагүй',
+       'status-header.notRememberedLogin': 'Нэвтрэх хандалт хадгалагдахгүй',
        // means that the login status is temporary and will not be remembered next time
  
        'status-header.editUserProfileModal': 'Дэлгэцийн нэр болон зургийг солихын тулд <a>Профайл засварлах</a> дээр дарна уу',
@@ -63,14 +63,14 @@ export default {
        /**
         * Tab labels and tooltips
         */
-       'tab.chatTabLabel': 'ЧААТ', // max 8 characters; keep upper case, if applicable
-       'tab.chatTitlePage': 'Хуудасны зочидтой хийх рийл-тайм чаат',
-       'tab.chatTitleSite': 'Сайтын зочидтой хийх рийл-тайм чаат',
+       'tab.chatTabLabel': 'ЧАТ', // max 8 characters; keep upper case, if applicable
+       'tab.chatTitlePage': 'Хуудасны зочидтой хийх рийл-тайм чат',
+       'tab.chatTitleSite': 'Сайтын зочидтой хийх рийл-тайм чат',
  
        'tab.rankingTabLabel': 'ХУУДСУУД', // max 8 characters; keep upper case, if applicable
        'tab.rankingTitle': 'Үзэж буй хуудсууд',
  
-       'tab.heatmapTabLabel': 'ЗУРАГ', // max 8 characters; keep upper case, if applicable
+       'tab.heatmapTabLabel': 'ГАЗРЫН ЗУРАГ', // max 8 characters; keep upper case, if applicable
        'tab.heatmapTitle': 'Хаанаас зочилсон',
  
        /**
@@ -83,10 +83,10 @@ export default {
        /**
         * Ranking
         */
-       'ranking.foregroundTitle': 'Зочид',
-       'ranking.activeTitle': 'Чаатад буй хүмүүс',
+       'ranking.foregroundTitle': 'Онлайн байгаа зочид',
+       'ranking.activeTitle': 'Чатад буй хүмүүс',
        'ranking.foregroundSwitchLabel': 'УНШИГЧИД', // max 12 characters; keep upper case, if applicable
-       'ranking.activeSwitchLabel': 'ЧААТЛАГЧИД', // max 12 characters; keep upper case, if applicable
+       'ranking.activeSwitchLabel': 'БУУ ХАЛАГЧИД', // It is idiom, meaning of CHATTERS
        'ranking.empty': 'Дата байхгүй',
        'ranking.currentPage': 'Одоогийн хуудас',
  
@@ -96,13 +96,13 @@ export default {
        /**
         * Chat
         */
-        'chat.welcomeMessage': 'Бусад зочидтой шууд чат бич. Бичсэн чат нийтэд харагдах ба $N $A хугацааны дараа алга болно.',
-        'chat.welcomeMessageJWT': 'Бусад зочидтой шууд чат бич. Бичсэн чат нийтэд харагдах ба $N $A хугацааны дараа алга болно.',
+        'chat.welcomeMessage': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд олон нийтэд нээлттэй байх бөгөөд $N $A дараа алга болно.',
+        'chat.welcomeMessageJWT': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд олон нийтэд нээлттэй байх бөгөөд $N $A дараа алга болно.',
       // $N is a number and $A in a time unit taken from timeUnit.
       // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
     
-       'chat.welcomeFirstMessagePage': 'Хуудсын зочидтой хийх рийл-тайм чаат',
-       'chat.welcomeFirstMessageSite': 'Сайтын зочидтой хийх рийл-тайм чаат',
+       'chat.welcomeFirstMessagePage': 'Хуудсын зочидтой хийх рийл-тайм чат',
+       'chat.welcomeFirstMessageSite': 'Сайтын зочидтой хийх рийл-тайм чат',
  
        'chat.welcomeSecondMessage': 'Таны зурвасууд паблик тохиргоотой бөгөөд $N $A дараа устана',
        'chat.welcomeSecondMessageJWT': 'Таны зурвасууд паблик тохиргоотой бол $N $A дараа алга болж болзошгүй',
@@ -119,18 +119,18 @@ export default {
        'chat.placeholder': 'Зурвас бичих',
        'chat.postBtn': 'Постлох', // means "publish this message"
  
-       'chat.tooFrequentError': 'Хэт хурдан бичиж байна...\nЧаатыг дүүргэж болохгүй',
+       'chat.tooFrequentError': 'Хэт хурдан бичиж байна...\nЧатыг дүүргэж болохгүй',
        // \n means to break the line; \' distinguishes the apostrophe from the final apex
  
        'chat.blockedError': 'Уучлаарай... Зурвас тохиромжгүй хэллэгтэй байна',
        'chat.abortedError': 'Энэ браузераас Нэвтрэхийг хориглосон эсвэл cookie-г идэвхгүй болгосон байна',
        'chat.mutedError': 'Уучлаарай! Дууг хаасан байна',
        'chat.notPersistentError': 'Нууцлалыг хадгалах үүднээс таних явцыг сануулахгүй. Байдлыг давтахгүйн тул браузер дээрээ Now4real-ийн cookie-г идэвхжүүлнэ үү.',
-       'chat.disabledError': 'Энэ чаатыг идэвхгүй болгосон',
+       'chat.disabledError': 'Энэ чатыг идэвхгүй болгосон',
  
        'chat.disabledByAdmin': 'Энэ чатыг Админ идэвхгүй болгосон',
        'chat.disabledByModerator': 'Энэ чатыг Модератор хүчингүй болгосон',
-       'chat.signinRequired': 'Чаатад <a>Холбогдох</a>',
+       'chat.signinRequired': 'Чатад <a>Холбогдох</a>',
        // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
  
        
@@ -139,23 +139,23 @@ export default {
        // below are the actions on messages that appear in a contextual menu
        'chat.replyBtn': 'Хариулах', // means "reply to this message"
        'chat.deleteBtn': 'Устгах', // means "delete this message"
-       'chat.muteBtn': 'Дууг хаах', // means "mute this user"
+       'chat.muteBtn': 'Блоклох', // means "mute this user"
  
        'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
        /**
         * Presence
         */
-       'presence.all.a': 'Хуудсанд 1 хүн байна (сайтад $N хүн байна)',
+       'presence.all.a': 'Сайтад 1 хүн байна (сайтад $N хүн байна)',
        // example: "..."
  
-       'presence.all.b': 'Хуудсанд $N хүн байна (сайтад $M хүн байна)',
+       'presence.all.b': 'Сайтад $N хүн байна (сайтад $M хүн байна)',
        // example: "..."
  
-       'presence.page.a': 'Хуудсанд 1 хүн байна',
-       'presence.page.b': 'Хуудсанд $N хүн байна',
+       'presence.page.a': 'Сайтад 1 хүн байна',
+       'presence.page.b': 'Сайтад $N хүн байна',
  
-       'presence.site.a': 'Хуудсанд 1 хүн байна',
-       'presence.site.b': 'Хуудсанд $N хүн байна',
+       'presence.site.a': 'Сайтад 1 хүн байна',
+       'presence.site.b': 'Сайтад $N хүн байна',
  
        /**
         * Emoji-picker labels
@@ -231,7 +231,7 @@ export default {
         */
        'jwt-modal.title': 'Зөвшөөрөл',
  
-       'jwt-modal.header': 'Чаатыг ашиглахын тулд Та Now4real-ийн <a1>Үйлчилгээний нөхцөл</a1> ба <a2>БНууцлалын бодлогыг</a2> зөвшөөрөх ёстой',
+       'jwt-modal.header': 'Чатыг ашиглахын тулд Та Now4real-ийн <a1>Үйлчилгээний нөхцөл</a1> ба <a2>БНууцлалын бодлогыг</a2> зөвшөөрөх ёстой',
        // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
        // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
  
@@ -240,22 +240,22 @@ export default {
        /**
         * Mute dialog
         */
-       'mute-modal.title': 'Хэрэглэгчийг хаах',
+       'mute-modal.title': 'Хэрэглэгчийг блоклох',
  
-       'mute-modal.header': 'Хэрэглэгчийн эрх $U $E хүртэл хаагдсан',
+       'mute-modal.header': 'Хэрэглэгчийн мэссэж бичих эрх $U $E хүртэл хаагдсан',
        // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
  
-       'mute-modal.headerForever': 'Хэрэглэгч $U-г хаасан',
+       'mute-modal.headerForever': 'Хэрэглэгч $U-г блоклосон',
  
-       'mute-modal.body.set': 'Хэрэглэгч $U-г хаах хугацаа:',
+       'mute-modal.body.set': 'Хэрэглэгч $U-г блоклох хугацаа:',
        // example: "Mute user Ben for:" followed by input fields with "3 days"
  
-       'mute-modal.body.update': 'Хаах хугацааг шинэчлэх:',
+       'mute-modal.body.update': 'Блоклох хугацааг шинэчлэх:',
        // example: "Update mute period:" followed by input fields with "5 days"
  
-       'mute-modal.body.deleteInfo': 'Хэрэглэгчийг хүссэн үедээ нээж болно.',
+       'mute-modal.body.deleteInfo': 'Хэрэглэгчийг хүссэн үедээ блокоос гаргаж болно.',
  
-       'mute-modal.body.deleteAlert': 'Та хэрэглэгчийг нээлээ',
+       'mute-modal.body.deleteAlert': 'Та хэрэглэгчийг блокоос гаргалаа',
  
        'mute-modal.button': 'Баталгаажуулах',
  
