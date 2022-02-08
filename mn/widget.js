@@ -14,7 +14,7 @@ export default {
  
        'timeUnit.minutes': 'минут',
        'timeUnit.hours': 'цаг',
-       'timeUnit.days': 'өдөр',  // We dont say "өдрүүд" for date format. We just call it өдөр 
+       'timeUnit.days': 'өдөр',
        'timeUnit.weeks': 'долоо хоног',
        'timeUnit.months': 'сар',
        'timeUnit.years': 'жил',
@@ -86,7 +86,7 @@ export default {
        'ranking.foregroundTitle': 'Онлайн байгаа зочид',
        'ranking.activeTitle': 'Чатад буй хүмүүс',
        'ranking.foregroundSwitchLabel': 'УНШИГЧИД', // max 12 characters; keep upper case, if applicable
-       'ranking.activeSwitchLabel': 'БУУ ХАЛАГЧИД', // It is idiom, meaning of CHATTERS
+       'ranking.activeSwitchLabel': 'БУУ ХАЛАГЧИД', // max 12 characters; keep upper case, if applicable
        'ranking.empty': 'Дата байхгүй',
        'ranking.currentPage': 'Одоогийн хуудас',
  
