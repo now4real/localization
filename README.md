@@ -8,6 +8,7 @@
 | 🇪🇸 `es`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :warning:                |
 | 🇫🇷 `fr`                   | :heavy_check_mark:       | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | 🇮🇹 `it`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
+| 🇲🇳 `mn`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
 | 🇵🇱 `pl`                   | :warning:                | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | 🇵🇹 `pt`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :warning:                |
 | 🇷🇴 `ro`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
