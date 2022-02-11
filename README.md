@@ -1,32 +1,27 @@
 # Now4real Localization Resources
 
-| Language                 | `api`                    | `widget`                 | `user-app`               | `email`                  |
+| Language                 | `Api`                    | `Widget`                 | `User App`               | `Email`                  |
 | -------------------------| -------------------------| -------------------------| -------------------------| -------------------------|
-| 🇧🇬 `bg`                   | :heavy_check_mark:       | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| 🇩🇪 `de`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| 🇺🇸 `en`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
-| 🇪🇸 `es`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :warning:                |
-| 🇫🇷 `fr`                   | :heavy_check_mark:       | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| 🇮🇹 `it`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
-| 🇲🇳 `mn`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
-| 🇵🇱 `pl`                   | :warning:                | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| 🇵🇹 `pt`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :warning:                |
-| 🇷🇴 `ro`                   | :heavy_multiplication_x: | :warning:                | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| 🇸🇻 `sv`                   | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       | :heavy_check_mark:       |
+| 🇧🇬 Bulgarian `bg`         | ✅                        | ⚠️                       | ❌                        | ❌                        |
+| 🇩🇪 German `de`            | ❌                        | ⚠️                       | ❌                        | ❌                        |
+| 🇺🇸 English `en`           | ✅                        | ✅                        | ✅                        | ✅                        |
+| 🇪🇸 Spanish `es`           | ❌                        | ⚠️                       | ❌                        | ⚠️                       |
+| 🇫🇷 French `fr`            | ✅                        | ⚠️                       | ❌                        | ❌                        |
+| 🇮🇹 Italian `it`           | ✅                        | ✅                        | ✅                        | ✅                        |
+| 🇲🇳 Mongolian `mn`         | ✅                        | ✅                        | ✅                        | ✅                        |
+| 🇵🇱 Polish `pl`            | ⚠️                       | ⚠️                       | ❌                        | ❌                        |
+| 🇵🇹 Portuguese `pt`        | ❌                        | ⚠️                       | ❌                        | ⚠️                       |
+| 🇷🇴 Romanian `ro`          | ❌                        | ⚠️                       | ❌                        | ❌                        |
+| 🇸🇻 Swedish `sv`           | ✅                        | ✅                        | ✅                        | ✅                        |
 
-:heavy_check_mark: translation completed — :warning: partial translation (look for comments "**// TODO**") — :heavy_multiplication_x: translation missing
+✅ translation completed  
+⚠️ partial translation (look for comments "**// TODO**")  
+❌ translation missing
 
 ## Modules
 The project consists of 4 different modules, each of them is used on different moments of the Now4real user experience.
 
 We recommend taking into consideration all the files during your contribution, in order to give the users the best experience.
-
-### Email
-
-The `email` folder contains email templates.
-
-Each file in this folder is an HTML template.
-The first line of the file is the email's subject, the other lines are the email's body.
 
 ### Api
 
@@ -39,6 +34,13 @@ The `widget.js` file contains the translation of all the strings present on the 
 ### User App
 
 The `user-app.js` file contains the translation of all the strings present on the user app, which is mainly used to handle the email authentication flow.
+
+### Email
+
+The `email` folder contains email templates.
+
+Each file in this folder is an HTML template.
+The first line of the file is the email's subject, the other lines are the email's body.
 
 ## Rules for Translators
 

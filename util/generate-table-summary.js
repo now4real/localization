@@ -7,9 +7,9 @@ const languages = require('@cospired/i18n-iso-languages')
 
 // configure your preferred value
 // see https://gist.github.com/rxaviers/7360908
-const COMPLETE_SYMBOL = ':heavy_check_mark:' // ✔️
-const PARTIAL_SYMBOL = ':warning:' // ⚠️
-const MISSING_SYMBOL = ':heavy_multiplication_x:' // ✖️
+const COMPLETE_SYMBOL = '✅' // ✔️
+const PARTIAL_SYMBOL = '⚠️' // ⚠️
+const MISSING_SYMBOL = '❌' // ✖️
 
 const LOCALIZATION_PATH = path.join(__dirname, '../')
 
@@ -21,9 +21,9 @@ function escapeRegExp (string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-function longestOfList (list) {
+/* function longestOfList (list) {
     return Math.max(...(list.map(el => el.length)))
-}
+} */
 
 function getJSObject (fileContent) {
     return eval(fileContent.replace('export default', 'obj = '))
@@ -145,14 +145,14 @@ function toFlag (country) {
 }
 
 // based on the longest symbol
-const CELL_LENGTH = longestOfList([ COMPLETE_SYMBOL, PARTIAL_SYMBOL, MISSING_SYMBOL ]) + 1
+const CELL_LENGTH = 25
 
 function createHeader () {
     const language = 'Language'
-    const api = '\`api\`'
-    const widget = '\`widget\`'
-    const userApp = '\`user-app\`'
-    const email = '\`email\`'
+    const api = '\`Api\`'
+    const widget = '\`Widget\`'
+    const userApp = '\`User App\`'
+    const email = '\`Email\`'
 
     const dash = '-'
 
@@ -163,7 +163,7 @@ function createHeader () {
 }
 
 function createRow (lang, apiStatus, widgetStatus, userAppStatus, emailStatus) {
-    lang = `${toFlag(lang)} \`${lang}\``
+    lang = `${toFlag(lang)} ${languages.getName(lang, 'en')} \`${lang}\``
 
     apiStatus = toSymbol(apiStatus)
     widgetStatus = toSymbol(widgetStatus)
@@ -187,7 +187,7 @@ function createBody (availableLangs) {
 }
 
 function createLegend () {
-    return `${COMPLETE_SYMBOL} translation completed — ${PARTIAL_SYMBOL} partial translation (look for comments "**// TODO**") — ${MISSING_SYMBOL} translation missing`
+    return `${COMPLETE_SYMBOL} translation completed  \n${PARTIAL_SYMBOL} partial translation (look for comments "**// TODO**")  \n${MISSING_SYMBOL} translation missing`
 }
 
 function createTable (availableLangs) {
