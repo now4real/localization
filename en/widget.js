@@ -224,7 +224,7 @@ export default {
      */
     'jwt-modal.title': 'Consent',
 
-    'jwt-modal.header': 'To start chatting you should accept the <a1>Terms of Service</a1> and the <a2>Privacy Policy</a2> of Now4real (the chat service)',
+    'jwt-modal.header': 'To start chatting you must accept the <a1>Terms of Service</a1> and the <a2>Privacy Policy</a2> of Now4real (the chat service)',
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
