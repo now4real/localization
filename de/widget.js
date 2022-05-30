@@ -228,7 +228,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Akzeptieren',
+    'jwt-modal.acceptBtn': 'Akzeptieren',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Nicht zustimmen',
+    'jwt-modal.agreeRadio': 'Zustimmen',
+    'jwt-modal.continueBtn': 'Fortsetzen',
 
     /**
      * Mute dialog

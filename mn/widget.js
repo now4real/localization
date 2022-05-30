@@ -228,7 +228,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Зөвшөөрөх',
+    'jwt-modal.acceptBtn': 'Зөвшөөрөх',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Санал нийлэхгүй байна',
+    'jwt-modal.agreeRadio': 'Зөвшөөрөх',
+    'jwt-modal.continueBtn': 'Үргэлжлүүлэх',
 
     /**
      * Mute dialog

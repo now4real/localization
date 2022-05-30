@@ -228,7 +228,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
 
-    'jwt-modal.button': 'Accept',
+    'jwt-modal.acceptBtn': 'Accept',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Dezacord',
+    'jwt-modal.agreeRadio': 'De acord',
+    'jwt-modal.continueBtn': 'Continua',
 
     /**
      * Mute dialog
