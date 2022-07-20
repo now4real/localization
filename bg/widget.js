@@ -97,6 +97,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡Чат с останалите $N посетители',
+    'chat.attentionGrabber2': '⚡Чат с останалите посетители',
+    // $N is a number
+    // example: "⚡Chat with the other 2 visitors"
+
     'chat.welcomeMessage': 'Разговаряйте с другите посетители в реално време. Съобщенията са публични и изчезват след $N $A.',
     'chat.welcomeMessageJWT': 'Разговаряйте с другите посетители в реално време. Съобщенията може да са публични и да изчезнат след $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.

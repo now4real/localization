@@ -97,6 +97,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡Chatten Sie mit den anderen $N Besuchern',
+    'chat.attentionGrabber2': '⚡Chatten Sie mit den anderen Besuchern',
+    // $N is a number
+    // example: "⚡Chat with the other 2 visitors"
+
     'chat.welcomeMessage': 'Chatten Sie mit den anderen Besuchern in Echtzeit. Nachrichten sind öffentlich und verschwinden nach $N $A.',
     'chat.welcomeMessageJWT': 'Chatten Sie mit den anderen Besuchern in Echtzeit. Nachrichten können öffentlich sein und verschwinden nach $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
