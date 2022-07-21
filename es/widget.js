@@ -97,10 +97,10 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡Habla con los otros $N visitantes',
-    'chat.attentionGrabber2': '⚡Habla con los otros visitantes',
+    'chat.attentionGrabber1': '⚡ Habla con los otros $N visitantes ahora',
+    'chat.attentionGrabber2': '⚡ Habla con los otros visitantes ahora',
     // $N is a number
-    // example: "⚡Chat with the other 2 visitors"
+    // example: "⚡ Chat with the other 2 visitors now"
 
     'chat.welcomeMessage': 'Habla aquí con otras visitantes en tiempo real. Los mensajes son públicos y desaparecen después de $N $A.',
     'chat.welcomeMessageJWT': 'Habla aquí con otras visitantes en tiempo real. Los mensajes pueden ser públicos y desaparecer después de $N $A.',

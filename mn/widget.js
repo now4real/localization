@@ -97,10 +97,10 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡бусад $N зочидтой чатлах',
-    'chat.attentionGrabber2': '⚡бусад зочидтой чатлах',
+    'chat.attentionGrabber1': '⚡ бусад $N зочидтой одоо чатлах',
+    'chat.attentionGrabber2': '⚡ бусад зочидтой одоо чатлах',
     // $N is a number
-    // example: "⚡Chat with the other 2 visitors"
+    // example: "⚡ Chat with the other 2 visitors now"
 
     'chat.welcomeMessage': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд олон нийтэд нээлттэй байх бөгөөд $N $A дараа алга болно.',
     'chat.welcomeMessageJWT': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд нь олон нийтэд нээлттэй байж болох бөгөөд $N $A дараа алга болно.',
