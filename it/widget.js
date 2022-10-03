@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Ops! Qualcosa è andato storto',
+    'mutedError': 'Ops! Sembra tu sia stato silenziato',
 
     'connection-status.offline': 'Sei offline',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Ci dispiace... Questo messaggio sembra inappropriato',
     'chat.abortedError': 'Accesso annullato o cookie disabilitati su questo browser',
-    'chat.mutedError': 'Ops! Sembra tu sia stato silenziato',
     'chat.notPersistentError': 'L\'autenticazione non sarà ricordata a causa di impostazioni di privacy restrittive. Abilita i cookie per Now4real nel tuo browser per evitare che ciò accada.',
     'chat.disabledError': 'Questa chat è stata disabilitata',
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Rispondi', // means "reply to this message"
     'chat.deleteBtn': 'Elimina', // means "delete this message"
     'chat.muteBtn': 'Silenzia', // means "mute this user"
+    'chat.reportBtn': 'Segnala', // means "report this message"
 
     'chat.userIdenticon': 'Fingerprint dell\'utente',
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Conferma',
     'confirmation-modal.ok': 'Si',
     'confirmation-modal.cancel': 'No',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Segnala Messaggio',
+
+    'report-modal.header': 'Perché stai segnalando questo messaggio?',
+    'report-modal.note': 'Se qualcuno è in pericolo immediato, chiama i servizi di emergenza locali - non aspettare',
+
+    'report-modal.hateSpeech': 'Incitamento all\'odio o bullismo',
+    'report-modal.violence': 'Terrorismo o violenza',
+    'report-modal.pornography': 'Sessualmente inappropriato',
+    'report-modal.spam': 'Spam, truffe o frodi',
+    'report-modal.selfInjury': 'Suicidio o autolesionismo',
+    'report-modal.copyright': 'Violazione della proprietà intellettuale',
+    'report-modal.other': 'Altro',
+
+    'report-modal.commentPlaceholder': 'Commento',
+    'report-modal.button': 'Segnala',
+
+    'report-modal.reportOk': 'Grazie per la segnalazione!',
+    'report-modal.alreadyReportedError': 'Hai già segnalato il messaggio',
 
     /**
      * Flush chat confirm dialog

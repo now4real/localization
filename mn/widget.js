@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Уучлаарай! Алдаа гарлаа',
+    'mutedError': 'Уучлаарай! Дууг хаасан байна',
 
     'connection-status.offline': 'Та оффлайн байна',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Уучлаарай... Зурвас тохиромжгүй хэллэгтэй байна',
     'chat.abortedError': 'Энэ браузераас Нэвтрэхийг хориглосон эсвэл cookie-г идэвхгүй болгосон байна',
-    'chat.mutedError': 'Уучлаарай! Дууг хаасан байна',
     'chat.notPersistentError': 'Нууцлалыг хадгалах үүднээс таних явцыг сануулахгүй. Байдлыг давтахгүйн тул браузер дээрээ Now4real-ийн cookie-г идэвхжүүлнэ үү.',
     'chat.disabledError': 'Энэ чаатыг идэвхгүй болгосон',
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Хариулах', // means "reply to this message"
     'chat.deleteBtn': 'Устгах', // means "delete this message"
     'chat.muteBtn': 'Блоклох', // means "mute this user"
+    'chat.reportBtn': 'мэдээлэх', // means "report this message"
 
     'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Баталгаажуулах',
     'confirmation-modal.ok': 'Тийм',
     'confirmation-modal.cancel': 'Үгүй',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Мессежийг мэдээлэх',
+
+    'report-modal.header': 'Та яагаад энэ мессежийг мэдээлж байна вэ?',
+    'report-modal.note': 'Хэрэв хэн нэгэн яаралтай аюулд орсон бол орон нутгийн түргэн тусламж дуудах - хүлээх хэрэггүй',
+
+    'report-modal.hateSpeech': 'Үзэн ядсан үг хэллэг эсвэл дээрэлхэх',
+    'report-modal.violence': 'Терроризм эсвэл хүчирхийлэл',
+    'report-modal.pornography': 'Бэлгийн харьцаанд тохиромжгүй',
+    'report-modal.spam': 'Спам, луйвар эсвэл залилан',
+    'report-modal.selfInjury': 'Амиа хорлох эсвэл өөрийгөө гэмтээх',
+    'report-modal.copyright': 'Оюуны өмчийн зөрчил',
+    'report-modal.other': 'Бусад',
+
+    'report-modal.commentPlaceholder': 'Сэтгэгдэл',
+    'report-modal.button': 'мэдээлэх',
+
+    'report-modal.reportOk': 'Мэдээлэл өгсөнд баярлалаа!',
+    'report-modal.alreadyReportedError': 'Та мессежийг аль хэдийн мэдэгдсэн байна',
 
     /**
      * Flush chat confirm dialog

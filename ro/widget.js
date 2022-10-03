@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Ups! Ceva este in neregula',
+    'mutedError': 'Ups! Se pare ca nu poti publica inca',
 
     'connection-status.offline': 'Esti offline',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Imi pare rau... Acest mesaj este considerat nepotrivit',
     'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
-    'chat.mutedError': 'Ups! Se pare ca nu poti publica inca',
     'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
     'chat.disabledError': 'This chat has been disabled', // TODO
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Raspunde', // means "reply to this message"
     'chat.deleteBtn': 'Stergere', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.reportBtn': 'Raportează', // means "report this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -268,6 +269,29 @@ export default {
     'confirmation-modal.title': 'Confirm', // TODO
     'confirmation-modal.ok': 'Yes', // TODO
     'confirmation-modal.cancel': 'No', // TODO
+
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Raportează mesajul',
+
+    'report-modal.header': 'De ce raportați acest mesaj?',
+    'report-modal.note': 'Dacă cineva se află în pericol imediat, sunați la serviciile locale de urgență - nu așteptați',
+
+    'report-modal.hateSpeech': 'Discurs de ură sau hărțuire',
+    'report-modal.violence': 'Terorism sau violență',
+    'report-modal.pornography': 'Inadecvat din punct de vedere sexual',
+    'report-modal.spam': 'Spam, escrocherii sau fraudă',
+    'report-modal.selfInjury': 'Sinucidere sau autovătămare',
+    'report-modal.copyright': 'Încălcarea proprietății intelectuale',
+    'report-modal.other': 'Alte',
+
+    'report-modal.commentPlaceholder': 'Comentariu',
+    'report-modal.button': 'Raportați',
+
+    'report-modal.reportOk': 'Mulțumesc pentru raportare!',
+    'report-modal.alreadyReportedError': 'Ai raportat deja mesajul',
 
     /**
      * Flush chat confirm dialog

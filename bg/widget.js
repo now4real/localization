@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Възникна грешка.',
+    'mutedError': 'Упс! Изглежда сте заглушени',
 
     'connection-status.offline': 'Няма връзка с интернет',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Съжаляваме... Това съобщение изглежда неподходящо',
     'chat.abortedError': 'Вписването е отказано или бисквитките на браузера са изключени',
-    'chat.mutedError': 'Упс! Изглежда сте заглушени',
     'chat.notPersistentError': 'Автентикацията няма да се запомни заради ограничените настройки за поверителност. Разрешете бисквитките за Now4real във вашия браузер, за да решите този проблем.',
     'chat.disabledError': 'Чатът е деактивиран',
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Отговор', // means "reply to this message"
     'chat.deleteBtn': 'Изтриване', // means "delete this message"
     'chat.muteBtn': 'Заглушаване', // means "mute this user"
+    'chat.reportBtn': 'Докладване', // means "report this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Потвърждение',
     'confirmation-modal.ok': 'Да',
     'confirmation-modal.cancel': 'Не',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Докладване на съобщение',
+
+    'report-modal.header': 'Защо докладвате това съобщение?',
+    'report-modal.note': 'Ако някой е в непосредствена опасност, обадете се на местните служби за спешна помощ - не чакайте',
+
+    'report-modal.hateSpeech': 'Реч на омраза или тормоз',
+    'report-modal.violence': 'Тероризъм или насилие',
+    'report-modal.pornography': 'Сексуално неподходящо',
+    'report-modal.spam': 'Спам, измами или измама',
+    'report-modal.selfInjury': 'Самоубийство или самонараняване',
+    'report-modal.copyright': 'Нарушение на интелектуалната собственост',
+    'report-modal.other': 'друго',
+
+    'report-modal.commentPlaceholder': 'Коментирайте',
+    'report-modal.button': 'Докладвайте',
+
+    'report-modal.reportOk': 'Благодаря за репортажа!',
+    'report-modal.alreadyReportedError': 'Вече докладвахте за съобщението',
 
     /**
      * Flush chat confirm dialog

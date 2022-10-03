@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Hoppla! Etwas ist schief gelaufen',
+    'mutedError': 'Hoppla! Es sieht so aus, als wären Sie stummgeschaltet worden',
 
     'connection-status.offline': 'Sie sind offline',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Sorry... diese Nachricht scheint unangemessen',
     'chat.abortedError': 'Anmelden abgebrochen oder Cookies in diesem Browser deaktiviert',
-    'chat.mutedError': 'Hoppla! Es sieht so aus, als wären Sie stummgeschaltet worden',
     'chat.notPersistentError': 'Die Authentifizierung wird aufgrund Ihrer eingeschränkten Datenschutzeinstellungen nicht gespeichert. Um dies zu verhindern, aktivieren Sie bitte die Cookies für Now4real in Ihrem Browser.',
     'chat.disabledError': 'This chat has been disabled', // TODO
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Antworten', // means "reply to this message"
     'chat.deleteBtn': 'Löschen', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.reportBtn': 'Melden', // means "report this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Confirm', // TODO
     'confirmation-modal.ok': 'Yes', // TODO
     'confirmation-modal.cancel': 'No', // TODO
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Nachricht Melden',
+
+    'report-modal.header': 'Warum melden Sie diese Nachricht?',
+    'report-modal.note': 'Wenn jemand in unmittelbarer Gefahr ist, rufen Sie den örtlichen Notdienst an – warten Sie nicht',
+
+    'report-modal.hateSpeech': 'Hassreden oder Mobbing',
+    'report-modal.violence': 'Terrorismus oder Gewalt',
+    'report-modal.pornography': 'Sexuell unangemessen',
+    'report-modal.spam': 'Spam, Betrug oder Schwindel',
+    'report-modal.selfInjury': 'Selbstmord oder Selbstverletzung',
+    'report-modal.copyright': 'Verletzung des geistigen Eigentums',
+    'report-modal.other': 'Andere',
+
+    'report-modal.commentPlaceholder': 'Kommentar',
+    'report-modal.button': 'Melden',
+
+    'report-modal.reportOk': 'Danke für die Berichterstattung!',
+    'report-modal.alreadyReportedError': 'Sie haben die Nachricht bereits gemeldet',
 
     /**
      * Flush chat confirm dialog

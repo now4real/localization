@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Oops! Coś poszło nie tak',
+    'mutedError': 'Oops! Wygląda na to, że zostałeś wyciszony',
 
     'connection-status.offline': 'Jesteś offline',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Przepraszamy... Ta wiadomość wydaje się nieodpowiednia',
     'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',
-    'chat.mutedError': 'Oops! Wygląda na to, że zostałeś wyciszony',
     'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
     'chat.disabledError': 'Ten czat został wyłączony',
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Odpowiedz', // means "reply to this message"
     'chat.deleteBtn': 'Usuń', // means "delete this message"
     'chat.muteBtn': 'Wycisz', // means "mute this user"
+    'chat.reportBtn': 'Zgłoś', // means "report this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Potwierdź',
     'confirmation-modal.ok': 'Tak',
     'confirmation-modal.cancel': 'Nie',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Zgłoś wiadomość',
+
+    'report-modal.header': 'Dlaczego zgłaszasz tę wiadomość?',
+    'report-modal.note': 'Jeśli komuś grozi bezpośrednie niebezpieczeństwo, zadzwoń do lokalnych służb ratunkowych - nie czekaj',
+
+    'report-modal.hateSpeech': 'Mowa nienawiści lub zastraszanie',
+    'report-modal.violence': 'Terroryzm lub przemoc',
+    'report-modal.pornography': 'Nieodpowiednie seksualnie',
+    'report-modal.spam': 'Spam, oszustwo lub wyłudzenie',
+    'report-modal.selfInjury': 'Samobójstwo lub samookaleczenie',
+    'report-modal.copyright': 'Naruszenie własności intelektualnej',
+    'report-modal.other': 'Inny',
+
+    'report-modal.commentPlaceholder': 'Komentarz',
+    'report-modal.button': 'Zgłoś',
+
+    'report-modal.reportOk': 'Dzięki za zgłoszenie!',
+    'report-modal.alreadyReportedError': 'Już zgłosiłeś tę wiadomość',
 
     /**
      * Flush chat confirm dialog

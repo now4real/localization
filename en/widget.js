@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Oops! Something went wrong',
+    'mutedError': 'Oops! It looks like you have been muted',
 
     'connection-status.offline': 'You are offline',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Sorry... This message seems inappropriate',
     'chat.abortedError': 'Sign-in canceled or cookies disabled on this browser',
-    'chat.mutedError': 'Oops! It looks like you have been muted',
     'chat.notPersistentError': 'The authentication will not be remembered due to your restricted privacy settings. Please enable cookies for Now4real in your browser to prevent this from happening.',
     'chat.disabledError': 'This chat has been disabled',
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Reply', // means "reply to this message"
     'chat.deleteBtn': 'Delete', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user"
+    'chat.reportBtn': 'Report', // means "report this message"
 
     'chat.userIdenticon': 'User fingerprint',
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Confirm',
     'confirmation-modal.ok': 'Yes',
     'confirmation-modal.cancel': 'No',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Report Message',
+
+    'report-modal.header': 'Why are you reporting this message?',
+    'report-modal.note': 'If someone is in immediate danger, call the local emergency services - don\'t wait',
+
+    'report-modal.hateSpeech': 'Hate speech or bullying',
+    'report-modal.violence': 'Terrorism or violence',
+    'report-modal.pornography': 'Sexually inappropriate',
+    'report-modal.spam': 'Spam, scams, or fraud',
+    'report-modal.selfInjury': 'Suicide or self-injury',
+    'report-modal.copyright': 'Intellectual property infringement',
+    'report-modal.other': 'Other',
+
+    'report-modal.commentPlaceholder': 'Comment',
+    'report-modal.button': 'Report',
+
+    'report-modal.reportOk': 'Thanks for the reporting!',
+    'report-modal.alreadyReportedError': 'You have already reported the message',
 
     /**
      * Flush chat confirm dialog

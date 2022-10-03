@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Hoppsan! Nu blev något fel',
+    'mutedError': 'Hoppsan! Det verkar som om din chattfunktion har tystats ner',
 
     'connection-status.offline': 'Du är offline',
 
@@ -122,7 +123,6 @@ export default {
 
     'chat.blockedError': 'Ursäkta, men... det här meddelandet verkar olämpligt',
     'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',
-    'chat.mutedError': 'Hoppsan! Det verkar som om din chattfunktion har tystats ner',
     'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
     'chat.disabledError': 'Den här chatten har inaktiverats',
 
@@ -137,6 +137,7 @@ export default {
     'chat.replyBtn': 'Svara',
     'chat.deleteBtn': 'Radera',
     'chat.muteBtn': 'Tysta', // means "mute this user"
+    'chat.reportBtn': 'Anmäl', // means "report this message"
 
     'chat.userIdenticon': 'Användarens fingeravtryck',
 
@@ -268,6 +269,28 @@ export default {
     'confirmation-modal.title': 'Bekräfta',
     'confirmation-modal.ok': 'Ja',
     'confirmation-modal.cancel': 'Nej',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Anmäl Meddelande',
+
+    'report-modal.header': 'Varför rapporterar du det här meddelandet?',
+    'report-modal.note': 'Om någon är i omedelbar fara, ring den lokala räddningstjänsten - vänta inte',
+
+    'report-modal.hateSpeech': 'Hatprat eller mobbning',
+    'report-modal.violence': 'Terrorism eller våld',
+    'report-modal.pornography': 'Sexuellt olämpligt',
+    'report-modal.spam': 'Spam, bedrägerier eller bedrägeri',
+    'report-modal.selfInjury': 'Självmord eller självskada',
+    'report-modal.copyright': 'Immaterialrättsintrång',
+    'report-modal.other': 'Övrig',
+
+    'report-modal.commentPlaceholder': 'Kommentar',
+    'report-modal.button': 'Anmäl',
+
+    'report-modal.reportOk': 'Tack för rapporteringen!',
+    'report-modal.alreadyReportedError': 'Du har redan anmält meddelandet',
 
     /**
      * Flush chat confirm dialog
