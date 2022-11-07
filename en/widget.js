@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin',
     'chat.messageDeleted.unknown': 'Message deleted',
 
+    'chat.messageHidden.byYou': 'Hidden by you',
+
     'chat.placeholder': 'Type a message',
     'chat.postBtn': 'Post', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Delete', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user"
     'chat.reportBtn': 'Report', // means "report this message"
+    'chat.hideBtn': 'Hide', // means "hide this message"
+    'chat.showBtn': 'Show', // means "show this message"
 
     'chat.userIdenticon': 'User fingerprint',
 
@@ -257,11 +261,27 @@ export default {
     'mute-modal.body.update': 'Update mute period:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.',
+    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.',
 
     'mute-modal.body.deleteAlert': 'You are unmuting the user',
 
     'mute-modal.button': 'Confirm',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Hide Messages',
+    'hide-modal.showTitle': 'Show Messages',
+
+    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Show again messages posted by $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'You can show them again whenever you want.',
+
+    'hide-modal.button': 'Confirm',
 
     /**
      * Confirm dialog

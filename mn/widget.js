@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Админ зурвасыг устгасан',
     'chat.messageDeleted.unknown': 'Зурвас устсан',
 
+    'chat.messageHidden.byYou': 'Чамаас нуусан',
+
     'chat.placeholder': 'Зурвас бичих',
     'chat.postBtn': 'Постлох', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Устгах', // means "delete this message"
     'chat.muteBtn': 'Блоклох', // means "mute this user"
     'chat.reportBtn': 'мэдээлэх', // means "report this message"
+    'chat.hideBtn': 'Нуух', // means "hide this message"
+    'chat.showBtn': 'Үзүүлэх', // means "show this message"
 
     'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
 
@@ -258,10 +262,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Хэрэглэгчийг хүссэн үедээ блокоос гаргаж болно.',
+    'mute-modal.body.deleteInfo': 'Дууг хаасан тохиолдолд хэрэглэгч бусад мессежийг нийтлэх боломжгүй болно. Та хүссэн үедээ хэрэглэгчийн дууг асааж болно.',
 
     'mute-modal.body.deleteAlert': 'Та хэрэглэгчийг блокоос гаргалаа',
 
     'mute-modal.button': 'Баталгаажуулах',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Зурвасуудыг нуух',
+    'hide-modal.showTitle': 'Зурвасуудыг харуулах',
+
+    'hide-modal.hideHeader': '$U-ийн нийтэлсэн бүх мессежийг нуух (тэд таны дууг хаасаныг мэдэхгүй байх болно).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': '$U-н нийтэлсэн мессежүүдийг дахин харуул.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Та хүссэн үедээ дахин харуулах боломжтой.',
+
+    'hide-modal.button': 'Баталгаажуулах',
 
     /**
      * Confirm dialog

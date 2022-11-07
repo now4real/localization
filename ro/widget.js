@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
     'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
+    'chat.messageHidden.byYou': 'Hidden by you', // TODO
+
     'chat.placeholder': 'Scrie mesajul',
     'chat.postBtn': 'Publica', // means "publica mesajul tau"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Stergere', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user" // TODO
     'chat.reportBtn': 'Raportează', // means "report this message"
+    'chat.hideBtn': 'Hide', // means "hide this message" // TODO
+    'chat.showBtn': 'Show', // means "show this message" // TODO
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -257,11 +261,27 @@ export default {
     'mute-modal.body.update': 'Update mute period:', // TODO
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.', // TODO
 
     'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
     'mute-modal.button': 'Confirm', // TODO
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Hide Messages', // TODO
+    'hide-modal.showTitle': 'Show Messages', // TODO
+
+    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).', // TODO
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Show again messages posted by $U.', // TODO
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'You can show them again whenever you want.', // TODO
+
+    'hide-modal.button': 'Confirm', // TODO
 
     /**
      * Confirm dialog
@@ -269,7 +289,6 @@ export default {
     'confirmation-modal.title': 'Confirm', // TODO
     'confirmation-modal.ok': 'Yes', // TODO
     'confirmation-modal.cancel': 'No', // TODO
-
 
     /**
      * Report dialog

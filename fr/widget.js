@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Message supprimé par l\'administrateur',
     'chat.messageDeleted.unknown': 'Message supprimé',
 
+    'chat.messageHidden.byYou': 'Caché par toi',
+
     'chat.placeholder': 'Saisir un message',
     'chat.postBtn': 'Publier', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Supprimer', // means "delete this message"
     'chat.muteBtn': 'Sourdine', // means "mute this user"
     'chat.reportBtn': 'Signaler', // means "report this message"
+    'chat.hideBtn': 'Cacher', // means "hide this message"
+    'chat.showBtn': 'Afficher', // means "show this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -258,10 +262,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Vous pouvez désactiver le mode sourdine de l\'utilisateur quand vous le souhaitez.',
+    'mute-modal.body.deleteInfo': 'S\'il est désactivé, l\'utilisateur ne pourra pas publier d\'autres messages. Vous pouvez réactiver l\'utilisateur quand vous le souhaitez.',
 
     'mute-modal.body.deleteAlert': 'Vous désactivez le mode sourdine pour l\'utilisateur',
 
     'mute-modal.button': 'Confirmer',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Cacher les messages',
+    'hide-modal.showTitle': 'Afficher les messages',
+
+    'hide-modal.hideHeader': 'Cacher tous les messages postés par $U (il ne saura pas que vous les avez mis en sourdine).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Afficher à nouveau les messages postés par $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Vous pouvez les afficher à nouveau quand vous le souhaitez.',
+
+    'hide-modal.button': 'Confirmer',
 
     /**
      * Confirm dialog

@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Messaggio cancellato dall\'amministratore',
     'chat.messageDeleted.unknown': 'Messaggio cancellato',
 
+    'chat.messageHidden.byYou': 'Nascosto da te',
+
     'chat.placeholder': 'Scrivi un messaggio',
     'chat.postBtn': 'Invia', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Elimina', // means "delete this message"
     'chat.muteBtn': 'Silenzia', // means "mute this user"
     'chat.reportBtn': 'Segnala', // means "report this message"
+    'chat.hideBtn': 'Nascondi', // means "hide this message"
+    'chat.showBtn': 'Mostra', // means "show this message"
 
     'chat.userIdenticon': 'Fingerprint dell\'utente',
 
@@ -257,11 +261,27 @@ export default {
     'mute-modal.body.update': 'Aggiorna il periodo di silenziamento:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'Potrai riattivare l\'utente quando vorrai.',
+    'mute-modal.body.deleteInfo': 'Se silenziato, l\'utente non sarà in grado di pubblicare altri messaggi. Potrai riattivare l\'utente quando vorrai.',
 
     'mute-modal.body.deleteAlert': 'Stai rimuovendo il silenziamento per l\'utente',
 
     'mute-modal.button': 'Conferma',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Nascondi Messaggi',
+    'hide-modal.showTitle': 'Mostra Messaggi',
+
+    'hide-modal.hideHeader': 'Nascondi tutti i messaggi inviati da $U (non saprà che l\'hai silenziato).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Mostra nuovamente i messaggi inviati da $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Potrai mostrarli nuovamente quando vorrai.',
+
+    'hide-modal.button': 'Conferma',
 
     /**
      * Confirm dialog

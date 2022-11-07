@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Meddelande raderat av administratören',
     'chat.messageDeleted.unknown': 'Meddelande raderat',
 
+    'chat.messageHidden.byYou': 'Gömd av dig',
+
     'chat.placeholder': 'Skriv ett meddelande',
     'chat.postBtn': 'Skicka', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Radera',
     'chat.muteBtn': 'Tysta', // means "mute this user"
     'chat.reportBtn': 'Anmäl', // means "report this message"
+    'chat.hideBtn': 'Dölj', // means "hide this message"
+    'chat.showBtn': 'Visa', // means "show this message"
 
     'chat.userIdenticon': 'Användarens fingeravtryck',
 
@@ -258,10 +262,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Du kan avtysta användaren när du vill.',
+    'mute-modal.body.deleteInfo': 'Om ljudet är avstängt kommer användaren inte att kunna publicera andra meddelanden. Du kan ta bort ljudet från användaren när du vill.',
 
     'mute-modal.body.deleteAlert': 'Du avtystar användaren',
 
     'mute-modal.button': 'Bekräfta',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Dölj meddelanden',
+    'hide-modal.showTitle': 'Visa meddelanden',
+
+    'hide-modal.hideHeader': 'Dölj alla meddelanden som postats av $U (de vet inte att du har stängt av dem).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Visa igen meddelanden postade av $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Du kan visa dem igen när du vill.',
+
+    'hide-modal.button': 'Bekräfta',
 
     /**
      * Confirm dialog

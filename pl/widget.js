@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Wiadomość usunięta przez administratora',
     'chat.messageDeleted.unknown': 'Wiadomość usunięta',
 
+    'chat.messageHidden.byYou': 'Ukryty przez Ciebie',
+
     'chat.placeholder': 'Wpisz wiadomość',
     'chat.postBtn': 'Wyślij', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Usuń', // means "delete this message"
     'chat.muteBtn': 'Wycisz', // means "mute this user"
     'chat.reportBtn': 'Zgłoś', // means "report this message"
+    'chat.hideBtn': 'Ukryj', // means "hide this message"
+    'chat.showBtn': 'Pokaż', // means "show this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -258,10 +262,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
+    'mute-modal.body.deleteInfo': 'Jeśli wyciszony, użytkownik nie będzie mógł publikować innych wiadomości. Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
 
     'mute-modal.body.deleteAlert': 'Uwalniasz użytkownika',
 
     'mute-modal.button': 'Potwierdź',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Ukryj wiadomości',
+    'hide-modal.showTitle': 'Pokaż wiadomości',
+
+    'hide-modal.hideHeader': 'Ukryj wszystkie wiadomości wysłane przez $U (nie będą wiedzieć, że je wyciszyłeś).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Pokaż ponownie wiadomości wysłane przez $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Możesz je ponownie pokazać, kiedy tylko chcesz.',
+
+    'hide-modal.button': 'Potwierdź',
 
     /**
      * Confirm dialog

@@ -115,6 +115,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Съобщението е изтрито от администратора на Now4real',
     'chat.messageDeleted.unknown': 'Съобщението е изтрито',
 
+    'chat.messageHidden.byYou': 'Скрити от вас',
+
     'chat.placeholder': 'Напишете съобщение',
     'chat.postBtn': 'Post', // means "publish this message"
 
@@ -138,6 +140,8 @@ export default {
     'chat.deleteBtn': 'Изтриване', // means "delete this message"
     'chat.muteBtn': 'Заглушаване', // means "mute this user"
     'chat.reportBtn': 'Докладване', // means "report this message"
+    'chat.hideBtn': 'Крия', // means "hide this message"
+    'chat.showBtn': 'Покажи', // means "show this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -258,10 +262,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Можете да премахнете заглушаването на посетителя когато пожелаете.',
+    'mute-modal.body.deleteInfo': 'Ако е изключен, потребителят няма да може да публикува други съобщения. Можете да включите звука на потребителя, когато пожелаете.',
 
     'mute-modal.body.deleteAlert': 'Ще премахнете заглушаването на посетителя',
 
     'mute-modal.button': 'Потвърждение',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Скриване на съобщения',
+    'hide-modal.showTitle': 'Показване на съобщения',
+
+    'hide-modal.hideHeader': 'Скрийте всички съобщения, публикувани от $U (те няма да знаят, че сте ги заглушили).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Показване отново на съобщенията, публикувани от $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Можете да ги покажете отново, когато пожелаете.',
+
+    'hide-modal.button': 'Потвърждение',
 
     /**
      * Confirm dialog
