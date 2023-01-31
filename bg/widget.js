@@ -13,11 +13,17 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'минута',
     'timeUnit.minutes': 'минути',
-    'timeUnit.hours': 'часа',
+    'timeUnit.hour': 'час',
+    'timeUnit.hours': 'часове',
+    'timeUnit.day': 'ден',
     'timeUnit.days': 'дни',
+    'timeUnit.week': 'седмица',
     'timeUnit.weeks': 'седмици',
+    'timeUnit.month': 'месец',
     'timeUnit.months': 'месеца',
+    'timeUnit.year': 'година',
     'timeUnit.years': 'години',
     'timeUnit.forever': 'завинаги',
 

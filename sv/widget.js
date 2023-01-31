@@ -13,11 +13,17 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'minut',
     'timeUnit.minutes': 'minuter',
+    'timeUnit.hour': 'timme',
     'timeUnit.hours': 'timmar',
+    'timeUnit.day': 'dag',
     'timeUnit.days': 'dagar',
+    'timeUnit.week': 'vecka',
     'timeUnit.weeks': 'veckor',
+    'timeUnit.month': 'månad',
     'timeUnit.months': 'månader',
+    'timeUnit.year': 'år',
     'timeUnit.years': 'år',
     'timeUnit.forever': 'för evigt',
 

@@ -13,12 +13,18 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
-    'timeUnit.minutes': 'minutach',
-    'timeUnit.hours': 'godzinach',
-    'timeUnit.days': 'dniach',
-    'timeUnit.weeks': 'tygodniach',
+    'timeUnit.minute': 'minuta',
+    'timeUnit.minutes': 'minuty',
+    'timeUnit.hour': 'godzina',
+    'timeUnit.hours': 'godziny',
+    'timeUnit.day': 'dzień',
+    'timeUnit.days': 'dni',
+    'timeUnit.week': 'tydzień',
+    'timeUnit.weeks': 'tygodnie',
+    'timeUnit.month': 'miesiąc',
     'timeUnit.months': 'miesiące',
-    'timeUnit.years': 'lat',
+    'timeUnit.year': 'rok',
+    'timeUnit.years': 'lata',
     'timeUnit.forever': 'na zawsze',
 
     /**

@@ -13,13 +13,19 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
-    'timeUnit.minutes': 'Protokoll',
-    'timeUnit.hours': 'Std',
+    'timeUnit.minute': 'Minute',
+    'timeUnit.minutes': 'Minuten',
+    'timeUnit.hour': 'Stunde',
+    'timeUnit.hours': 'Stunden',
+    'timeUnit.day': 'Tag',
     'timeUnit.days': 'Tage',
+    'timeUnit.week': 'Woche',
     'timeUnit.weeks': 'Wochen',
+    'timeUnit.month': 'Monat',
     'timeUnit.months': 'Monate',
+    'timeUnit.year': 'Jahr',
     'timeUnit.years': 'Jahre',
-    'timeUnit.forever': 'forever', // TODO
+    'timeUnit.forever': 'für immer',
 
     /**
      * Commons

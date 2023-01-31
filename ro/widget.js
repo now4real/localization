@@ -13,13 +13,19 @@ export default {
     'hourFormat': 12,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'minut',
     'timeUnit.minutes': 'minute',
+    'timeUnit.hour': 'ora',
     'timeUnit.hours': 'ore',
+    'timeUnit.day': 'zi',
     'timeUnit.days': 'zile',
+    'timeUnit.week': 'saptamana',
     'timeUnit.weeks': 'saptamani',
+    'timeUnit.month': 'luna',
     'timeUnit.months': 'luni',
+    'timeUnit.year': 'an',
     'timeUnit.years': 'ani',
-    'timeUnit.forever': 'forever', // TODO
+    'timeUnit.forever': 'pentru totdeauna',
 
     /**
      * Commons
