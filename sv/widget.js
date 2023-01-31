@@ -163,14 +163,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Människor',
-    'emoji-picker.nature': 'Natur',
-    'emoji-picker.food': 'Mat',
-    'emoji-picker.activity': 'Aktivitet',
-    'emoji-picker.travel': 'Platser',
-    'emoji-picker.objects': 'Föremål',
-    'emoji-picker.symbols': 'Symboler',
-    'emoji-picker.flags': 'Flaggor',
+    'emoji-picker.recents': 'Senaste',
+    'emoji-picker.recents.none': 'Du har inte valt några emojis än.',
+    'emoji-picker.search': 'Sök emojis',
+    'emoji-picker.search.error': 'Misslyckades med att söka efter emojis',
+    'emoji-picker.search.notFound': 'Inga resultat hittades',
+    'emoji-picker.search.clear': 'Rensa sökning',
+    'emoji-picker.error.load': 'Misslyckades med att läsa in emojis',
+    'emoji-picker.error.retry': 'Försök igen',
 
     /**
      * GIF-picker labels

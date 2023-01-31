@@ -163,14 +163,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'People',
-    'emoji-picker.nature': 'Nature',
-    'emoji-picker.food': 'Food',
-    'emoji-picker.activity': 'Activity',
-    'emoji-picker.travel': 'Places',
-    'emoji-picker.objects': 'Objets',
-    'emoji-picker.symbols': 'Symbols',
-    'emoji-picker.flags': 'Flags',
+    'emoji-picker.recents': 'Recent',
+    'emoji-picker.recents.none': 'You haven\'t selected any emojis yet.',
+    'emoji-picker.search': 'Search emojis',
+    'emoji-picker.search.error': 'Failed to search emojis',
+    'emoji-picker.search.notFound': 'No results found',
+    'emoji-picker.search.clear': 'Clear search',
+    'emoji-picker.error.load': 'Failed to load emojis',
+    'emoji-picker.error.retry': 'Try again',
 
     /**
      * GIF-picker labels

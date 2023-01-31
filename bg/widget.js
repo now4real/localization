@@ -163,14 +163,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Хора',
-    'emoji-picker.nature': 'Природа',
-    'emoji-picker.food': 'Храна',
-    'emoji-picker.activity': 'Дейности',
-    'emoji-picker.travel': 'Места',
-    'emoji-picker.objects': 'Предмети',
-    'emoji-picker.symbols': 'Символи',
-    'emoji-picker.flags': 'Знамена',
+    'emoji-picker.recents': 'Последни',
+    'emoji-picker.recents.none': 'Все още не сте избрали емотикони.',
+    'emoji-picker.search': 'Търсене на емотикони',
+    'emoji-picker.search.error': 'Неуспешно търсене на емотикони',
+    'emoji-picker.search.notFound': 'Няма намерени резултати',
+    'emoji-picker.search.clear': 'Изчистване на търсенето',
+    'emoji-picker.error.load': 'Неуспешно зареждане на емотикони',
+    'emoji-picker.error.retry': 'Опитайте отново',
 
     /**
      * GIF-picker labels

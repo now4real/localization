@@ -163,14 +163,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Ludzie',
-    'emoji-picker.nature': 'Natura',
-    'emoji-picker.food': 'Jedzenie',
-    'emoji-picker.activity': 'Aktywność',
-    'emoji-picker.travel': 'Miejsca',
-    'emoji-picker.objects': 'Obiekty',
-    'emoji-picker.symbols': 'Symbole',
-    'emoji-picker.flags': 'Flagi',
+    'emoji-picker.recents': 'Ostatnie',
+    'emoji-picker.recents.none': 'Jeszcze nie wybrałeś żadnych emotikonów.',
+    'emoji-picker.search': 'Szukaj emotikonów',
+    'emoji-picker.search.error': 'Nie udało się wyszukać emotikonów',
+    'emoji-picker.search.notFound': 'Nie znaleziono wyników',
+    'emoji-picker.search.clear': 'Wyczyść wyszukiwanie',
+    'emoji-picker.error.load': 'Nie udało się załadować emotikonów',
+    'emoji-picker.error.retry': 'Spróbuj ponownie',
 
     /**
      * GIF-picker labels

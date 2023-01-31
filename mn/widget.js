@@ -163,14 +163,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Хүмүүс',
-    'emoji-picker.nature': 'Байгаль',
-    'emoji-picker.food': 'Хоол хүнс',
-    'emoji-picker.activity': 'Үйл хөдлөл',
-    'emoji-picker.travel': 'Газар',
-    'emoji-picker.objects': 'Обьект',
-    'emoji-picker.symbols': 'Тэмдэгт',
-    'emoji-picker.flags': 'Далбаа',
+    'emoji-picker.recents': 'Сүүлийн үеийн',
+    'emoji-picker.recents.none': 'Та хараахан эможи сонгоогүй байна.',
+    'emoji-picker.search': 'Эможи хайх',
+    'emoji-picker.search.error': 'Эможи хайж чадсангүй',
+    'emoji-picker.search.notFound': 'Үр дүн олдсонгүй',
+    'emoji-picker.search.clear': 'Хайлтыг арилгах',
+    'emoji-picker.error.load': 'Эможи ачаалж чадсангүй',
+    'emoji-picker.error.retry': 'Дахин оролд',
 
     /**
      * GIF-picker labels

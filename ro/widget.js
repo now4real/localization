@@ -163,14 +163,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Persoane',
-    'emoji-picker.nature': 'Natura',
-    'emoji-picker.food': 'Mancare',
-    'emoji-picker.activity': 'Activitati',
-    'emoji-picker.travel': 'Locuri',
-    'emoji-picker.objects': 'Obiecte',
-    'emoji-picker.symbols': 'Simboluri',
-    'emoji-picker.flags': 'Steaguri',
+    'emoji-picker.recents': 'Recent',
+    'emoji-picker.recents.none': 'Nu ați selectat niciun emoji încă.',
+    'emoji-picker.search': 'Caută emojis',
+    'emoji-picker.search.error': 'Nu am putut căuta emojis',
+    'emoji-picker.search.notFound': 'Nu am găsit rezultate',
+    'emoji-picker.search.clear': 'Ștergeți căutarea',
+    'emoji-picker.error.load': 'Nu am putut încărca emojis',
+    'emoji-picker.error.retry': 'Încercați din nou',
 
     /**
      * GIF-picker labels
