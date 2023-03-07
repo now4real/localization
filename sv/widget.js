@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Hoppsan! Nu blev något fel',
+    'mutedError': 'Hoppsan! Det verkar som om din chattfunktion har tystats ner',
 
     'connection-status.offline': 'Du är offline',
 
@@ -12,11 +13,17 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'minut',
     'timeUnit.minutes': 'minuter',
+    'timeUnit.hour': 'timme',
     'timeUnit.hours': 'timmar',
+    'timeUnit.day': 'dag',
     'timeUnit.days': 'dagar',
+    'timeUnit.week': 'vecka',
     'timeUnit.weeks': 'veckor',
+    'timeUnit.month': 'månad',
     'timeUnit.months': 'månader',
+    'timeUnit.year': 'år',
     'timeUnit.years': 'år',
     'timeUnit.forever': 'för evigt',
 
@@ -97,6 +104,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡ Chatta med de andra $N besökarna nu',
+    'chat.attentionGrabber2': '⚡ Chatta med de andra besökarna nu',
+    // $N is a number
+    // example: "⚡ Chat with the other 2 visitors now"
+
     'chat.welcomeMessage': 'Chatta med de andra besökarna i realtid. Meddelanden är offentliga och försvinner efter $N $A.',
     'chat.welcomeMessageJWT': 'Chatta med de andra besökarna i realtid. Meddelanden kan vara offentliga och försvinna efter $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
@@ -109,6 +121,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Meddelande raderat av administratören',
     'chat.messageDeleted.unknown': 'Meddelande raderat',
 
+    'chat.messageHidden.byYou': 'Gömd av dig',
+
     'chat.placeholder': 'Skriv ett meddelande',
     'chat.postBtn': 'Skicka', // means "publish this message"
 
@@ -117,7 +131,6 @@ export default {
 
     'chat.blockedError': 'Ursäkta, men... det här meddelandet verkar olämpligt',
     'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',
-    'chat.mutedError': 'Hoppsan! Det verkar som om din chattfunktion har tystats ner',
     'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
     'chat.disabledError': 'Den här chatten har inaktiverats',
 
@@ -132,6 +145,9 @@ export default {
     'chat.replyBtn': 'Svara',
     'chat.deleteBtn': 'Radera',
     'chat.muteBtn': 'Tysta', // means "mute this user"
+    'chat.reportBtn': 'Anmäl', // means "report this message"
+    'chat.hideBtn': 'Dölj', // means "hide this message"
+    'chat.showBtn': 'Visa', // means "show this message"
 
     'chat.userIdenticon': 'Användarens fingeravtryck',
 
@@ -153,14 +169,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Människor',
-    'emoji-picker.nature': 'Natur',
-    'emoji-picker.food': 'Mat',
-    'emoji-picker.activity': 'Aktivitet',
-    'emoji-picker.travel': 'Platser',
-    'emoji-picker.objects': 'Föremål',
-    'emoji-picker.symbols': 'Symboler',
-    'emoji-picker.flags': 'Flaggor',
+    'emoji-picker.recents': 'Senaste',
+    'emoji-picker.recents.none': 'Du har inte valt några emojis än.',
+    'emoji-picker.search': 'Sök emojis',
+    'emoji-picker.search.error': 'Misslyckades med att söka efter emojis',
+    'emoji-picker.search.notFound': 'Inga resultat hittades',
+    'emoji-picker.search.clear': 'Rensa sökning',
+    'emoji-picker.error.load': 'Misslyckades med att läsa in emojis',
+    'emoji-picker.error.retry': 'Försök igen',
 
     /**
      * GIF-picker labels
@@ -228,7 +244,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Acceptera',
+    'jwt-modal.acceptBtn': 'Acceptera',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Säga emot',
+    'jwt-modal.agreeRadio': 'Hålla med',
+    'jwt-modal.continueBtn': 'Fortsätta',
 
     /**
      * Mute dialog
@@ -247,10 +268,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Du kan avtysta användaren när du vill.',
+    'mute-modal.body.deleteInfo': 'Om ljudet är avstängt kommer användaren inte att kunna publicera andra meddelanden. Du kan ta bort ljudet från användaren när du vill.',
 
     'mute-modal.body.deleteAlert': 'Du avtystar användaren',
 
     'mute-modal.button': 'Bekräfta',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Dölj meddelanden',
+    'hide-modal.showTitle': 'Visa meddelanden',
+
+    'hide-modal.hideHeader': 'Dölj alla meddelanden som postats av $U (de vet inte att du har stängt av dem).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Visa igen meddelanden postade av $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Du kan visa dem igen när du vill.',
+
+    'hide-modal.button': 'Bekräfta',
 
     /**
      * Confirm dialog
@@ -258,6 +296,28 @@ export default {
     'confirmation-modal.title': 'Bekräfta',
     'confirmation-modal.ok': 'Ja',
     'confirmation-modal.cancel': 'Nej',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Anmäl Meddelande',
+
+    'report-modal.header': 'Varför rapporterar du det här meddelandet?',
+    'report-modal.note': 'Om någon är i omedelbar fara, ring den lokala räddningstjänsten - vänta inte',
+
+    'report-modal.hateSpeech': 'Hatprat eller mobbning',
+    'report-modal.violence': 'Terrorism eller våld',
+    'report-modal.pornography': 'Sexuellt olämpligt',
+    'report-modal.spam': 'Spam, bedrägerier eller bedrägeri',
+    'report-modal.selfInjury': 'Självmord eller självskada',
+    'report-modal.copyright': 'Immaterialrättsintrång',
+    'report-modal.other': 'Övrig',
+
+    'report-modal.commentPlaceholder': 'Kommentar',
+    'report-modal.button': 'Anmäl',
+
+    'report-modal.reportOk': 'Tack för rapporteringen!',
+    'report-modal.alreadyReportedError': 'Du har redan anmält meddelandet',
 
     /**
      * Flush chat confirm dialog

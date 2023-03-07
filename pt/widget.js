@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Ups! Algo deu errado',
+    'mutedError': 'Ups! Parece que você foi silenciado',
 
     'connection-status.offline': 'Você está desconectado/a',
 
@@ -12,13 +13,19 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'minuto',
     'timeUnit.minutes': 'minutos',
+    'timeUnit.hour': 'hora',
     'timeUnit.hours': 'horas',
+    'timeUnit.day': 'dia',
     'timeUnit.days': 'dias',
+    'timeUnit.week': 'semana',
     'timeUnit.weeks': 'semanas',
+    'timeUnit.month': 'mês',
     'timeUnit.months': 'meses',
+    'timeUnit.year': 'ano',
     'timeUnit.years': 'anos',
-    'timeUnit.forever': 'forever', // TODO
+    'timeUnit.forever': 'para sempre',
 
     /**
      * Commons
@@ -97,6 +104,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡ Converse com os outros $N visitantes agora',
+    'chat.attentionGrabber2': '⚡ Converse com os outros visitantes agora',
+    // $N is a number
+    // example: "⚡ Chat with the other 2 visitors now"
+
     'chat.welcomeMessage': 'Converse aqui com outras visitantes em tempo real. As mensagens são públicas e desaparecem após $N $A.',
     'chat.welcomeMessageJWT': 'Converse aqui com outras visitantes em tempo real. As mensagens podem ser públicas e desaparecer após $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
@@ -109,6 +121,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
     'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
+    'chat.messageHidden.byYou': 'Hidden by you', // TODO
+
     'chat.placeholder': 'Escrever mensagem',
     'chat.postBtn': 'Postar', // means "publish this message"
 
@@ -117,7 +131,6 @@ export default {
 
     'chat.blockedError': 'Desculpe ... Esta mensagem parece inadequada',
     'chat.abortedError': 'Login cancelado ou cookies desativados neste navegador',
-    'chat.mutedError': 'Ups! Parece que você foi silenciado',
     'chat.notPersistentError': 'A autenticação não será lembrada devido às suas configurações de privacidade restritas. Ative os cookies para Now4real no seu navegador para evitar que isso aconteça.',
     'chat.disabledError': 'This chat has been disabled', // TODO
 
@@ -132,6 +145,9 @@ export default {
     'chat.replyBtn': 'Responder', // means "reply to this message"
     'chat.deleteBtn': 'Excluir', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.reportBtn': 'Denunciar', // means "report this message"
+    'chat.hideBtn': 'Hide', // means "hide this message" // TODO
+    'chat.showBtn': 'Show', // means "show this message" // TODO
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -153,14 +169,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Pessoas',
-    'emoji-picker.nature': 'Natureza',
-    'emoji-picker.food': 'Comida',
-    'emoji-picker.activity': 'Atividades',
-    'emoji-picker.travel': 'Lugares',
-    'emoji-picker.objects': 'Objetos',
-    'emoji-picker.symbols': 'Símbolos',
-    'emoji-picker.flags': 'Bandeiras',
+    'emoji-picker.recents': 'Recentes',
+    'emoji-picker.recents.none': 'Você ainda não selecionou nenhum emoji.',
+    'emoji-picker.search': 'Procurar emojis',
+    'emoji-picker.search.error': 'Falha ao procurar emojis',
+    'emoji-picker.search.notFound': 'Nenhum resultado encontrado',
+    'emoji-picker.search.clear': 'Limpar pesquisa',
+    'emoji-picker.error.load': 'Falha ao carregar emojis',
+    'emoji-picker.error.retry': 'Tentar novamente',
 
     /**
      * GIF-picker labels
@@ -228,7 +244,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Acetair',
+    'jwt-modal.acceptBtn': 'Acetair',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Discordar',
+    'jwt-modal.agreeRadio': 'Concordar',
+    'jwt-modal.continueBtn': 'Continuar',
 
     /**
      * Mute dialog
@@ -246,11 +267,27 @@ export default {
     'mute-modal.body.update': 'Update mute period:', // TODO
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.', // TODO
 
     'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
     'mute-modal.button': 'Confirm', // TODO
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Hide Messages', // TODO
+    'hide-modal.showTitle': 'Show Messages', // TODO
+
+    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).', // TODO
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Show again messages posted by $U.', // TODO
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'You can show them again whenever you want.', // TODO
+
+    'hide-modal.button': 'Confirm', // TODO
 
     /**
      * Confirm dialog
@@ -258,6 +295,28 @@ export default {
     'confirmation-modal.title': 'Confirm', // TODO
     'confirmation-modal.ok': 'Yes', // TODO
     'confirmation-modal.cancel': 'No', // TODO
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Denunciar Mensagem',
+
+    'report-modal.header': 'Por que você está denunciando esta mensagem?',
+    'report-modal.note': 'Se alguém estiver em perigo imediato, ligue para os serviços de emergência locais - não espere',
+
+    'report-modal.hateSpeech': 'Discurso de ódio ou bullying',
+    'report-modal.violence': 'Terrorismo ou violência',
+    'report-modal.pornography': 'Sexualmente inapropriado',
+    'report-modal.spam': 'Spam, golpes ou fraude',
+    'report-modal.selfInjury': 'Suicídio ou autolesão',
+    'report-modal.copyright': 'Violação da propriedade intelectual',
+    'report-modal.other': 'Outro',
+
+    'report-modal.commentPlaceholder': 'Comentário',
+    'report-modal.button': 'Denunciar',
+
+    'report-modal.reportOk': 'Obrigado pelo relatório!',
+    'report-modal.alreadyReportedError': 'Você já denunciou a mensagem',
 
     /**
      * Flush chat confirm dialog

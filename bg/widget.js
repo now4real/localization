@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Възникна грешка.',
+    'mutedError': 'Упс! Изглежда сте заглушени',
 
     'connection-status.offline': 'Няма връзка с интернет',
 
@@ -12,11 +13,17 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'минута',
     'timeUnit.minutes': 'минути',
-    'timeUnit.hours': 'часа',
+    'timeUnit.hour': 'час',
+    'timeUnit.hours': 'часове',
+    'timeUnit.day': 'ден',
     'timeUnit.days': 'дни',
+    'timeUnit.week': 'седмица',
     'timeUnit.weeks': 'седмици',
+    'timeUnit.month': 'месец',
     'timeUnit.months': 'месеца',
+    'timeUnit.year': 'година',
     'timeUnit.years': 'години',
     'timeUnit.forever': 'завинаги',
 
@@ -97,6 +104,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡ Чат с останалите $N посетители сега',
+    'chat.attentionGrabber2': '⚡ Чат с останалите посетители сега',
+    // $N is a number
+    // example: "⚡ Chat with the other 2 visitors now"
+
     'chat.welcomeMessage': 'Разговаряйте с другите посетители в реално време. Съобщенията са публични и изчезват след $N $A.',
     'chat.welcomeMessageJWT': 'Разговаряйте с другите посетители в реално време. Съобщенията може да са публични и да изчезнат след $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
@@ -109,6 +121,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Съобщението е изтрито от администратора на Now4real',
     'chat.messageDeleted.unknown': 'Съобщението е изтрито',
 
+    'chat.messageHidden.byYou': 'Скрити от вас',
+
     'chat.placeholder': 'Напишете съобщение',
     'chat.postBtn': 'Post', // means "publish this message"
 
@@ -117,7 +131,6 @@ export default {
 
     'chat.blockedError': 'Съжаляваме... Това съобщение изглежда неподходящо',
     'chat.abortedError': 'Вписването е отказано или бисквитките на браузера са изключени',
-    'chat.mutedError': 'Упс! Изглежда сте заглушени',
     'chat.notPersistentError': 'Автентикацията няма да се запомни заради ограничените настройки за поверителност. Разрешете бисквитките за Now4real във вашия браузер, за да решите този проблем.',
     'chat.disabledError': 'Чатът е деактивиран',
 
@@ -132,6 +145,9 @@ export default {
     'chat.replyBtn': 'Отговор', // means "reply to this message"
     'chat.deleteBtn': 'Изтриване', // means "delete this message"
     'chat.muteBtn': 'Заглушаване', // means "mute this user"
+    'chat.reportBtn': 'Докладване', // means "report this message"
+    'chat.hideBtn': 'Крия', // means "hide this message"
+    'chat.showBtn': 'Покажи', // means "show this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -153,14 +169,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Хора',
-    'emoji-picker.nature': 'Природа',
-    'emoji-picker.food': 'Храна',
-    'emoji-picker.activity': 'Дейности',
-    'emoji-picker.travel': 'Места',
-    'emoji-picker.objects': 'Предмети',
-    'emoji-picker.symbols': 'Символи',
-    'emoji-picker.flags': 'Знамена',
+    'emoji-picker.recents': 'Последни',
+    'emoji-picker.recents.none': 'Все още не сте избрали емотикони.',
+    'emoji-picker.search': 'Търсене на емотикони',
+    'emoji-picker.search.error': 'Неуспешно търсене на емотикони',
+    'emoji-picker.search.notFound': 'Няма намерени резултати',
+    'emoji-picker.search.clear': 'Изчистване на търсенето',
+    'emoji-picker.error.load': 'Неуспешно зареждане на емотикони',
+    'emoji-picker.error.retry': 'Опитайте отново',
 
     /**
      * GIF-picker labels
@@ -228,7 +244,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Приемам',
+    'jwt-modal.acceptBtn': 'Приемам',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Не съм съгласен',
+    'jwt-modal.agreeRadio': 'Съгласен',
+    'jwt-modal.continueBtn': 'Продължавам',
 
     /**
      * Mute dialog
@@ -247,10 +268,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Можете да премахнете заглушаването на посетителя когато пожелаете.',
+    'mute-modal.body.deleteInfo': 'Ако е изключен, потребителят няма да може да публикува други съобщения. Можете да включите звука на потребителя, когато пожелаете.',
 
     'mute-modal.body.deleteAlert': 'Ще премахнете заглушаването на посетителя',
 
     'mute-modal.button': 'Потвърждение',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Скриване на съобщения',
+    'hide-modal.showTitle': 'Показване на съобщения',
+
+    'hide-modal.hideHeader': 'Скрийте всички съобщения, публикувани от $U (те няма да знаят, че сте ги заглушили).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Показване отново на съобщенията, публикувани от $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Можете да ги покажете отново, когато пожелаете.',
+
+    'hide-modal.button': 'Потвърждение',
 
     /**
      * Confirm dialog
@@ -258,6 +296,28 @@ export default {
     'confirmation-modal.title': 'Потвърждение',
     'confirmation-modal.ok': 'Да',
     'confirmation-modal.cancel': 'Не',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Докладване на съобщение',
+
+    'report-modal.header': 'Защо докладвате това съобщение?',
+    'report-modal.note': 'Ако някой е в непосредствена опасност, обадете се на местните служби за спешна помощ - не чакайте',
+
+    'report-modal.hateSpeech': 'Реч на омраза или тормоз',
+    'report-modal.violence': 'Тероризъм или насилие',
+    'report-modal.pornography': 'Сексуално неподходящо',
+    'report-modal.spam': 'Спам, измами или измама',
+    'report-modal.selfInjury': 'Самоубийство или самонараняване',
+    'report-modal.copyright': 'Нарушение на интелектуалната собственост',
+    'report-modal.other': 'друго',
+
+    'report-modal.commentPlaceholder': 'Коментирайте',
+    'report-modal.button': 'Докладвайте',
+
+    'report-modal.reportOk': 'Благодаря за репортажа!',
+    'report-modal.alreadyReportedError': 'Вече докладвахте за съобщението',
 
     /**
      * Flush chat confirm dialog

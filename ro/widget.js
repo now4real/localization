@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Ups! Ceva este in neregula',
+    'mutedError': 'Ups! Se pare ca nu poti publica inca',
 
     'connection-status.offline': 'Esti offline',
 
@@ -12,13 +13,19 @@ export default {
     'hourFormat': 12,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'minut',
     'timeUnit.minutes': 'minute',
+    'timeUnit.hour': 'ora',
     'timeUnit.hours': 'ore',
+    'timeUnit.day': 'zi',
     'timeUnit.days': 'zile',
+    'timeUnit.week': 'saptamana',
     'timeUnit.weeks': 'saptamani',
+    'timeUnit.month': 'luna',
     'timeUnit.months': 'luni',
+    'timeUnit.year': 'an',
     'timeUnit.years': 'ani',
-    'timeUnit.forever': 'forever', // TODO
+    'timeUnit.forever': 'pentru totdeauna',
 
     /**
      * Commons
@@ -97,6 +104,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡ Chat cu ceilalți $N vizitatori acum',
+    'chat.attentionGrabber2': '⚡ Chat cu ceilalți vizitatori acum',
+    // $N is a number
+    // example: "⚡ Chat with the other 2 visitors now"
+
     'chat.welcomeMessage': 'Chat cu ceilalți vizitatori în timp real. Mesajele sunt publice și dispar după $N $A.',
     'chat.welcomeMessageJWT': 'Chat cu ceilalți vizitatori în timp real. Mesajele pot fi publice și dispar după $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
@@ -109,6 +121,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
     'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
+    'chat.messageHidden.byYou': 'Hidden by you', // TODO
+
     'chat.placeholder': 'Scrie mesajul',
     'chat.postBtn': 'Publica', // means "publica mesajul tau"
 
@@ -117,7 +131,6 @@ export default {
 
     'chat.blockedError': 'Imi pare rau... Acest mesaj este considerat nepotrivit',
     'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
-    'chat.mutedError': 'Ups! Se pare ca nu poti publica inca',
     'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
     'chat.disabledError': 'This chat has been disabled', // TODO
 
@@ -132,6 +145,9 @@ export default {
     'chat.replyBtn': 'Raspunde', // means "reply to this message"
     'chat.deleteBtn': 'Stergere', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.reportBtn': 'Raportează', // means "report this message"
+    'chat.hideBtn': 'Hide', // means "hide this message" // TODO
+    'chat.showBtn': 'Show', // means "show this message" // TODO
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -153,14 +169,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Persoane',
-    'emoji-picker.nature': 'Natura',
-    'emoji-picker.food': 'Mancare',
-    'emoji-picker.activity': 'Activitati',
-    'emoji-picker.travel': 'Locuri',
-    'emoji-picker.objects': 'Obiecte',
-    'emoji-picker.symbols': 'Simboluri',
-    'emoji-picker.flags': 'Steaguri',
+    'emoji-picker.recents': 'Recent',
+    'emoji-picker.recents.none': 'Nu ați selectat niciun emoji încă.',
+    'emoji-picker.search': 'Caută emojis',
+    'emoji-picker.search.error': 'Nu am putut căuta emojis',
+    'emoji-picker.search.notFound': 'Nu am găsit rezultate',
+    'emoji-picker.search.clear': 'Ștergeți căutarea',
+    'emoji-picker.error.load': 'Nu am putut încărca emojis',
+    'emoji-picker.error.retry': 'Încercați din nou',
 
     /**
      * GIF-picker labels
@@ -228,7 +244,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
 
-    'jwt-modal.button': 'Accept',
+    'jwt-modal.acceptBtn': 'Accept',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Dezacord',
+    'jwt-modal.agreeRadio': 'De acord',
+    'jwt-modal.continueBtn': 'Continua',
 
     /**
      * Mute dialog
@@ -246,11 +267,27 @@ export default {
     'mute-modal.body.update': 'Update mute period:', // TODO
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'You can unmute the user whenever you want.', // TODO
+    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.', // TODO
 
     'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
 
     'mute-modal.button': 'Confirm', // TODO
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Hide Messages', // TODO
+    'hide-modal.showTitle': 'Show Messages', // TODO
+
+    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).', // TODO
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Show again messages posted by $U.', // TODO
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'You can show them again whenever you want.', // TODO
+
+    'hide-modal.button': 'Confirm', // TODO
 
     /**
      * Confirm dialog
@@ -258,6 +295,28 @@ export default {
     'confirmation-modal.title': 'Confirm', // TODO
     'confirmation-modal.ok': 'Yes', // TODO
     'confirmation-modal.cancel': 'No', // TODO
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Raportează mesajul',
+
+    'report-modal.header': 'De ce raportați acest mesaj?',
+    'report-modal.note': 'Dacă cineva se află în pericol imediat, sunați la serviciile locale de urgență - nu așteptați',
+
+    'report-modal.hateSpeech': 'Discurs de ură sau hărțuire',
+    'report-modal.violence': 'Terorism sau violență',
+    'report-modal.pornography': 'Inadecvat din punct de vedere sexual',
+    'report-modal.spam': 'Spam, escrocherii sau fraudă',
+    'report-modal.selfInjury': 'Sinucidere sau autovătămare',
+    'report-modal.copyright': 'Încălcarea proprietății intelectuale',
+    'report-modal.other': 'Alte',
+
+    'report-modal.commentPlaceholder': 'Comentariu',
+    'report-modal.button': 'Raportați',
+
+    'report-modal.reportOk': 'Mulțumesc pentru raportare!',
+    'report-modal.alreadyReportedError': 'Ai raportat deja mesajul',
 
     /**
      * Flush chat confirm dialog

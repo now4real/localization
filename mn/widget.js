@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Уучлаарай! Алдаа гарлаа',
+    'mutedError': 'Уучлаарай! Дууг хаасан байна',
 
     'connection-status.offline': 'Та оффлайн байна',
 
@@ -12,12 +13,17 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
+    'timeUnit.minute': 'минут',
     'timeUnit.minutes': 'минут',
+    'timeUnit.hour': 'цаг',
     'timeUnit.hours': 'цаг',
-    'timeUnit.days': 'өдөр',
+    'timeUnit.day': 'өдөр',
+    'timeUnit.days': 'өдрүүд',
+    'timeUnit.week': 'долоо хоног',
     'timeUnit.weeks': 'долоо хоног',
+    'timeUnit.month': 'сар',
     'timeUnit.months': 'сар',
-    'timeUnit.years': 'жил',
+    'timeUnit.year': 'жил',
     'timeUnit.forever': 'үүрд',
 
     /**
@@ -97,6 +103,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡ бусад $N зочидтой одоо чатлах',
+    'chat.attentionGrabber2': '⚡ бусад зочидтой одоо чатлах',
+    // $N is a number
+    // example: "⚡ Chat with the other 2 visitors now"
+
     'chat.welcomeMessage': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд олон нийтэд нээлттэй байх бөгөөд $N $A дараа алга болно.',
     'chat.welcomeMessageJWT': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд нь олон нийтэд нээлттэй байж болох бөгөөд $N $A дараа алга болно.',
     // $N is a number and $A in a time unit taken from timeUnit.
@@ -109,6 +120,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Админ зурвасыг устгасан',
     'chat.messageDeleted.unknown': 'Зурвас устсан',
 
+    'chat.messageHidden.byYou': 'Чамаас нуусан',
+
     'chat.placeholder': 'Зурвас бичих',
     'chat.postBtn': 'Постлох', // means "publish this message"
 
@@ -117,7 +130,6 @@ export default {
 
     'chat.blockedError': 'Уучлаарай... Зурвас тохиромжгүй хэллэгтэй байна',
     'chat.abortedError': 'Энэ браузераас Нэвтрэхийг хориглосон эсвэл cookie-г идэвхгүй болгосон байна',
-    'chat.mutedError': 'Уучлаарай! Дууг хаасан байна',
     'chat.notPersistentError': 'Нууцлалыг хадгалах үүднээс таних явцыг сануулахгүй. Байдлыг давтахгүйн тул браузер дээрээ Now4real-ийн cookie-г идэвхжүүлнэ үү.',
     'chat.disabledError': 'Энэ чаатыг идэвхгүй болгосон',
 
@@ -132,6 +144,9 @@ export default {
     'chat.replyBtn': 'Хариулах', // means "reply to this message"
     'chat.deleteBtn': 'Устгах', // means "delete this message"
     'chat.muteBtn': 'Блоклох', // means "mute this user"
+    'chat.reportBtn': 'мэдээлэх', // means "report this message"
+    'chat.hideBtn': 'Нуух', // means "hide this message"
+    'chat.showBtn': 'Үзүүлэх', // means "show this message"
 
     'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
 
@@ -153,14 +168,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Хүмүүс',
-    'emoji-picker.nature': 'Байгаль',
-    'emoji-picker.food': 'Хоол хүнс',
-    'emoji-picker.activity': 'Үйл хөдлөл',
-    'emoji-picker.travel': 'Газар',
-    'emoji-picker.objects': 'Обьект',
-    'emoji-picker.symbols': 'Тэмдэгт',
-    'emoji-picker.flags': 'Далбаа',
+    'emoji-picker.recents': 'Сүүлийн үеийн',
+    'emoji-picker.recents.none': 'Та хараахан эможи сонгоогүй байна.',
+    'emoji-picker.search': 'Эможи хайх',
+    'emoji-picker.search.error': 'Эможи хайж чадсангүй',
+    'emoji-picker.search.notFound': 'Үр дүн олдсонгүй',
+    'emoji-picker.search.clear': 'Хайлтыг арилгах',
+    'emoji-picker.error.load': 'Эможи ачаалж чадсангүй',
+    'emoji-picker.error.retry': 'Дахин оролд',
 
     /**
      * GIF-picker labels
@@ -228,7 +243,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Зөвшөөрөх',
+    'jwt-modal.acceptBtn': 'Зөвшөөрөх',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Санал нийлэхгүй байна',
+    'jwt-modal.agreeRadio': 'Зөвшөөрөх',
+    'jwt-modal.continueBtn': 'Үргэлжлүүлэх',
 
     /**
      * Mute dialog
@@ -247,10 +267,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Хэрэглэгчийг хүссэн үедээ блокоос гаргаж болно.',
+    'mute-modal.body.deleteInfo': 'Дууг хаасан тохиолдолд хэрэглэгч бусад мессежийг нийтлэх боломжгүй болно. Та хүссэн үедээ хэрэглэгчийн дууг асааж болно.',
 
     'mute-modal.body.deleteAlert': 'Та хэрэглэгчийг блокоос гаргалаа',
 
     'mute-modal.button': 'Баталгаажуулах',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Зурвасуудыг нуух',
+    'hide-modal.showTitle': 'Зурвасуудыг харуулах',
+
+    'hide-modal.hideHeader': '$U-ийн нийтэлсэн бүх мессежийг нуух (тэд таны дууг хаасаныг мэдэхгүй байх болно).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': '$U-н нийтэлсэн мессежүүдийг дахин харуул.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Та хүссэн үедээ дахин харуулах боломжтой.',
+
+    'hide-modal.button': 'Баталгаажуулах',
 
     /**
      * Confirm dialog
@@ -258,6 +295,28 @@ export default {
     'confirmation-modal.title': 'Баталгаажуулах',
     'confirmation-modal.ok': 'Тийм',
     'confirmation-modal.cancel': 'Үгүй',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Мессежийг мэдээлэх',
+
+    'report-modal.header': 'Та яагаад энэ мессежийг мэдээлж байна вэ?',
+    'report-modal.note': 'Хэрэв хэн нэгэн яаралтай аюулд орсон бол орон нутгийн түргэн тусламж дуудах - хүлээх хэрэггүй',
+
+    'report-modal.hateSpeech': 'Үзэн ядсан үг хэллэг эсвэл дээрэлхэх',
+    'report-modal.violence': 'Терроризм эсвэл хүчирхийлэл',
+    'report-modal.pornography': 'Бэлгийн харьцаанд тохиромжгүй',
+    'report-modal.spam': 'Спам, луйвар эсвэл залилан',
+    'report-modal.selfInjury': 'Амиа хорлох эсвэл өөрийгөө гэмтээх',
+    'report-modal.copyright': 'Оюуны өмчийн зөрчил',
+    'report-modal.other': 'Бусад',
+
+    'report-modal.commentPlaceholder': 'Сэтгэгдэл',
+    'report-modal.button': 'мэдээлэх',
+
+    'report-modal.reportOk': 'Мэдээлэл өгсөнд баярлалаа!',
+    'report-modal.alreadyReportedError': 'Та мессежийг аль хэдийн мэдэгдсэн байна',
 
     /**
      * Flush chat confirm dialog

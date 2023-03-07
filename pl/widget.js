@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'genericError': 'Oops! Coś poszło nie tak',
+    'mutedError': 'Oops! Wygląda na to, że zostałeś wyciszony',
 
     'connection-status.offline': 'Jesteś offline',
 
@@ -12,12 +13,18 @@ export default {
     'hourFormat': 24,
     // 12 (e.g. "3:52 PM") or 24 (e.g. "15:52")
 
-    'timeUnit.minutes': 'minutach',
-    'timeUnit.hours': 'godzinach',
-    'timeUnit.days': 'dniach',
-    'timeUnit.weeks': 'tygodniach',
+    'timeUnit.minute': 'minuta',
+    'timeUnit.minutes': 'minuty',
+    'timeUnit.hour': 'godzina',
+    'timeUnit.hours': 'godziny',
+    'timeUnit.day': 'dzień',
+    'timeUnit.days': 'dni',
+    'timeUnit.week': 'tydzień',
+    'timeUnit.weeks': 'tygodnie',
+    'timeUnit.month': 'miesiąc',
     'timeUnit.months': 'miesiące',
-    'timeUnit.years': 'lat',
+    'timeUnit.year': 'rok',
+    'timeUnit.years': 'lata',
     'timeUnit.forever': 'na zawsze',
 
     /**
@@ -97,6 +104,11 @@ export default {
     /**
      * Chat
      */
+    'chat.attentionGrabber1': '⚡ Czat teraz z innymi $N użytkownikami',
+    'chat.attentionGrabber2': '⚡ Czat teraz z innymi użytkownikami',
+    // $N is a number
+    // example: "⚡ Chat with the other 2 visitors now"
+
     'chat.welcomeMessage': 'Czat z innymi użytkownikami w czasie rzeczywistym. Wiadomości są publiczne i znikają po $N $A.',
     'chat.welcomeMessageJWT': 'Czat z innymi użytkownikami w czasie rzeczywistym. Wiadomości mogą być publiczne i znikać po $N $A.',
     // $N is a number and $A in a time unit taken from timeUnit.
@@ -109,6 +121,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Wiadomość usunięta przez administratora',
     'chat.messageDeleted.unknown': 'Wiadomość usunięta',
 
+    'chat.messageHidden.byYou': 'Ukryty przez Ciebie',
+
     'chat.placeholder': 'Wpisz wiadomość',
     'chat.postBtn': 'Wyślij', // means "publish this message"
 
@@ -117,7 +131,6 @@ export default {
 
     'chat.blockedError': 'Przepraszamy... Ta wiadomość wydaje się nieodpowiednia',
     'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',
-    'chat.mutedError': 'Oops! Wygląda na to, że zostałeś wyciszony',
     'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
     'chat.disabledError': 'Ten czat został wyłączony',
 
@@ -132,6 +145,9 @@ export default {
     'chat.replyBtn': 'Odpowiedz', // means "reply to this message"
     'chat.deleteBtn': 'Usuń', // means "delete this message"
     'chat.muteBtn': 'Wycisz', // means "mute this user"
+    'chat.reportBtn': 'Zgłoś', // means "report this message"
+    'chat.hideBtn': 'Ukryj', // means "hide this message"
+    'chat.showBtn': 'Pokaż', // means "show this message"
 
     'chat.userIdenticon': 'User fingerprint', // TODO
 
@@ -153,14 +169,14 @@ export default {
     /**
      * Emoji-picker labels
      */
-    'emoji-picker.people': 'Ludzie',
-    'emoji-picker.nature': 'Natura',
-    'emoji-picker.food': 'Jedzenie',
-    'emoji-picker.activity': 'Aktywność',
-    'emoji-picker.travel': 'Miejsca',
-    'emoji-picker.objects': 'Obiekty',
-    'emoji-picker.symbols': 'Symbole',
-    'emoji-picker.flags': 'Flagi',
+    'emoji-picker.recents': 'Ostatnie',
+    'emoji-picker.recents.none': 'Jeszcze nie wybrałeś żadnych emotikonów.',
+    'emoji-picker.search': 'Szukaj emotikonów',
+    'emoji-picker.search.error': 'Nie udało się wyszukać emotikonów',
+    'emoji-picker.search.notFound': 'Nie znaleziono wyników',
+    'emoji-picker.search.clear': 'Wyczyść wyszukiwanie',
+    'emoji-picker.error.load': 'Nie udało się załadować emotikonów',
+    'emoji-picker.error.retry': 'Spróbuj ponownie',
 
     /**
      * GIF-picker labels
@@ -228,7 +244,12 @@ export default {
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
-    'jwt-modal.button': 'Akceptuję',
+    'jwt-modal.acceptBtn': 'Akceptuję',
+
+    // below are the keys used when an additional consent message is in place
+    'jwt-modal.disagreeRadio': 'Nie zgadzać się',
+    'jwt-modal.agreeRadio': 'Zgodzić się',
+    'jwt-modal.continueBtn': 'Kontyntynuj',
 
     /**
      * Mute dialog
@@ -247,10 +268,27 @@ export default {
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
+    'mute-modal.body.deleteInfo': 'Jeśli wyciszony, użytkownik nie będzie mógł publikować innych wiadomości. Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
 
     'mute-modal.body.deleteAlert': 'Uwalniasz użytkownika',
 
     'mute-modal.button': 'Potwierdź',
+
+    /**
+     * Hide/Show dialog
+     */
+    'hide-modal.hideTitle': 'Ukryj wiadomości',
+    'hide-modal.showTitle': 'Pokaż wiadomości',
+
+    'hide-modal.hideHeader': 'Ukryj wszystkie wiadomości wysłane przez $U (nie będą wiedzieć, że je wyciszyłeś).',
+    // example: "Hide all messages posted by Ben (they won't know you have muted them)."
+
+    'hide-modal.showHeader': 'Pokaż ponownie wiadomości wysłane przez $U.',
+    // example: "Show again messages posted by Ben."
+
+    'hide-modal.hideInfo': 'Możesz je ponownie pokazać, kiedy tylko chcesz.',
+
+    'hide-modal.button': 'Potwierdź',
 
     /**
      * Confirm dialog
@@ -258,6 +296,28 @@ export default {
     'confirmation-modal.title': 'Potwierdź',
     'confirmation-modal.ok': 'Tak',
     'confirmation-modal.cancel': 'Nie',
+
+    /**
+     * Report dialog
+     */
+    'report-modal.title': 'Zgłoś wiadomość',
+
+    'report-modal.header': 'Dlaczego zgłaszasz tę wiadomość?',
+    'report-modal.note': 'Jeśli komuś grozi bezpośrednie niebezpieczeństwo, zadzwoń do lokalnych służb ratunkowych - nie czekaj',
+
+    'report-modal.hateSpeech': 'Mowa nienawiści lub zastraszanie',
+    'report-modal.violence': 'Terroryzm lub przemoc',
+    'report-modal.pornography': 'Nieodpowiednie seksualnie',
+    'report-modal.spam': 'Spam, oszustwo lub wyłudzenie',
+    'report-modal.selfInjury': 'Samobójstwo lub samookaleczenie',
+    'report-modal.copyright': 'Naruszenie własności intelektualnej',
+    'report-modal.other': 'Inny',
+
+    'report-modal.commentPlaceholder': 'Komentarz',
+    'report-modal.button': 'Zgłoś',
+
+    'report-modal.reportOk': 'Dzięki za zgłoszenie!',
+    'report-modal.alreadyReportedError': 'Już zgłosiłeś tę wiadomość',
 
     /**
      * Flush chat confirm dialog
