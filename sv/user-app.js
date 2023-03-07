@@ -50,6 +50,12 @@ export default {
     'emailSigninStep3.nameInfo': 'Ditt visningsnamn (det kommer att visas offentligt i chatten)',
     'emailSigninStep3.namePlaceholder': 'Namn',
 
+    'emailSigninStep3.pictureInfo': 'Din bild (den kommer att visas offentligt i chatten)',
+
+    'emailSigninStep3.useGravatar': 'Använd Gravatar-bild',
+    'emailSigninStep3.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
+    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+
     'emailSigninStep3.emailInfo': 'Din e-post (den kommer att förbli privat)',
 
     'emailSigninStep3.continue': 'Fortsätt',
@@ -70,6 +76,7 @@ export default {
 
     'editProfile.updatedFeedback': 'Vi har uppdaterat din profil. Du kan säkert stänga den här sidan.',
 
+    'editProfile.useGravatar': 'Använd Gravatar-bild',
     'editProfile.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
     // keep <a> and </a> unchanged and surrounding the translation of "register 	to Gravatar/WordPress"
 

@@ -7,10 +7,10 @@ export default {
     'editProfileTitle': 'Modifica il tuo profilo - Now4real',
 
     'genericError': 'Ops! Qualcosa è andato storto',
-    'sessionExpiredError': 'La session è scaduta. Per favore ricomincia.',
+    'sessionExpiredError': 'La sessione è scaduta. Per favore ricomincia.',
     'recaptchaError': 'Oops! Sembra che tu sia un robot',
     'sendThrottlingError': 'Devi aspettare almeno $N minuti dalla email precedente, prima di ottenere un nuovo codice. Riprova più tardi.',
-    
+
     /**
      * Email signin step 1
      */
@@ -50,6 +50,12 @@ export default {
     'emailSigninStep3.nameInfo': 'Il tuo nome visualizzato (apparirà pubblicamente in chat)',
     'emailSigninStep3.namePlaceholder': 'Nome',
 
+    'emailSigninStep3.pictureInfo': 'La tua immagine (apparirà pubblicamente in chat)',
+
+    'emailSigninStep3.useGravatar': 'Usa l\'immagine Gravatar',
+    'emailSigninStep3.gravatarInfo': 'Utilizziamo un servizio di terze parti chiamato Gravatar per gestire la tua immagine. Per cambiarla <a>registrati su Gravatar/WordPress</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+
     'emailSigninStep3.emailInfo': 'La tua email (rimarrà privata)',
 
     'emailSigninStep3.continue': 'Continua',
@@ -70,6 +76,7 @@ export default {
 
     'editProfile.updatedFeedback': 'Abbiamo aggiornato i tuoi dati. Puoi tranquillamente chiudere questa pagina.',
 
+    'editProfile.useGravatar': 'Usa l\'immagine Gravatar',
     'editProfile.gravatarInfo': 'Utilizziamo un servizio di terze parti chiamato Gravatar per gestire la tua immagine. Per cambiarla <a>registrati su Gravatar/WordPress</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 

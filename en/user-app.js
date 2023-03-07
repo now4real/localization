@@ -50,6 +50,12 @@ export default {
     'emailSigninStep3.nameInfo': 'Your display name (it will appear publicly in the chat)',
     'emailSigninStep3.namePlaceholder': 'Name',
 
+    'emailSigninStep3.pictureInfo': 'Your picture (it will appear publicly in the chat)',
+
+    'emailSigninStep3.useGravatar': 'Use Gravatar image',
+    'emailSigninStep3.gravatarInfo': 'We use a third-party service called Gravatar to manage your picture. Please <a>register to Gravatar/WordPress</a> to change it.',
+    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+
     'emailSigninStep3.emailInfo': 'Your email (it will remain private)',
 
     'emailSigninStep3.continue': 'Continue',
@@ -70,6 +76,7 @@ export default {
 
     'editProfile.updatedFeedback': 'We\'ve updated your data. You can safely close this page.',
 
+    'editProfile.useGravatar': 'Use Gravatar image',
     'editProfile.gravatarInfo': 'We use a third-party service called Gravatar to manage your picture. Please <a>register to Gravatar/WordPress</a> to change it.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 

@@ -50,6 +50,12 @@ export default {
     'emailSigninStep3.nameInfo': 'Дэлгэцэнд харагдах нэр (нийтийн чатанд харагдна)',
     'emailSigninStep3.namePlaceholder': 'Нэр',
 
+    'emailSigninStep3.pictureInfo': 'Таны зураг (нийтийн чатанд харагдна)',
+
+    'emailSigninStep3.useGravatar': 'Gravatar зургийг ашиглах',
+    'emailSigninStep3.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+
     'emailSigninStep3.emailInfo': 'Таны имэйл хаяг (бусдад харагдахгүй)',
 
     'emailSigninStep3.continue': 'Үргэжлүүлэх',
@@ -70,6 +76,7 @@ export default {
 
     'editProfile.updatedFeedback': 'Таны мэдээллийг шинэчилж дууслаа. Энэ цонхыг хаана уу',
 
+    'editProfile.useGravatar': 'Gravatar зургийг ашиглах',
     'editProfile.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
