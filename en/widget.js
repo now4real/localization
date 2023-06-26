@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Signed in with LinkedIn',
     'commons.signedWith.email': 'Signed in with email',
     'commons.signedWith.jwt': 'Signed in on this site',
+    'commons.signedWith.noRegistration': 'Signed in on this site',
 
     'commons.close': 'Close', // close button
 
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C, and $N others are typing...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Sign in',
-    'social-modal.header': 'Start chatting on any website that uses Now4real',
-
-    // buttons:
-    'social-modal.google': 'Sign in with Google',
-    'social-modal.facebook': 'Sign in with Facebook',
-    'social-modal.twitter': 'Sign in with Twitter',
-    'social-modal.linkedin': 'Sign in with LinkedIn',
-    'social-modal.email': 'Sign in with email',
-
-    'social-modal.footer': 'Click “Sign in” above to accept Now4real\'s <a1>Terms of Service</a1> and <a2>Privacy Policy</a2>',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

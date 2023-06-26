@@ -1,3 +1,6 @@
+// to run the table generator, go to the root of the project and launch the script:
+// node util/generate-table-summary.js
+
 const path = require('path')
 const fs = require('fs')
 
@@ -20,10 +23,6 @@ const MISSING = 0
 function escapeRegExp (string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
-
-/* function longestOfList (list) {
-    return Math.max(...(list.map(el => el.length)))
-} */
 
 function getJSObject (fileContent) {
     return eval(fileContent.replace('export default', 'obj = '))
@@ -149,35 +148,32 @@ const CELL_LENGTH = 25
 
 function createHeader () {
     const language = 'Language'
-    const api = '\`Api\`'
     const widget = '\`Widget\`'
     const userApp = '\`User App\`'
     const email = '\`Email\`'
 
     const dash = '-'
 
-    const firstLine = `| ${language.padEnd(CELL_LENGTH, ' ')}| ${api.padEnd(CELL_LENGTH, ' ')}| ${widget.padEnd(CELL_LENGTH, ' ')}| ${userApp.padEnd(CELL_LENGTH, ' ')}| ${email.padEnd(CELL_LENGTH, ' ')}|\n`
-    const secondLine = `| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}|\n`
+    const firstLine = `| ${language.padEnd(CELL_LENGTH, ' ')}| ${widget.padEnd(CELL_LENGTH, ' ')}| ${userApp.padEnd(CELL_LENGTH, ' ')}| ${email.padEnd(CELL_LENGTH, ' ')}|\n`
+    const secondLine = `| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}| ${dash.repeat(CELL_LENGTH)}|\n`
 
     return firstLine + secondLine
 }
 
-function createRow (lang, apiStatus, widgetStatus, userAppStatus, emailStatus) {
+function createRow (lang, widgetStatus, userAppStatus, emailStatus) {
     lang = `${toFlag(lang)} ${languages.getName(lang, 'en')} \`${lang}\``
 
-    apiStatus = toSymbol(apiStatus)
     widgetStatus = toSymbol(widgetStatus)
     userAppStatus = toSymbol(userAppStatus)
     emailStatus = toSymbol(emailStatus)
 
-    return `| ${lang.padEnd(CELL_LENGTH + 3, ' ')}| ${apiStatus.padEnd(CELL_LENGTH, ' ')}| ${widgetStatus.padEnd(CELL_LENGTH, ' ')}| ${userAppStatus.padEnd(CELL_LENGTH, ' ')}| ${emailStatus.padEnd(CELL_LENGTH, ' ')}|\n`
+    return `| ${lang.padEnd(CELL_LENGTH + 3, ' ')}| ${widgetStatus.padEnd(CELL_LENGTH, ' ')}| ${userAppStatus.padEnd(CELL_LENGTH, ' ')}| ${emailStatus.padEnd(CELL_LENGTH, ' ')}|\n`
 }
 
 function createBody (availableLangs) {
     return availableLangs
     .map(lang =>
         createRow(lang,
-            validate(lang, 'api.js'),
             validate(lang, 'widget.js'),
             validate(lang, 'user-app.js'),
             normalize( validate(lang, 'email/user-welcome.html') + validate(lang, 'email/user-email-login.html'), 2 )

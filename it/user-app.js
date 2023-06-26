@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'socialLoginTitle': 'Now4real Social Login',
+    'noRegLoginTitle': 'Now4real Login',
     'emailLoginTitle': 'Now4real Email Login',
     'editProfileTitle': 'Modifica il tuo profilo - Now4real',
 
@@ -80,5 +81,45 @@ export default {
     'editProfile.gravatarInfo': 'Utilizziamo un servizio di terze parti chiamato Gravatar per gestire la tua immagine. Per cambiarla <a>registrati su Gravatar/WordPress</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'editProfile.update': 'Aggiorna'
+    'editProfile.update': 'Aggiorna',
+
+    /**
+     * No registration signin
+     */
+    'noRegistrationSignin.title': 'Accedi',
+ 
+    'noRegistrationSignin.nickInfo': 'Scegli un nickname per chattare su $S',
+    // $S is the site
+    // example: "Choose a nickname to chat on example.com"
+
+    'noRegistrationSignin.nickPlaceholder': 'Nickname',
+  
+    'noRegistrationSignin.footer': 'Clicca “OK” sotto per accettare le <a1>Condizioni di servizio</a1> e la <a2>Privacy policy</a2> di Now4real',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.continue': 'Continua',
+    'noRegistrationSignin.newNick': 'Utilizza un altro nickname',
+
+    'noRegistrationSignin.invalidNickError': 'Il nickname inserito è invalido',
+
+    /**
+     * Social and email signin
+     */
+    'socialSignin.title': 'Accedi',
+    'socialSignin.header': 'Chatta su tutti i siti che usano Now4real',
+
+    // buttons:
+    'socialSignin.google': 'Accedi con Google',
+    'socialSignin.facebook': 'Accedi con Facebook',
+    'socialSignin.twitter': 'Accedi con Twitter',
+    'socialSignin.linkedin': 'Accedi con LinkedIn',
+    'socialSignin.email': 'Accedi con email',
+
+    'socialSignin.footer': 'Cliccando su “Accedi” qui sopra accetti le <a1>Condizioni di servizio</a1> e la <a2>Privacy policy</a2> di Now4real',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'socialSignin.newUser': 'Utilizza un altro account',
 }

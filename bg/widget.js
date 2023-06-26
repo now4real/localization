@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Вписахте се чрез LinkedIn',
     'commons.signedWith.email': 'Вписахте се чрез email',
     'commons.signedWith.jwt': 'Вписахте се в сайта',
+    'commons.signedWith.noRegistration': 'Вписахте се в сайта',
 
     'commons.close': 'Затваряне', // close button
 
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C и още $N участника пишат...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Вписване',
-    'social-modal.header': 'Комуникирайте във всеки сайт, който използва Now4real',
-
-    // buttons:
-    'social-modal.google': 'Вписване чрез Google',
-    'social-modal.facebook': 'Вписване чрез Facebook',
-    'social-modal.twitter': 'Вписване чрез Twitter',
-    'social-modal.linkedin': 'Вписване чрез LinkedIn',
-    'social-modal.email': 'Вписване чрез email',
-
-    'social-modal.footer': 'Кликнете върху "Вписване" по-горе, за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

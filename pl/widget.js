@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Zaloguj się: LinkedIn',
     'commons.signedWith.email': 'Zaloguj się przez email',
     'commons.signedWith.jwt': 'Zalogowany na tej stronie',
+    'commons.signedWith.noRegistration': 'Zalogowany na tej stronie',
 
     'commons.close': 'Zamknij', // close button
 
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C i $N innych pisze...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Zaloguj się',
-    'social-modal.header': 'Rozpocznij lub dołącz do rozmowy',
-
-    // buttons:
-    'social-modal.google': 'Logowanie z Google',
-    'social-modal.facebook': 'Logowanie z Facebook',
-    'social-modal.twitter': 'Logowanie z Twitter',
-    'social-modal.linkedin': 'Logowanie z LinkedIn',
-    'social-modal.email': 'Zaloguj się adresem email',
-
-    'social-modal.footer': 'Logując się akceptujesz <a1>Regulamin</a1> i <a2>Politykę Prywatności</a2>',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

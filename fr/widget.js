@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Connecté avec LinkedIn',
     'commons.signedWith.email': 'Connecté avec email',
     'commons.signedWith.jwt': 'Connecté sur ce site',
+    'commons.signedWith.noRegistration': 'Connecté sur ce site',
 
     'commons.close': 'Fermer', // close button
 
@@ -60,12 +61,12 @@ export default {
     'status-header.privacy': 'Politique de Confidentialité',
     'status-header.signout': 'Déconnexion',
     'status-header.signin': 'Connexion',
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.editUserProfile': 'Modifier le profil',
 
     'status-header.notRememberedLogin': 'Non mémorisé',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'Pour changer votre nom d\'affichage et votre image, <a>modifiez votre profil</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -149,7 +150,7 @@ export default {
     'chat.hideBtn': 'Cacher', // means "hide this message"
     'chat.showBtn': 'Afficher', // means "show this message"
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Empreinte utilisateur',
 
     /**
      * Presence
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C, et $N autres sont en train d\'écrire...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Connexion',
-    'social-modal.header': 'Commencez à discuter sur n\'importe quel site web qui utilise Now4real',
-
-    // buttons:
-    'social-modal.google': 'Connexion avec Google',
-    'social-modal.facebook': 'Connexion avec Facebook',
-    'social-modal.twitter': 'Connexion avec Twitter',
-    'social-modal.linkedin': 'Connexion avec LinkedIn',
-    'social-modal.email': 'Connexion avec email',
-
-    'social-modal.footer': 'Cliquez sur "Connexion" ci-dessus pour accepter les <a1>Conditions d\'Utilisation</a1> et <a2>Politique de Confidentialité</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

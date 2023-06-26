@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Inloggad med LinkedIn',
     'commons.signedWith.email': 'Inloggad med e-post',
     'commons.signedWith.jwt': 'Inloggad på denna webbplats',
+    'commons.signedWith.noRegistration': 'Inloggad på denna webbplats',
 
     'commons.close': 'Stäng', // close button
 
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C och $N andra skriver...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Logga in',
-    'social-modal.header': 'Börja chatta på alla webbplatser som använder Now4real',
-
-    // buttons:
-    'social-modal.google': 'Logga in med Google',
-    'social-modal.facebook': 'Logga in med Facebook',
-    'social-modal.twitter': 'Logga in med Twitter',
-    'social-modal.linkedin': 'Logga in med LinkedIn',
-    'social-modal.email': 'Logga in med e-post',
-
-    'social-modal.footer': 'Klicka på "Logga in" ovan för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

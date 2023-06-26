@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Registrado a través de LinkedIn',
     'commons.signedWith.email': 'Registrado a través de email',
     'commons.signedWith.jwt': 'Registrado en este sitio',
+    'commons.signedWith.noRegistration': 'Registrado en este sitio',
 
     'commons.close': 'Cerrar', // close button
 
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C y otras $N personas están escribiendo...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Iniciar sesión',
-    'social-modal.header': 'Empieza a hablar en cualquier página web que use Now4real',
-
-    // buttons:
-    'social-modal.google': 'Inicia sesión con Google',
-    'social-modal.facebook': 'Inicia sesión con Facebook',
-    'social-modal.twitter': 'Inicia sesión con Twitter',
-    'social-modal.linkedin': 'Inicia sesión con LinkedIn',
-    'social-modal.email': 'Inicia sesión con email',
-
-    'social-modal.footer': 'Haz click en “Iniciar sesión” arriba para aceptar los <a1>Términos del Servicio</a1> y la <a2>Política de Privacidad</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

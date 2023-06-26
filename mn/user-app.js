@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'socialLoginTitle': 'Now4real Сошиал нэвтрэлт',
+    'noRegLoginTitle': 'Now4real нэвтрэлт',
     'emailLoginTitle': 'Now4real Имэйл нэвтрэлт',
     'editProfileTitle': 'Профайл засварлах - Now4real',
 
@@ -80,5 +81,45 @@ export default {
     'editProfile.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'editProfile.update': 'Шинэчлэх'
+    'editProfile.update': 'Шинэчлэх',
+
+    /**
+     * No registration signin
+     */
+    'noRegistrationSignin.title': 'Нэвтрэх',
+
+    'noRegistrationSignin.nickInfo': '$S дээр чатлахын тулд нэрийг сонгоно уу',
+    // $S is the site
+    // example: "Choose a nickname to chat on example.com"
+
+    'noRegistrationSignin.nickPlaceholder': 'Нэрийг оруулна уу',
+
+    'noRegistrationSignin.footer': 'Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г хүлээн зөвшөөрөхийн тулд доорх “OK” товчийг дарна уу',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.continue': 'Үргэлжлүүлэх',
+    'noRegistrationSignin.newNick': 'Өөр нэр ашиглах',
+
+    'noRegistrationSignin.invalidNickError': 'Нэр буруу байна',
+
+    /**
+     * Social and email signin
+     */
+    'socialSignin.title': 'Нэвтрэх',
+    'socialSignin.header': 'Now4real ашиглаж буй ямар ч вэбсайтаар сэтгэлд тусалж чатлах',
+
+    // buttons:
+    'socialSignin.google': 'Google-р нэвтрэх',
+    'socialSignin.facebook': 'Facebook-р нэвтрэх',
+    'socialSignin.twitter': 'Twitter-р нэвтрэх',
+    'socialSignin.linkedin': 'LinkedIn-р нэвтрэх',
+    'socialSignin.email': 'И-мэйлээр нэвтрэх',
+
+    'socialSignin.footer': 'Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г зөвшөөрч байхын тулд дээрх “Нэвтрэх” товчийг дарна уу',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'socialSignin.newUser': 'Өөр бүртгэл ашиглана уу'
 }

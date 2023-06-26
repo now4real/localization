@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'socialLoginTitle': 'Now4real Social inloggning',
+    'noRegLoginTitle': 'Now4real inloggning',
     'emailLoginTitle': 'Now4real E-post inloggning',
     'editProfileTitle': 'Redigera din profil - Now4real',
 
@@ -80,5 +81,45 @@ export default {
     'editProfile.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
     // keep <a> and </a> unchanged and surrounding the translation of "register 	to Gravatar/WordPress"
 
-    'editProfile.update': 'Uppdatera'
+    'editProfile.update': 'Uppdatera',
+ 
+    /**
+     * No registration signin
+     */
+    'noRegistrationSignin.title': 'Logga in',
+
+    'noRegistrationSignin.nickInfo': 'Välj ett smeknamn för att chatta på $S',
+    // $S is the site
+    // example: "Choose a nickname to chat on example.com"
+
+    'noRegistrationSignin.nickPlaceholder': 'Smeknamn',
+
+    'noRegistrationSignin.footer': 'Klicka på “OK” nedan för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.continue': 'Fortsätt',
+    'noRegistrationSignin.newNick': 'Använd ett annat smeknamn',
+
+    'noRegistrationSignin.invalidNickError': 'Ogiltigt smeknamn',
+
+    /**
+     * Social and email signin
+     */
+    'socialSignin.title': 'Logga in',
+    'socialSignin.header': 'Börja chatta på alla webbplatser som använder Now4real',
+
+    // buttons:
+    'socialSignin.google': 'Logga in med Google',
+    'socialSignin.facebook': 'Logga in med Facebook',
+    'socialSignin.twitter': 'Logga in med Twitter',
+    'socialSignin.linkedin': 'Logga in med LinkedIn',
+    'socialSignin.email': 'Logga in med e-post',
+
+    'socialSignin.footer': 'Klicka på “Logga in” nedan för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'socialSignin.newUser': 'Använd ett annat konto',
 }
