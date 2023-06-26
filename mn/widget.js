@@ -24,6 +24,7 @@ export default {
     'timeUnit.month': 'сар',
     'timeUnit.months': 'сар',
     'timeUnit.year': 'жил',
+    'timeUnit.years': 'жил',
     'timeUnit.forever': 'үүрд',
 
     /**
@@ -35,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'LinkedIn аккаунтаар нэвтрэх',
     'commons.signedWith.email': 'Мэйл хаягаар нэвтрэх',
     'commons.signedWith.jwt': 'Энэ сайтын бүртгэлээр нэвтрэх',
+    'commons.signedWith.noRegistration': 'Энэ сайтын бүртгэлээр нэвтрэх',
 
     'commons.close': 'Хаах', // close button
 
@@ -216,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C, өөр $N хүн бичиж байна...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Нэвтрэх',
-    'social-modal.header': 'Now4real ашигладаг сайтад чатлаж эхлэх',
-
-    // buttons:
-    'social-modal.google': 'Google аккаунтаар нэвтрэх',
-    'social-modal.facebook': 'Facebook аккаунтаар нэвтрэх',
-    'social-modal.twitter': 'Twitter аккаунтаар нэвтрэх',
-    'social-modal.linkedin': 'LinkedIn аккаунтаар нэвтрэх',
-    'social-modal.email': 'Мэйл хаягаар нэвтрэх',
-
-    'social-modal.footer': 'Та Now4real-ийн <a1>Үйлчилгээний нөхцөл</a1>, <a2>Нууцлалын бодлогыг</a2> зөвшөөрч байгаа бол "Нэвтрэх" товчийг дарна уу',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * JWT login dialog

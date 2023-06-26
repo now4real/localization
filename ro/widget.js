@@ -36,6 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Intra cu LinkedIn',
     'commons.signedWith.email': 'Intra cu adresa de email',
     'commons.signedWith.jwt': 'Intra pe acest site',
+    'commons.signedWith.noRegistration': 'Intra pe acest site',
 
     'commons.close': 'Inchide', // close button
 
@@ -217,23 +218,6 @@ export default {
 
     'typing.k': '$A, $B, $C, si alti $N scriu...',
     // example: "Alex, Ben, Cindy, and 3 others are typing..."
-
-    /**
-     * Social login dialog
-     */
-    'social-modal.title': 'Intra',
-    'social-modal.header': 'Incepe discutia cu toti cei care folosesc Now4real',
-
-    // buttons:
-    'social-modal.google': 'Intra cu Google',
-    'social-modal.facebook': 'Intra cu Facebook',
-    'social-modal.twitter': 'Intra cu Twitter',
-    'social-modal.linkedin': 'Intra cu LinkedIn',
-    'social-modal.email': 'Intra cu email',
-
-    'social-modal.footer': 'Apasa pe “Intra” ca sa accepti <a1>Termene si Servicii</a1> si <a2>Politica de Confidentialitate</a2> de pe acest site si Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
 
     /**
      * JWT login dialog

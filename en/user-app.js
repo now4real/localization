@@ -3,6 +3,7 @@
  ****************************************************************************************/
 export default {
     'socialLoginTitle': 'Now4real Social Login',
+    'noRegLoginTitle': 'Now4real Login',
     'emailLoginTitle': 'Now4real Email Login',
     'editProfileTitle': 'Edit Your Profile - Now4real',
 
@@ -80,5 +81,45 @@ export default {
     'editProfile.gravatarInfo': 'We use a third-party service called Gravatar to manage your picture. Please <a>register to Gravatar/WordPress</a> to change it.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'editProfile.update': 'Update'
+    'editProfile.update': 'Update',
+
+    /**
+     * No registration signin
+     */
+    'noRegistrationSignin.title': 'Sign in',
+
+    'noRegistrationSignin.nickInfo': 'Choose a nickname to chat on $S',
+    // $S is the site
+    // example: "Choose a nickname to chat on example.com"
+
+    'noRegistrationSignin.nickPlaceholder': 'Nickname',
+
+    'noRegistrationSignin.footer': 'Click “OK” below to accept the <a1>Terms of Service</a1> and <a2>Privacy Policy</a2> of Now4real',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.continue': 'Continue',
+    'noRegistrationSignin.newNick': 'Use another nickname',
+
+    'noRegistrationSignin.invalidNickError': 'Invalid nickname',
+
+    /**
+     * Social and email signin
+     */
+    'socialSignin.title': 'Sign in',
+    'socialSignin.header': 'Start chatting on any website that uses Now4real',
+
+    // buttons:
+    'socialSignin.google': 'Sign in with Google',
+    'socialSignin.facebook': 'Sign in with Facebook',
+    'socialSignin.twitter': 'Sign in with Twitter',
+    'socialSignin.linkedin': 'Sign in with LinkedIn',
+    'socialSignin.email': 'Sign in with email',
+
+    'socialSignin.footer': 'Click “Sign in” above to accept Now4real\'s <a1>Terms of Service</a1> and <a2>Privacy Policy</a2>',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+
+    'socialSignin.newUser': 'Use another account',
 }

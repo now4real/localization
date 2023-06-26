@@ -1,31 +1,27 @@
 # Now4real Localization Resources
 
-| Language                 | `Api`                    | `Widget`                 | `User App`               | `Email`                  |
-| -------------------------| -------------------------| -------------------------| -------------------------| -------------------------|
-| 🇧🇬 Bulgarian `bg`         | ✅                        | ⚠️                       | ❌                        | ❌                        |
-| 🇩🇪 German `de`            | ❌                        | ⚠️                       | ❌                        | ❌                        |
-| 🇺🇸 English `en`           | ✅                        | ✅                        | ✅                        | ✅                        |
-| 🇪🇸 Spanish `es`           | ❌                        | ⚠️                       | ❌                        | ⚠️                       |
-| 🇫🇷 French `fr`            | ✅                        | ⚠️                       | ❌                        | ❌                        |
-| 🇮🇹 Italian `it`           | ✅                        | ✅                        | ✅                        | ✅                        |
-| 🇲🇳 Mongolian `mn`         | ✅                        | ✅                        | ✅                        | ✅                        |
-| 🇵🇱 Polish `pl`            | ⚠️                       | ⚠️                       | ❌                        | ❌                        |
-| 🇵🇹 Portuguese `pt`        | ❌                        | ⚠️                       | ❌                        | ⚠️                       |
-| 🇷🇴 Romanian `ro`          | ❌                        | ⚠️                       | ❌                        | ❌                        |
-| 🇸🇻 Swedish `sv`           | ✅                        | ✅                        | ✅                        | ✅                        |
+| Language                 | `Widget`                 | `User App`               | `Email`                  |
+| -------------------------| -------------------------| -------------------------| -------------------------|
+| 🇧🇬 Bulgarian `bg`         | ⚠️                       | ✅                        | ❌                        |
+| 🇩🇪 German `de`            | ⚠️                       | ✅                        | ❌                        |
+| 🇺🇸 English `en`           | ✅                        | ✅                        | ✅                        |
+| 🇪🇸 Spanish `es`           | ⚠️                       | ✅                        | ⚠️                       |
+| 🇫🇷 French `fr`            | ✅                        | ✅                        | ❌                        |
+| 🇮🇹 Italian `it`           | ✅                        | ✅                        | ✅                        |
+| 🇲🇳 Mongolian `mn`         | ✅                        | ✅                        | ✅                        |
+| 🇵🇱 Polish `pl`            | ⚠️                       | ✅                        | ❌                        |
+| 🇵🇹 Portuguese `pt`        | ⚠️                       | ✅                        | ⚠️                       |
+| 🇷🇴 Romanian `ro`          | ⚠️                       | ✅                        | ❌                        |
+| 🇸🇻 Swedish `sv`           | ✅                        | ✅                        | ✅                        |
 
 ✅ translation completed  
 ⚠️ partial translation (look for comments "**// TODO**")  
 ❌ translation missing
 
 ## Modules
-The project consists of 4 different modules, each of them is used on different moments of the Now4real user experience.
+The project consists of 3 different modules, each of them is used on different moments of the Now4real user experience.
 
 We recommend taking into consideration all the files during your contribution, in order to give the users the best experience.
-
-### Api
-
-The `api.js` file contains the translation of the localized strings used on the Now4real API.
 
 ### Widget
 
