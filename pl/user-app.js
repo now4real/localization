@@ -86,8 +86,6 @@
     /**
      * No registration signin
      */
-    'noRegistrationSignin.title': 'Zaloguj się',
-
     'noRegistrationSignin.nickInfo': 'Wybierz pseudonim, aby rozmawiać na $S',
     // $S is the site
     // example: "Choose a nickname to chat on example.com"
