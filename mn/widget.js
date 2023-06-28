@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'LinkedIn аккаунтаар нэвтрэх',
     'commons.signedWith.email': 'Мэйл хаягаар нэвтрэх',
     'commons.signedWith.jwt': 'Энэ сайтын бүртгэлээр нэвтрэх',
-    'commons.signedWith.noRegistration': 'Энэ сайтын бүртгэлээр нэвтрэх',
+    'commons.signedWith.noRegistration': 'Энэ чатад нэвтэрсэн',
 
     'commons.close': 'Хаах', // close button
 

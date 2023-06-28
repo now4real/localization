@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Вписахте се чрез LinkedIn',
     'commons.signedWith.email': 'Вписахте се чрез email',
     'commons.signedWith.jwt': 'Вписахте се в сайта',
-    'commons.signedWith.noRegistration': 'Вписахте се в сайта',
+    'commons.signedWith.noRegistration': 'Вие сте влезли в чата',
 
     'commons.close': 'Затваряне', // close button
 

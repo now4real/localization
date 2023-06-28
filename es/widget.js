@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Registrado a través de LinkedIn',
     'commons.signedWith.email': 'Registrado a través de email',
     'commons.signedWith.jwt': 'Registrado en este sitio',
-    'commons.signedWith.noRegistration': 'Registrado en este sitio',
+    'commons.signedWith.noRegistration': 'Connectat en aquest xat',
 
     'commons.close': 'Cerrar', // close button
 

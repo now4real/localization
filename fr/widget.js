@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Connecté avec LinkedIn',
     'commons.signedWith.email': 'Connecté avec email',
     'commons.signedWith.jwt': 'Connecté sur ce site',
-    'commons.signedWith.noRegistration': 'Connecté sur ce site',
+    'commons.signedWith.noRegistration': 'Connecté sur ce chat',
 
     'commons.close': 'Fermer', // close button
 

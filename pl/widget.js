@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Zaloguj się: LinkedIn',
     'commons.signedWith.email': 'Zaloguj się przez email',
     'commons.signedWith.jwt': 'Zalogowany na tej stronie',
-    'commons.signedWith.noRegistration': 'Zalogowany na tej stronie',
+    'commons.signedWith.noRegistration': 'Zalogowano do czatu',
 
     'commons.close': 'Zamknij', // close button
 

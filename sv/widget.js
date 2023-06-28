@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Inloggad med LinkedIn',
     'commons.signedWith.email': 'Inloggad med e-post',
     'commons.signedWith.jwt': 'Inloggad på denna webbplats',
-    'commons.signedWith.noRegistration': 'Inloggad på denna webbplats',
+    'commons.signedWith.noRegistration': 'Inloggad i chatten',
 
     'commons.close': 'Stäng', // close button
 

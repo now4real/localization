@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Intra cu LinkedIn',
     'commons.signedWith.email': 'Intra cu adresa de email',
     'commons.signedWith.jwt': 'Intra pe acest site',
-    'commons.signedWith.noRegistration': 'Intra pe acest site',
+    'commons.signedWith.noRegistration': 'Conectat în această chat',
 
     'commons.close': 'Inchide', // close button
 
