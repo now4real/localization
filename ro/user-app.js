@@ -86,8 +86,6 @@ export default {
     /**
      * No registration signin
      */
-    'noRegistrationSignin.title': 'Conectare',
-
     'noRegistrationSignin.nickInfo': 'Alege un pseudonim pentru a chat-ui pe $S',
     // $S is the site
     // example: "Choose a nickname to chat on example.com"

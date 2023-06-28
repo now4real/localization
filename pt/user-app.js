@@ -86,8 +86,6 @@ export default {
     /**
      * No registration signin
      */
-    'noRegistrationSignin.title': 'Entrar',
-
     'noRegistrationSignin.nickInfo': 'Escolha um apelido para conversar no $S',
     // $S is the site
     // example: "Choose a nickname to chat on example.com"
