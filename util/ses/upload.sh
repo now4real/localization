@@ -21,12 +21,8 @@ do
     test -s html.tmp
     jq -MRs . < html.tmp > html-jq.tmp
 
-    html2text -utf8 -o text.tmp html.tmp
-    test -s text.tmp
-    jq -MRs . < text.tmp > text-jq.tmp
-
     baseFileName=`basename $sourceFile .html`-$lang
-    jq -Mn -f template.jq --arg template "$PREFIX-$baseFileName" --arg subject "$SUBJECT" text-jq.tmp html-jq.tmp . > template.tmp
+    jq -Mn -f template.jq --arg template "$PREFIX-$baseFileName" --arg subject "$SUBJECT" html-jq.tmp . > template.tmp
 
     echo Upload "$PREFIX-$baseFileName"...
     aws ses update-template --cli-input-json "$(cat template.tmp)" || (
