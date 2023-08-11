@@ -29,9 +29,11 @@ function getJSObject (fileContent) {
     return eval(fileContent.replace('export default', 'obj = '))
 }
 
-function validate (lang, file) {
+function validate (lang, langFilePath) {
+    const file = langFilePath.substring(langFilePath.lastIndexOf('/') + 1)
+
     try {
-        const fileContent = fs.readFileSync(`${LOCALIZATION_PATH}${lang}/${file}`, 'utf8')
+        const fileContent = fs.readFileSync(langFilePath, 'utf8')
 
         // validate js file
         if (lang !== 'en' && file.endsWith('.js')) {
@@ -102,7 +104,7 @@ function validate (lang, file) {
             return COMPLETE
         }
     } catch (e) {
-        //console.log(e)
+        //console.log(e.message)
 
         // the file does not exist
         if (e.code == 'ENOENT') {
@@ -175,14 +177,17 @@ function createRow (lang, apiStatus, widgetStatus, userAppStatus, emailStatus) {
 
 function createBody (availableLangs) {
     return availableLangs
-    .map(lang =>
-        createRow(lang,
-            validate(lang, 'api.js'),
-            validate(lang, 'widget.js'),
-            validate(lang, 'user-app.js'),
-            normalize( validate(lang, 'email/user-welcome.html') + validate(lang, 'email/user-email-login.html'), 2 )
+    .map(lang => {
+        const langFolder = `${lang}/`
+        const langCommonFolder = `common/${lang}/`
+
+        return createRow(lang,
+            validate(lang, `${langFolder}api.js`),
+            validate(lang, `${langFolder}widget.js`),
+            validate(lang, `${langFolder}user-app.js`),
+            normalize( validate(lang, `${langFolder}email/user-welcome.html`) + validate(lang, `${langFolder}email/user-email-login.html`) + validate(lang, `${langCommonFolder}email/header.html`) + validate(lang, `${langCommonFolder}email/footer.html`), 4 )
         )
-    )
+    })
     .join('')
 }
 
@@ -201,7 +206,7 @@ const ALPHA_2_CODES = languages.getAlpha2Codes()
 const availableLangs = fs.readdirSync(LOCALIZATION_PATH, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
-    .filter(file => file !== 'util')
+    .filter(file => file !== 'util' && file !== 'common')
     .filter(lang => {
         const check = ALPHA_2_CODES[lang]
 
