@@ -11,6 +11,7 @@
     'sessionExpiredError': 'La sesión ha caducado. Por favor, comienza de nuevo.',
     'recaptchaError': '¡Oops! Parece que eres un robot',
     'sendThrottlingError': 'Debes esperar al menos $N minutos desde el email anterior antes de obtener un nuevo código. Inténtalo de nuevo más tarde.',
+    'noOpenerError': 'No es pot procedir amb l\'autenticació. Torna-ho a provar o canvia el navegador.',
 
     /**
      * Email signin step 1

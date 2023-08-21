@@ -11,6 +11,7 @@
     'sessionExpiredError': 'Sesja wygasła. Proszę zacząć od nowa.',
     'recaptchaError': 'Ups! Wygląda na to, że jesteś robotem',
     'sendThrottlingError': 'Musisz poczekać co najmniej $N minut od poprzedniego e-maila, zanim otrzymasz nowy kod. Spróbuj ponownie później.',
+    'noOpenerError': 'Nie można kontynuować uwierzytelniania. Spróbuj ponownie lub zmień przeglądarkę.',
 
     /**
      * Email signin step 1

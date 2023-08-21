@@ -11,6 +11,7 @@
     'sessionExpiredError': 'Die Sitzung ist abgelaufen. Bitte starten Sie erneut.',
     'recaptchaError': 'Hoppla! Es scheint, als wären Sie ein Roboter.',
     'sendThrottlingError': 'Sie müssen mindestens $N Minuten warten, bevor Sie einen neuen Code erhalten, nachdem Sie eine E-Mail gesendet haben. Versuchen Sie es später erneut.',
+    'noOpenerError': 'Authentifizierung nicht möglich. Bitte versuchen Sie es erneut oder ändern Sie Ihren Browser.',
 
     /**
      * Email signin step 1

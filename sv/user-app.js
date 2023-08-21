@@ -11,6 +11,7 @@ export default {
     'sessionExpiredError': 'Sessionen har löpt ut. Vänligen börja om från början.',
     'recaptchaError': 'Hoppsan! Det verkar som att du är en robot',
     'sendThrottlingError': 'Du måste vänta minst $N minuter från föregående e-postmeddelande innan du får en ny kod. Försök igen senare.',
+    'noOpenerError': 'Kan inte fortsätta med autentiseringen. Försök igen eller byt webbläsare.',
 
     /**
      * Email signin step 1

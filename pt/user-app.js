@@ -11,6 +11,7 @@ export default {
     'sessionExpiredError': 'Sessão expirada. Por favor, comece novamente.',
     'recaptchaError': 'Ops! Parece que você é um robô',
     'sendThrottlingError': 'Você deve aguardar pelo menos $N minutos desde o último email antes de obter um novo código. Tente novamente mais tarde.',
+    'noOpenerError': 'Não é possível prosseguir com a autenticação. Por favor, tente novamente ou mude o navegador.',
 
     /**
      * Email signin step 1
