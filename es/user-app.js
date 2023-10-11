@@ -112,7 +112,7 @@
     // buttons:
     'socialSignin.google': 'Inicia sesión con Google',
     'socialSignin.facebook': 'Inicia sesión con Facebook',
-    'socialSignin.twitter': 'Inicia sesión con Twitter',
+    'socialSignin.twitter': 'Inicia sesión con X',
     'socialSignin.linkedin': 'Inicia sesión con LinkedIn',
     'socialSignin.email': 'Inicia sesión con email',
 

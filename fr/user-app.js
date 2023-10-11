@@ -112,7 +112,7 @@
     // buttons:
     'socialSignin.google': 'Se connecter avec Google',
     'socialSignin.facebook': 'Se connecter avec Facebook',
-    'socialSignin.twitter': 'Se connecter avec Twitter',
+    'socialSignin.twitter': 'Se connecter avec X',
     'socialSignin.linkedin': 'Se connecter avec LinkedIn',
     'socialSignin.email': 'Se connecter avec e-mail',
 

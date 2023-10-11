@@ -112,7 +112,7 @@ export default {
     // buttons:
     'socialSignin.google': 'Вписване чрез Google',
     'socialSignin.facebook': 'Вписване чрез Facebook',
-    'socialSignin.twitter': 'Вписване чрез Twitter',
+    'socialSignin.twitter': 'Вписване чрез X',
     'socialSignin.linkedin': 'Вписване чрез LinkedIn',
     'socialSignin.email': 'Вписване чрез имейл',
 

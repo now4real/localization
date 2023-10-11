@@ -32,7 +32,7 @@ export default {
      */
     'commons.signedWith.google': 'Google аккаунтаар нэвтрэх',
     'commons.signedWith.facebook': 'Facebook аккаунтаар нэвтрэх',
-    'commons.signedWith.twitter': 'Twitter аккаунтаар нэвтрэх',
+    'commons.signedWith.twitter': 'X аккаунтаар нэвтрэх',
     'commons.signedWith.linkedin': 'LinkedIn аккаунтаар нэвтрэх',
     'commons.signedWith.email': 'Мэйл хаягаар нэвтрэх',
     'commons.signedWith.jwt': 'Энэ сайтын бүртгэлээр нэвтрэх',

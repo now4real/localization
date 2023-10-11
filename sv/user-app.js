@@ -112,7 +112,7 @@ export default {
     // buttons:
     'socialSignin.google': 'Logga in med Google',
     'socialSignin.facebook': 'Logga in med Facebook',
-    'socialSignin.twitter': 'Logga in med Twitter',
+    'socialSignin.twitter': 'Logga in med X',
     'socialSignin.linkedin': 'Logga in med LinkedIn',
     'socialSignin.email': 'Logga in med e-post',
 

@@ -112,7 +112,7 @@ export default {
     // buttons:
     'socialSignin.google': 'Google-р нэвтрэх',
     'socialSignin.facebook': 'Facebook-р нэвтрэх',
-    'socialSignin.twitter': 'Twitter-р нэвтрэх',
+    'socialSignin.twitter': 'X-р нэвтрэх',
     'socialSignin.linkedin': 'LinkedIn-р нэвтрэх',
     'socialSignin.email': 'И-мэйлээр нэвтрэх',
 

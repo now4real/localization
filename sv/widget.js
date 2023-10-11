@@ -32,7 +32,7 @@ export default {
      */
     'commons.signedWith.google': 'Inloggad med Google',
     'commons.signedWith.facebook': 'Inloggad med Facebook',
-    'commons.signedWith.twitter': 'Inloggad med Twitter',
+    'commons.signedWith.twitter': 'Inloggad med X',
     'commons.signedWith.linkedin': 'Inloggad med LinkedIn',
     'commons.signedWith.email': 'Inloggad med e-post',
     'commons.signedWith.jwt': 'Inloggad på denna webbplats',

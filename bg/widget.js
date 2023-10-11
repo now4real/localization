@@ -32,7 +32,7 @@ export default {
      */
     'commons.signedWith.google': 'Вписахте се чрез Google',
     'commons.signedWith.facebook': 'Вписахте се чрез Facebook',
-    'commons.signedWith.twitter': 'Вписахте се чрез Twitter',
+    'commons.signedWith.twitter': 'Вписахте се чрез X',
     'commons.signedWith.linkedin': 'Вписахте се чрез LinkedIn',
     'commons.signedWith.email': 'Вписахте се чрез email',
     'commons.signedWith.jwt': 'Вписахте се в сайта',

@@ -32,7 +32,7 @@ export default {
      */
     'commons.signedWith.google': 'Intra cu Google',
     'commons.signedWith.facebook': 'Intra cu Facebook',
-    'commons.signedWith.twitter': 'Intra cu Twitter',
+    'commons.signedWith.twitter': 'Intra cu X',
     'commons.signedWith.linkedin': 'Intra cu LinkedIn',
     'commons.signedWith.email': 'Intra cu adresa de email',
     'commons.signedWith.jwt': 'Intra pe acest site',

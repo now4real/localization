@@ -32,7 +32,7 @@ export default {
      */
     'commons.signedWith.google': 'Registrado a través de Google',
     'commons.signedWith.facebook': 'Registrado a través de Facebook',
-    'commons.signedWith.twitter': 'Registrado a través de Twitter',
+    'commons.signedWith.twitter': 'Registrado a través de X',
     'commons.signedWith.linkedin': 'Registrado a través de LinkedIn',
     'commons.signedWith.email': 'Registrado a través de email',
     'commons.signedWith.jwt': 'Registrado en este sitio',

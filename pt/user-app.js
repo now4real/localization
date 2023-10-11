@@ -112,7 +112,7 @@ export default {
     // buttons:
     'socialSignin.google': 'Entrar com Google',
     'socialSignin.facebook': 'Entrar com Facebook',
-    'socialSignin.twitter': 'Entrar com Twitter',
+    'socialSignin.twitter': 'Entrar com X',
     'socialSignin.linkedin': 'Entrar com LinkedIn',
     'socialSignin.email': 'Entrar com email',
 

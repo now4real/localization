@@ -112,7 +112,7 @@ export default {
     // buttons:
     'socialSignin.google': 'Conectați-vă cu Google',
     'socialSignin.facebook': 'Conectați-vă cu Facebook',
-    'socialSignin.twitter': 'Conectați-vă cu Twitter',
+    'socialSignin.twitter': 'Conectați-vă cu X',
     'socialSignin.linkedin': 'Conectați-vă cu LinkedIn',
     'socialSignin.email': 'Conectați-vă cu email',
 

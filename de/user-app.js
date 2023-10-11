@@ -112,7 +112,7 @@
     // buttons:
     'socialSignin.google': 'Anmelden via Google',
     'socialSignin.facebook': 'Anmelden via Facebook',
-    'socialSignin.twitter': 'Anmelden via Twitter',
+    'socialSignin.twitter': 'Anmelden via X',
     'socialSignin.linkedin': 'Anmelden via LinkedIn',
     'socialSignin.email': 'Anmelden via email',
 

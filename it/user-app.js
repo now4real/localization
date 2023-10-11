@@ -112,7 +112,7 @@ export default {
     // buttons:
     'socialSignin.google': 'Accedi con Google',
     'socialSignin.facebook': 'Accedi con Facebook',
-    'socialSignin.twitter': 'Accedi con Twitter',
+    'socialSignin.twitter': 'Accedi con X',
     'socialSignin.linkedin': 'Accedi con LinkedIn',
     'socialSignin.email': 'Accedi con email',
 

@@ -112,7 +112,7 @@
     // buttons:
     'socialSignin.google': 'Zaloguj się przez Google',
     'socialSignin.facebook': 'Zaloguj się przez Facebook',
-    'socialSignin.twitter': 'Zaloguj się przez Twitter',
+    'socialSignin.twitter': 'Zaloguj się przez X',
     'socialSignin.linkedin': 'Zaloguj się przez LinkedIn',
     'socialSignin.email': 'Zaloguj się przez e-mail',
 

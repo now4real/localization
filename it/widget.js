@@ -32,7 +32,7 @@ export default {
      */
     'commons.signedWith.google': 'Connesso via Google',
     'commons.signedWith.facebook': 'Connesso via Facebook',
-    'commons.signedWith.twitter': 'Connesso via Twitter',
+    'commons.signedWith.twitter': 'Connesso via X',
     'commons.signedWith.linkedin': 'Connesso via LinkedIn',
     'commons.signedWith.email': 'Connesso via email',
     'commons.signedWith.jwt': 'Connesso su questo sito',
