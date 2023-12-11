@@ -2,8 +2,8 @@
  * FRENCH (Standard)
  ****************************************************************************************/
 export default {
-    'genericError': 'Oups! Quelque chose a mal fonctionné',
-    'mutedError': 'Oups! Il semble que vous ayez été mis en sourdine',
+    'genericError': 'Oups ! Quelque chose a mal fonctionné',
+    'mutedError': 'Oups ! Il semble que vous ayez été mis en sourdine',
 
     'connection-status.offline': 'Vous êtes hors ligne',
 
@@ -245,10 +245,10 @@ export default {
 
     'mute-modal.headerForever': 'L\'utilisateur $U a été mis en sourdine',
 
-    'mute-modal.body.set': 'Mettre l\'utilisateur $U en sourdine pendant:',
+    'mute-modal.body.set': 'Mettre l\'utilisateur $U en sourdine pendant :',
     // example: "Mute user Ben for:" followed by input fields with "3 days"
 
-    'mute-modal.body.update': 'Modifier la période de sourdine:',
+    'mute-modal.body.update': 'Modifier la période de sourdine :',
     // example: "Update mute period:" followed by input fields with "5 days"
 
     'mute-modal.body.deleteInfo': 'Vous pouvez désactiver le mode sourdine de l\'utilisateur quand vous le souhaitez.',
@@ -286,7 +286,7 @@ export default {
      */
     'report-modal.title': 'Signaler le message',
 
-    'report-modal.header': 'Pourquoi signalez-vous ce message?',
+    'report-modal.header': 'Pourquoi signalez-vous ce message ?',
     'report-modal.note': 'Si quelqu\'un est en danger immédiat, appelez les services d\'urgence locaux - n\'attendez pas',
 
     'report-modal.hateSpeech': 'Discours haineux ou intimidation',
@@ -300,16 +300,16 @@ export default {
     'report-modal.commentPlaceholder': 'Commentaire',
     'report-modal.button': 'Signaler',
 
-    'report-modal.reportOk': 'Merci pour le signalement!',
+    'report-modal.reportOk': 'Merci pour le signalement !',
     'report-modal.alreadyReportedError': 'Vous avez déjà signalé le message',
 
     /**
      * Flush chat confirm dialog
      */
-    'flush-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir effacer cette discussion?',
+    'flush-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir effacer cette discussion ?',
 
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir désactiver cette discussion?'
+    'disable-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir désactiver cette discussion ?'
 }
