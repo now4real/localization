@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Login Social Now4real',
     'noRegLoginTitle': 'Login Now4real',
     'emailLoginTitle': 'Login por Email Now4real',
+    'whiteLabelLoginTitle': 'Chat Login',
     'editProfileTitle': 'Editar seu Perfil - Now4real',
+    'whiteLabelEditProfileTitle': 'Login de Chat',
 
     'genericError': 'Ops! Algo deu errado',
     'sessionExpiredError': 'Sessão expirada. Por favor, comece novamente.',
     'recaptchaError': 'Ops! Parece que você é um robô',
     'sendThrottlingError': 'Você deve aguardar pelo menos $N minutos desde o último email antes de obter um novo código. Tente novamente mais tarde.',
     'noOpenerError': 'Não é possível prosseguir com a autenticação. Por favor, tente novamente ou mude o navegador.',
+
+    'n4rTermsAndPrivacy': 'Click em “$B” para aceitar os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> de Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'Email',
 
     'emailSigninStep1.continue': 'Continuar',
+    'emailSigninStep1.newEmail': 'Usar outro e-mail',
 
     'emailSigninStep1.invalidEmailError': 'Email inválido',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Apelido',
 
-    'noRegistrationSignin.footer': 'Clique em “OK” abaixo para aceitar os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> do Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Continuar',
     'noRegistrationSignin.newNick': 'Usar outro apelido',
 
     'noRegistrationSignin.invalidNickError': 'Apelido inválido',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'Entrar com LinkedIn',
     'socialSignin.email': 'Entrar com email',
 
-    'socialSignin.footer': 'Click em “Entrar” acima para aceitar os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Entrar',
 
     'socialSignin.newUser': 'Usar outra conta',
 }

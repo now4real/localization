@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Now4real Social inloggning',
     'noRegLoginTitle': 'Now4real inloggning',
     'emailLoginTitle': 'Now4real E-post inloggning',
+    'whiteLabelLoginTitle': 'Chatt Logga in',
     'editProfileTitle': 'Redigera din profil - Now4real',
+    'whiteLabelEditProfileTitle': 'Redigera din profil',
 
     'genericError': 'Hoppsan! Något blev fel',
     'sessionExpiredError': 'Sessionen har löpt ut. Vänligen börja om från början.',
     'recaptchaError': 'Hoppsan! Det verkar som att du är en robot',
     'sendThrottlingError': 'Du måste vänta minst $N minuter från föregående e-postmeddelande innan du får en ny kod. Försök igen senare.',
     'noOpenerError': 'Kan inte fortsätta med autentiseringen. Försök igen eller byt webbläsare.',
+
+    'n4rTermsAndPrivacy': 'Klicka på “$B” för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'E-post',
 
     'emailSigninStep1.continue': 'Fortsätt',
+    'emailSigninStep1.newEmail': 'Använd en annan e-post',
 
     'emailSigninStep1.invalidEmailError': 'Ogiltig e-postadress',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Smeknamn',
 
-    'noRegistrationSignin.footer': 'Klicka på “OK” nedan för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Fortsätt',
     'noRegistrationSignin.newNick': 'Använd ett annat smeknamn',
 
     'noRegistrationSignin.invalidNickError': 'Ogiltigt smeknamn',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'Logga in med LinkedIn',
     'socialSignin.email': 'Logga in med e-post',
 
-    'socialSignin.footer': 'Klicka på “Logga in” nedan för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Logga in',
 
     'socialSignin.newUser': 'Använd ett annat konto',
 }

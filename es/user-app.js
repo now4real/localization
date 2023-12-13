@@ -5,13 +5,20 @@
     'socialLoginTitle': 'Inicio de sesión social de Now4real',
     'noRegLoginTitle': 'Inicio de sesión en Now4real',
     'emailLoginTitle': 'Inicio de sesión por email de Now4real',
+    'whiteLabelLoginTitle': 'Inicio de sesión al xat',
     'editProfileTitle': 'Editar tu perfil - Now4real',
+    'whiteLabelEditProfileTitle': 'Editar tu perfil',
 
     'genericError': '¡Oops! Algo salió mal',
     'sessionExpiredError': 'La sesión ha caducado. Por favor, comienza de nuevo.',
     'recaptchaError': '¡Oops! Parece que eres un robot',
     'sendThrottlingError': 'Debes esperar al menos $N minutos desde el email anterior antes de obtener un nuevo código. Inténtalo de nuevo más tarde.',
     'noOpenerError': 'No es pot procedir amb l\'autenticació. Torna-ho a provar o canvia el navegador.',
+
+    'n4rTermsAndPrivacy': 'Haz click en “$B” para aceptar los <a1>Términos del Servicio</a1> y la <a2>Política de Privacidad</a2> de Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@
     'emailSigninStep1.emailPlaceholder': 'Email',
 
     'emailSigninStep1.continue': 'Continuar',
+    'emailSigninStep1.newEmail': 'Utilitzeu un altre email',
 
     'emailSigninStep1.invalidEmailError': 'Email inválido',
 
@@ -93,12 +101,7 @@
 
     'noRegistrationSignin.nickPlaceholder': 'Apodo',
 
-    'noRegistrationSignin.footer': 'Haz clic en “OK” a continuación para aceptar los <a1>Términos de servicio</a1> y la <a2>Política de privacidad</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Continuar',
     'noRegistrationSignin.newNick': 'Usar otro apodo',
 
     'noRegistrationSignin.invalidNickError': 'Apodo no válido',
@@ -116,9 +119,7 @@
     'socialSignin.linkedin': 'Inicia sesión con LinkedIn',
     'socialSignin.email': 'Inicia sesión con email',
 
-    'socialSignin.footer': 'Haz click en “Iniciar sesión” arriba para aceptar los <a1>Términos del Servicio</a1> y la <a2>Política de Privacidad</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Inicia sesión',
 
     'socialSignin.newUser': 'Usar otra cuenta',
 }

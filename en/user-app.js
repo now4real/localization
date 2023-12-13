@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Now4real Social Login',
     'noRegLoginTitle': 'Now4real Login',
     'emailLoginTitle': 'Now4real Email Login',
+    'whiteLabelLoginTitle': 'Chat Login',
     'editProfileTitle': 'Edit Your Profile - Now4real',
+    'whiteLabelEditProfileTitle': 'Edit Your Profile',
 
     'genericError': 'Oops! Something went wrong',
     'sessionExpiredError': 'Session has expired. Please start again.',
     'recaptchaError': 'Oops! It seems like you are a robot',
     'sendThrottlingError': 'You must wait at least $N minutes from the previous email, before getting a new code. Try again later.',
     'noOpenerError': 'Cannot proceed with authentication. Please try again or change your browser.',
+
+    'n4rTermsAndPrivacy': 'Click “$B” to accept Now4real\'s <a1>Terms of Service</a1> and <a2>Privacy Policy</a2>',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'Email',
 
     'emailSigninStep1.continue': 'Continue',
+    'emailSigninStep1.newEmail': 'Use another email',
 
     'emailSigninStep1.invalidEmailError': 'Invalid email',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Nickname',
 
-    'noRegistrationSignin.footer': 'Click “OK” below to accept the <a1>Terms of Service</a1> and <a2>Privacy Policy</a2> of Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Continue',
     'noRegistrationSignin.newNick': 'Use another nickname',
 
     'noRegistrationSignin.invalidNickError': 'Invalid nickname',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'Sign in with LinkedIn',
     'socialSignin.email': 'Sign in with email',
 
-    'socialSignin.footer': 'Click “Sign in” above to accept Now4real\'s <a1>Terms of Service</a1> and <a2>Privacy Policy</a2>',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Sign in',
 
     'socialSignin.newUser': 'Use another account',
 }

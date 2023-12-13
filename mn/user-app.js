@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Now4real Сошиал нэвтрэлт',
     'noRegLoginTitle': 'Now4real нэвтрэлт',
     'emailLoginTitle': 'Now4real Имэйл нэвтрэлт',
+    'whiteLabelLoginTitle': 'Чатаар нэвтрэх',
     'editProfileTitle': 'Профайл засварлах - Now4real',
+    'whiteLabelEditProfileTitle': 'Профайл засварлах',
 
     'genericError': 'Уучлаарай! Алдаа гарлаа',
     'sessionExpiredError': 'Холболт салсан тул дахин хандна уу',
     'recaptchaError': 'Уучлаарай, таны хандалт сэжигтэй байна',
     'sendThrottlingError': 'Шинэ код авахын тулд өмнөх имэйл илгээснээс хойш хамгийн багадаа $N минутын дараа дахин хандна уу',
     'noOpenerError': 'Аутентификаци гүйцэтгэх боломжгүй байна. Дахин оролдож эсвэл хуулбарыг солино уу.',
+
+    'n4rTermsAndPrivacy': 'Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г зөвшөөрч байхын тулд “$B” товчийг дарна уу',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'Имэйл',
 
     'emailSigninStep1.continue': 'Үргэлжлүүлэх',
+    'emailSigninStep1.newEmail': 'Өөр имэйл ашиглана уу',
 
     'emailSigninStep1.invalidEmailError': 'Зөв имэйл хаяг оруулна уу',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Нэрийг оруулна уу',
 
-    'noRegistrationSignin.footer': 'Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г хүлээн зөвшөөрөхийн тулд доорх “OK” товчийг дарна уу',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Үргэлжлүүлэх',
     'noRegistrationSignin.newNick': 'Өөр нэр ашиглах',
 
     'noRegistrationSignin.invalidNickError': 'Нэр буруу байна',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'LinkedIn-р нэвтрэх',
     'socialSignin.email': 'И-мэйлээр нэвтрэх',
 
-    'socialSignin.footer': 'Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г зөвшөөрч байхын тулд дээрх “Нэвтрэх” товчийг дарна уу',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'нэвтрэх',
 
     'socialSignin.newUser': 'Өөр бүртгэл ашиглана уу'
 }

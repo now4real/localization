@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Now4real Social Login',
     'noRegLoginTitle': 'Now4real Login',
     'emailLoginTitle': 'Now4real Email Login',
+    'whiteLabelLoginTitle': 'Chat Login',
     'editProfileTitle': 'Modifica il tuo profilo - Now4real',
+    'whiteLabelEditProfileTitle': 'Modifica il tuo profilo',
 
     'genericError': 'Ops! Qualcosa è andato storto',
     'sessionExpiredError': 'La sessione è scaduta. Per favore ricomincia.',
     'recaptchaError': 'Oops! Sembra che tu sia un robot',
     'sendThrottlingError': 'Devi aspettare almeno $N minuti dalla email precedente, prima di ottenere un nuovo codice. Riprova più tardi.',
     'noOpenerError': 'Non è possibile proseguire con l\'autenticazione. Riprova o cambia browser.',
+
+    'n4rTermsAndPrivacy': 'Cliccando su “$B” accetti le <a1>Condizioni di servizio</a1> e la <a2>Privacy policy</a2> di Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'Email',
 
     'emailSigninStep1.continue': 'Continua',
+    'emailSigninStep1.newEmail': 'Utilizza un\'altra email',
 
     'emailSigninStep1.invalidEmailError': 'La mail inserità è invalida',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Nickname',
   
-    'noRegistrationSignin.footer': 'Clicca “OK” sotto per accettare le <a1>Condizioni di servizio</a1> e la <a2>Privacy policy</a2> di Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Continua',
     'noRegistrationSignin.newNick': 'Utilizza un altro nickname',
 
     'noRegistrationSignin.invalidNickError': 'Il nickname inserito è invalido',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'Accedi con LinkedIn',
     'socialSignin.email': 'Accedi con email',
 
-    'socialSignin.footer': 'Cliccando su “Accedi” qui sopra accetti le <a1>Condizioni di servizio</a1> e la <a2>Privacy policy</a2> di Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Accedi',
 
     'socialSignin.newUser': 'Utilizza un altro account',
 }

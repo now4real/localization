@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Now4real Социално Влизане',
     'noRegLoginTitle': 'Now4real Влизане',
     'emailLoginTitle': 'Now4real Влизане чрез Имейл',
+    'whiteLabelLoginTitle': 'Вход в чата',
     'editProfileTitle': 'Редактирайте вашия профил - Now4real',
+    'whiteLabelEditProfileTitle': 'Редактирайте вашия профил',
 
     'genericError': 'Опа! Възникна грешка',
     'sessionExpiredError': 'Сесията е изтекла. Моля, започнете отново.',
     'recaptchaError': 'Опа! Изглежда сте робот',
     'sendThrottlingError': 'Трябва да изчакате поне $N минути след предишния имейл, преди да получите нов код. Опитайте отново по-късно.',
     'noOpenerError': 'Не може да продължите с удостоверяването. Моля, опитайте отново или променете браузъра си.',
+
+    'n4rTermsAndPrivacy': 'Кликнете върху “$B” за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'Имейл',
 
     'emailSigninStep1.continue': 'Продължи',
+    'emailSigninStep1.newEmail': 'Използвайте друг имейл',
 
     'emailSigninStep1.invalidEmailError': 'Невалиден имейл',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Прякор',
 
-    'noRegistrationSignin.footer': 'Щракнете на “ОК” по-долу, за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'ОК',
-    'noRegistrationSignin.continue': 'Продължи',
     'noRegistrationSignin.newNick': 'Използвай друг прякор',
 
     'noRegistrationSignin.invalidNickError': 'Невалиден прякор',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'Вписване чрез LinkedIn',
     'socialSignin.email': 'Вписване чрез имейл',
 
-    'socialSignin.footer': 'Кликнете върху "Вписване" по-горе, за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Вписване',
 
     'socialSignin.newUser': 'Използвай друг акаунт',
 }

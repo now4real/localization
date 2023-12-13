@@ -5,13 +5,20 @@ export default {
     'socialLoginTitle': 'Conectare socială Now4real',
     'noRegLoginTitle': 'Conectare Now4real',
     'emailLoginTitle': 'Conectare prin email Now4real',
+    'whiteLabelLoginTitle': 'Conectare prin chat',
     'editProfileTitle': 'Editează profilul tău - Now4real',
+    'whiteLabelEditProfileTitle': 'Editează profilul tău',
 
     'genericError': 'Ups! A intervenit o problemă',
     'sessionExpiredError': 'Sesiunea a expirat. Te rugăm să începi din nou.',
     'recaptchaError': 'Ups! Se pare că ești un robot',
     'sendThrottlingError': 'Trebuie să aștepți cel puțin $N minute de la ultimul email înainte de a primi un cod nou. Încearcă din nou mai târziu.',
     'noOpenerError': 'Nu se poate continua cu autentificarea. Încercați din nou sau schimbați browserul.',
+
+    'n4rTermsAndPrivacy': 'Apasă “$B” pentru a accepta <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@ export default {
     'emailSigninStep1.emailPlaceholder': 'Email',
 
     'emailSigninStep1.continue': 'Continuă',
+    'emailSigninStep1.newEmail': 'Utilizați un alt email',
 
     'emailSigninStep1.invalidEmailError': 'Email invalid',
 
@@ -93,12 +101,7 @@ export default {
 
     'noRegistrationSignin.nickPlaceholder': 'Pseudonim',
 
-    'noRegistrationSignin.footer': 'Apasă “OK” mai jos pentru a accepta <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Continuă',
     'noRegistrationSignin.newNick': 'Folosește un alt pseudonim',
 
     'noRegistrationSignin.invalidNickError': 'Pseudonim invalid',
@@ -116,9 +119,7 @@ export default {
     'socialSignin.linkedin': 'Conectați-vă cu LinkedIn',
     'socialSignin.email': 'Conectați-vă cu email',
 
-    'socialSignin.footer': 'Apasă “Conectați-vă” mai sus pentru a accepta <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Conectați-vă',
 
     'socialSignin.newUser': 'Folosește un alt cont',
 }

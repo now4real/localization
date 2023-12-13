@@ -5,13 +5,20 @@
     'socialLoginTitle': 'Connexion sociale Now4real',
     'noRegLoginTitle': 'Connexion Now4real',
     'emailLoginTitle': 'Connexion par e-mail Now4real',
+    'whiteLabelLoginTitle': 'Connexion au chat',
     'editProfileTitle': 'Modifier votre profil - Now4real',
+    'whiteLabelEditProfileTitle': 'Modifier votre profil',
 
     'genericError': 'Oups ! Quelque chose s\'est mal passé',
     'sessionExpiredError': 'La session a expiré. Veuillez recommencer.',
     'recaptchaError': 'Oups ! Il semble que vous soyez un robot',
     'sendThrottlingError': 'Vous devez attendre au moins $N minutes depuis le dernier e-mail avant d\'obtenir un nouveau code. Réessayez plus tard.',
     'noOpenerError': 'Impossible de procéder à l\'authentification. Veuillez réessayer ou changer de navigateur.',
+
+    'n4rTermsAndPrivacy': 'Cliquez sur “$B” pour accepter les <a1>Conditions d\'utilisation</a1> et la <a2>Politique de confidentialité</a2> de Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@
     'emailSigninStep1.emailPlaceholder': 'E-mail',
 
     'emailSigninStep1.continue': 'Continuer',
+    'emailSigninStep1.newEmail': 'Utiliser un autre e-mail',
 
     'emailSigninStep1.invalidEmailError': 'Adresse e-mail invalide',
 
@@ -93,12 +101,7 @@
 
     'noRegistrationSignin.nickPlaceholder': 'Pseudonyme',
 
-    'noRegistrationSignin.footer': 'Cliquez sur “OK” ci-dessous pour accepter les <a1>Conditions d\'utilisation</a1> et la <a2>Politique de confidentialité</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Continuer',
     'noRegistrationSignin.newNick': 'Utiliser un autre pseudonyme',
 
     'noRegistrationSignin.invalidNickError': 'Pseudonyme invalide',
@@ -116,9 +119,7 @@
     'socialSignin.linkedin': 'Se connecter avec LinkedIn',
     'socialSignin.email': 'Se connecter avec e-mail',
 
-    'socialSignin.footer': 'Cliquez sur “Se” connecter" ci-dessus pour accepter les <a1>Conditions d\'utilisation</a1> et la <a2>Politique de confidentialité</a2> de Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Se connecter',
 
     'socialSignin.newUser': 'Utiliser un autre compte',
 }

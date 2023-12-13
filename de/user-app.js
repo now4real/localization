@@ -5,13 +5,20 @@
     'socialLoginTitle': 'Now4real Social Login',
     'noRegLoginTitle': 'Now4real Anmeldung',
     'emailLoginTitle': 'Now4real E-Mail-Anmeldung',
+    'whiteLabelLoginTitle': 'Chat-Anmeldung',
     'editProfileTitle': 'Profil bearbeiten - Now4real',
+    'whiteLabelEditProfileTitle': 'Profil bearbeiten',
 
     'genericError': 'Hoppla! Etwas ist schiefgelaufen.',
     'sessionExpiredError': 'Die Sitzung ist abgelaufen. Bitte starten Sie erneut.',
     'recaptchaError': 'Hoppla! Es scheint, als wären Sie ein Roboter.',
     'sendThrottlingError': 'Sie müssen mindestens $N Minuten warten, bevor Sie einen neuen Code erhalten, nachdem Sie eine E-Mail gesendet haben. Versuchen Sie es später erneut.',
     'noOpenerError': 'Authentifizierung nicht möglich. Bitte versuchen Sie es erneut oder ändern Sie Ihren Browser.',
+
+    'n4rTermsAndPrivacy': 'Klick “$B” und akzeptiere damit die <a1>Nutzungsbedingungen</a1> und die <a2>Datenschutzbestimmungen</a2> von Now4real',
+    // $B is the button text
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
 
     /**
      * Email signin step 1
@@ -22,6 +29,7 @@
     'emailSigninStep1.emailPlaceholder': 'E-Mail',
 
     'emailSigninStep1.continue': 'Weiter',
+    'emailSigninStep1.newEmail': 'Verwenden Sie eine andere E-Mail',
 
     'emailSigninStep1.invalidEmailError': 'Ungültige E-Mail-Adresse',
 
@@ -93,12 +101,7 @@
 
     'noRegistrationSignin.nickPlaceholder': 'Spitzname',
 
-    'noRegistrationSignin.footer': 'Klicken Sie unten auf “OK”, um die <a1>Nutzungsbedingungen</a1> und <a2>Datenschutzrichtlinien</a2> von Now4real zu akzeptieren.',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     'noRegistrationSignin.ok': 'OK',
-    'noRegistrationSignin.continue': 'Weiter',
     'noRegistrationSignin.newNick': 'Anderen Spitznamen verwenden',
 
     'noRegistrationSignin.invalidNickError': 'Ungültiger Spitzname',
@@ -116,9 +119,7 @@
     'socialSignin.linkedin': 'Anmelden via LinkedIn',
     'socialSignin.email': 'Anmelden via email',
 
-    'socialSignin.footer': 'Klick “Anmelden” und akzeptiere damit die <a1>Nutzungsbedingungen</a1> und die <a2>Datenschutzbestimmungen</a2> von Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    'socialSignin.signin': 'Anmelden',
 
     'socialSignin.newUser': 'Anderes Konto verwenden',
 }
