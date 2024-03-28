@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Wyczyść ten czat',
     'status-header.disableChat': 'Wyłącz ten czat',
     'status-header.enableChat': 'Włącz ten czat',
+    'status-header.createPoll': 'Utwórz ankietę',
+    'status-header.terminatePoll': 'Zakończ ankietę',
+    'status-header.removePoll': 'Usuń ankietę',
     'status-header.help': 'Pomoc',
     'status-header.issue': 'Zgłoś błąd',
     'status-header.terms': 'Regulamin',
@@ -304,6 +307,34 @@ export default {
     'report-modal.alreadyReportedError': 'Już zgłosiłeś tę wiadomość',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Utwórz ankietę',
+
+    'create-poll-modal.questionPlaceholder': 'Pytanie',
+    'create-poll-modal.optionPlaceholder': 'Opcja',
+
+    'create-poll-modal.multipleChoice': 'Wybór wielokrotny',
+
+    'create-poll-modal.addOptionButton': 'Dodaj opcję...',
+    'create-poll-modal.deleteOptionButton': 'Usuń',
+    'create-poll-modal.createButton': 'Utwórz',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Ankieta',
+
+    'poll-modal.vote': 'głos',
+    'poll-modal.votes': 'głosy',
+    'poll-modal.finalResults': 'Wyniki końcowe',
+    'poll-modal.signinToVote': '<a>Zaloguj się</a>, aby zagłosować',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Głosuj',
+    'poll-modal.revokeVoteButton': 'Wycofaj głos',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Czy na pewno chcesz wyczyścić ten czat?',
@@ -311,5 +342,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Czy na pewno chcesz wyłączyć ten czat?'
+    'disable-chat-confirmation-modal.message': 'Czy na pewno chcesz wyłączyć ten czat?',
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Czy na pewno chcesz zakończyć bieżącą ankietę?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Czy na pewno chcesz usunąć bieżącą ankietę?'
 }

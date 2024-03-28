@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Нулиране на чата',
     'status-header.disableChat': 'Деактивиране на чата',
     'status-header.enableChat': 'Активиране на чата',
+    'status-header.createPoll': 'Създайте анкета',
+    'status-header.terminatePoll': 'Прекратяване на анкетата',
+    'status-header.removePoll': 'Премахване на анкетата',
     'status-header.help': 'Помощ',
     'status-header.issue': 'Докладвайте проблем',
     'status-header.terms': 'Условия за ползване',
@@ -304,6 +307,34 @@ export default {
     'report-modal.alreadyReportedError': 'Вече докладвахте за съобщението',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Създай анкета',
+
+    'create-poll-modal.questionPlaceholder': 'Въпрос',
+    'create-poll-modal.optionPlaceholder': 'Опция',
+
+    'create-poll-modal.multipleChoice': 'Множествен избор',
+
+    'create-poll-modal.addOptionButton': 'Добави опция...',
+    'create-poll-modal.deleteOptionButton': 'Изтрий',
+    'create-poll-modal.createButton': 'Създай',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Анкета',
+
+    'poll-modal.vote': 'глас',
+    'poll-modal.votes': 'гласове',
+    'poll-modal.finalResults': 'Крайни резултати',
+    'poll-modal.signinToVote': '<a>Влезте</a> за гласуване',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Гласувай',
+    'poll-modal.revokeVoteButton': 'Отмени гласа',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Сигурни ли сте, че искате да изтриете съдържанието на този чат?',
@@ -311,5 +342,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Сигурни ли сте, че искате да деактивирате този чат?'
+    'disable-chat-confirmation-modal.message': 'Сигурни ли сте, че искате да деактивирате този чат?',
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Сигурни ли сте, че искате да прекратите текущата анкета?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Сигурни ли сте, че искате да премахнете текущата анкета?'
 }

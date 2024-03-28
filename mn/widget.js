@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Энэ чатыг цэвэрлэ',
     'status-header.disableChat': 'Энэ чатыг хаах',
     'status-header.enableChat': 'Энэ чатыг идэвхжүүлэх',
+    'status-header.createPoll': 'Судалгаа үүсгэх',
+    'status-header.terminatePoll': 'Судалгааг дуусгах',
+    'status-header.removePoll': 'Судалгааг устгах',
     'status-header.help': 'Тусламж',
     'status-header.issue': 'Алдааг мэдээлэх',
     'status-header.terms': 'Үйлчилгээний нөхцөл',
@@ -304,6 +307,34 @@ export default {
     'report-modal.alreadyReportedError': 'Та мессежийг аль хэдийн мэдэгдсэн байна',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Судалгаа үүсгэх',
+
+    'create-poll-modal.questionPlaceholder': 'Асуулт',
+    'create-poll-modal.optionPlaceholder': 'Сонголт',
+
+    'create-poll-modal.multipleChoice': 'Олон сонголттой',
+
+    'create-poll-modal.addOptionButton': 'Сонголт нэмэх...',
+    'create-poll-modal.deleteOptionButton': 'Устгах',
+    'create-poll-modal.createButton': 'Үүсгэх',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Судалгаа',
+
+    'poll-modal.vote': 'сонголт',
+    'poll-modal.votes': 'сонголтууд',
+    'poll-modal.finalResults': 'Төгсгөлд хийгдсэн үр дүн',
+    'poll-modal.signinToVote': 'Сонголт явуулахын тулд <a>нэвтрэх</a>',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Сонгох',
+    'poll-modal.revokeVoteButton': 'Сонголтыг буцаах',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Энэ чатыг цэвэрлэх үү?',
@@ -311,5 +342,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Энэ чатыг хүчингүй болгох уу?'
+    'disable-chat-confirmation-modal.message': 'Энэ чатыг хүчингүй болгох уу?',
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Та одоогийн судалгааг дуусгахдаа итгэлтэй байна уу?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Та одоогийн судалгааг устгахдаа итгэлтэй байна уу?'
 }

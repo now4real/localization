@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Flush this chat', // TODO
     'status-header.disableChat': 'Disable this chat', // TODO
     'status-header.enableChat': 'Enable this chat', // TODO
+    'status-header.createPoll': 'Umfrage erstellen',
+    'status-header.terminatePoll': 'Umfrage beenden',
+    'status-header.removePoll': 'Umfrage entfernen',
     'status-header.help': 'Hilfe',
     'status-header.issue': 'Ein Problem melden',
     'status-header.terms': 'Nutzungsbedingungen',
@@ -303,6 +306,34 @@ export default {
     'report-modal.alreadyReportedError': 'Sie haben die Nachricht bereits gemeldet',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Umfrage erstellen',
+
+    'create-poll-modal.questionPlaceholder': 'Frage',
+    'create-poll-modal.optionPlaceholder': 'Option',
+
+    'create-poll-modal.multipleChoice': 'Mehrfachauswahl',
+
+    'create-poll-modal.addOptionButton': 'Option hinzufügen...',
+    'create-poll-modal.deleteOptionButton': 'Löschen',
+    'create-poll-modal.createButton': 'Erstellen',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Umfrage',
+
+    'poll-modal.vote': 'Stimme',
+    'poll-modal.votes': 'Stimmen',
+    'poll-modal.finalResults': 'Endresultate',
+    'poll-modal.signinToVote': '<a>Anmelden</a>, um abzustimmen',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Abstimmen',
+    'poll-modal.revokeVoteButton': 'Stimme widerrufen',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
@@ -310,5 +341,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Sind Sie sicher, dass Sie die aktuelle Umfrage beenden möchten?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Sind Sie sicher, dass Sie die aktuelle Umfrage entfernen möchten?'
 }

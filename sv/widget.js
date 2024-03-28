@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Rensa alla meddelanden i den här chatten',
     'status-header.disableChat': 'Inaktivera den här chatten',
     'status-header.enableChat': 'Aktivera den här chatten',
+    'status-header.createPoll': 'Skapa en omröstning',
+    'status-header.terminatePoll': 'Avsluta omröstningen',
+    'status-header.removePoll': 'Ta bort omröstningen',
     'status-header.help': 'Hjälp',
     'status-header.issue': 'Rapportera ett problem',
     'status-header.terms': 'Användarvillkor',
@@ -304,6 +307,34 @@ export default {
     'report-modal.alreadyReportedError': 'Du har redan anmält meddelandet',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Skapa en omröstning',
+
+    'create-poll-modal.questionPlaceholder': 'Fråga',
+    'create-poll-modal.optionPlaceholder': 'Alternativ',
+
+    'create-poll-modal.multipleChoice': 'Flera val',
+
+    'create-poll-modal.addOptionButton': 'Lägg till ett alternativ...',
+    'create-poll-modal.deleteOptionButton': 'Ta bort',
+    'create-poll-modal.createButton': 'Skapa',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Omröstning',
+
+    'poll-modal.vote': 'röst',
+    'poll-modal.votes': 'röster',
+    'poll-modal.finalResults': 'Slutresultat',
+    'poll-modal.signinToVote': '<a>Logga in</a> för att rösta',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Rösta',
+    'poll-modal.revokeVoteButton': 'Återkalla röst',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Är du säker på att du vill rensa alla meddelanden i den här chatten?',
@@ -311,5 +342,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Är du säker på att du vill inaktivera den här chatten?'
+    'disable-chat-confirmation-modal.message': 'Är du säker på att du vill inaktivera den här chatten?',
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Är du säker på att du vill avsluta den aktuella omröstningen?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Är du säker på att du vill ta bort den aktuella omröstningen?'
 }

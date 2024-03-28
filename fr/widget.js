@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Annuler cette discussion',
     'status-header.disableChat': 'Désactiver cette discussion',
     'status-header.enableChat': 'Activer cette discussion',
+    'status-header.createPoll': 'Créer un sondage',
+    'status-header.terminatePoll': 'Terminer le sondage',
+    'status-header.removePoll': 'Supprimer le sondage',
     'status-header.help': 'Aide',
     'status-header.issue': 'Signaler un Problème',
     'status-header.terms': 'Conditions d\'Utilisation',
@@ -304,6 +307,34 @@ export default {
     'report-modal.alreadyReportedError': 'Vous avez déjà signalé le message',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Créer un sondage',
+
+    'create-poll-modal.questionPlaceholder': 'Question',
+    'create-poll-modal.optionPlaceholder': 'Option',
+
+    'create-poll-modal.multipleChoice': 'Choix multiples',
+
+    'create-poll-modal.addOptionButton': 'Ajouter une option...',
+    'create-poll-modal.deleteOptionButton': 'Supprimer',
+    'create-poll-modal.createButton': 'Créer',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Sondage',
+
+    'poll-modal.vote': 'vote',
+    'poll-modal.votes': 'votes',
+    'poll-modal.finalResults': 'Résultats finaux',
+    'poll-modal.signinToVote': '<a>Connectez-vous</a> pour voter',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Voter',
+    'poll-modal.revokeVoteButton': 'Révoquer le vote',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir effacer cette discussion ?',
@@ -311,5 +342,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir désactiver cette discussion ?'
+    'disable-chat-confirmation-modal.message': 'Êtes-vous sûr de vouloir désactiver cette discussion ?',
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Êtes-vous sûr de vouloir terminer le sondage actuel ?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Êtes-vous sûr de vouloir supprimer le sondage actuel ?'
 }

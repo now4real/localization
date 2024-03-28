@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Flush this chat',
     'status-header.disableChat': 'Disable this chat',
     'status-header.enableChat': 'Enable this chat',
+    'status-header.createPoll': 'Create poll',
+    'status-header.terminatePoll': 'Terminate poll',
+    'status-header.removePoll': 'Remove poll',
     'status-header.help': 'Help',
     'status-header.issue': 'Report an Issue',
     'status-header.terms': 'Terms of Service',
@@ -303,6 +306,34 @@ export default {
     'report-modal.alreadyReportedError': 'You have already reported the message',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Create Poll',
+
+    'create-poll-modal.questionPlaceholder': 'Question',
+    'create-poll-modal.optionPlaceholder': 'Option',
+
+    'create-poll-modal.multipleChoice': 'Multiple choice',
+
+    'create-poll-modal.addOptionButton': 'Add an option...',
+    'create-poll-modal.deleteOptionButton': 'Delete',
+    'create-poll-modal.createButton': 'Create',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Poll',
+
+    'poll-modal.vote': 'vote',
+    'poll-modal.votes': 'votes',
+    'poll-modal.finalResults': 'Final results',
+    'poll-modal.signinToVote': '<a>Sign in</a> to vote',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Vote',
+    'poll-modal.revokeVoteButton': 'Revoke vote',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?',
@@ -310,5 +341,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?'
+    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?',
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Are you sure you want to terminate the current poll?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Are you sure you want to remove the current poll?'
 }

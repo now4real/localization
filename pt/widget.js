@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Flush this chat', // TODO
     'status-header.disableChat': 'Disable this chat', // TODO
     'status-header.enableChat': 'Enable this chat', // TODO
+    'status-header.createPoll': 'Criar enquete',
+    'status-header.terminatePoll': 'Encerrar enquete',
+    'status-header.removePoll': 'Remover enquete',
     'status-header.help': 'Ajuda',
     'status-header.issue': 'Reportar um problema',
     'status-header.terms': 'Termos de Serviço',
@@ -303,6 +306,34 @@ export default {
     'report-modal.alreadyReportedError': 'Você já denunciou a mensagem',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Criar enquete',
+
+    'create-poll-modal.questionPlaceholder': 'Pergunta',
+    'create-poll-modal.optionPlaceholder': 'Opção',
+    
+    'create-poll-modal.multipleChoice': 'Escolha múltipla',
+    
+    'create-poll-modal.addOptionButton': 'Adicionar opção...',
+    'create-poll-modal.deleteOptionButton': 'Excluir',
+    'create-poll-modal.createButton': 'Criar',
+    
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Enquete',
+    
+    'poll-modal.vote': 'voto',
+    'poll-modal.votes': 'votos',
+    'poll-modal.finalResults': 'Resultados finais',
+    'poll-modal.signinToVote': '<a>Entrar</a> para votar',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Votar',
+    'poll-modal.revokeVoteButton': 'Revogar voto',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
@@ -310,5 +341,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Tem certeza de que deseja encerrar a enquete atual?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Tem certeza de que deseja remover a enquete atual?'
 }

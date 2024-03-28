@@ -55,6 +55,9 @@ export default {
     'status-header.flushChat': 'Flush this chat', // TODO
     'status-header.disableChat': 'Disable this chat', // TODO
     'status-header.enableChat': 'Enable this chat', // TODO
+    'status-header.createPoll': 'Creează sondaj',
+    'status-header.terminatePoll': 'Încheie sondaj',
+    'status-header.removePoll': 'Șterge sondaj',
     'status-header.help': 'Ajutor',
     'status-header.issue': 'Raporteaza problema',
     'status-header.terms': 'Termene si conditii',
@@ -303,6 +306,34 @@ export default {
     'report-modal.alreadyReportedError': 'Ai raportat deja mesajul',
 
     /**
+     * Create poll dialog
+     */
+    'create-poll-modal.title': 'Creează sondaj',
+
+    'create-poll-modal.questionPlaceholder': 'Întrebare',
+    'create-poll-modal.optionPlaceholder': 'Opțiune',
+
+    'create-poll-modal.multipleChoice': 'Opțiuni multiple',
+
+    'create-poll-modal.addOptionButton': 'Adaugă opțiune...',
+    'create-poll-modal.deleteOptionButton': 'Șterge',
+    'create-poll-modal.createButton': 'Creează',
+
+    /**
+     * Poll dialog
+     */
+    'poll-modal.title': 'Sondaj',
+
+    'poll-modal.vote': 'vot',
+    'poll-modal.votes': 'voturi',
+    'poll-modal.finalResults': 'Rezultate finale',
+    'poll-modal.signinToVote': '<a>Conectează-te</a> pentru a vota',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+
+    'poll-modal.sendVoteButton': 'Votează',
+    'poll-modal.revokeVoteButton': 'Revocă votul',
+
+    /**
      * Flush chat confirm dialog
      */
     'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
@@ -310,5 +341,15 @@ export default {
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?' // TODO
+    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+
+    /**
+     * Terminate poll confirm dialog
+     */
+    'terminate-poll-confirmation-modal.message': 'Sigur doriți să încheiați sondajul curent?',
+
+    /**
+     * Remove poll confirm dialog
+     */
+    'remove-poll-confirmation-modal.message': 'Sigur doriți să ștergeți sondajul curent?'
 }
