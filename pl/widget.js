@@ -64,12 +64,12 @@ export default {
     'status-header.privacy': 'Polityka Prywatności',
     'status-header.signout': 'Wyloguj się',
     'status-header.signin': 'Zaloguj się',
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.editUserProfile': 'Edytuj profil',
 
     'status-header.notRememberedLogin': 'Nie zapamiętany',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'Aby zmienić swoją nazwę wyświetlaną i zdjęcie, <a>edytuj swój profil</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -153,7 +153,7 @@ export default {
     'chat.hideBtn': 'Ukryj', // means "hide this message"
     'chat.showBtn': 'Pokaż', // means "show this message"
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Odcisk użytkownika',
 
     /**
      * Presence

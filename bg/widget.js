@@ -64,12 +64,12 @@ export default {
     'status-header.privacy': 'Защита лични данни',
     'status-header.signout': 'Отписване',
     'status-header.signin': 'Вписване',
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.editUserProfile': 'Редактиране на профила',
 
     'status-header.notRememberedLogin': 'Не се запаметява',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'За да промените потребителското си име и снимка, <a>редактирайте вашия профил</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -153,7 +153,7 @@ export default {
     'chat.hideBtn': 'Крия', // means "hide this message"
     'chat.showBtn': 'Покажи', // means "show this message"
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Пръстов отпечатък на потребителя',
 
     /**
      * Presence
