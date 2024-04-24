@@ -323,6 +323,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Encuesta',
+    'poll-modal.titleClosed': 'Enquesta tancada',
 
     'poll-modal.vote': 'voto',
     'poll-modal.votes': 'votos',

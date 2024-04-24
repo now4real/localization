@@ -324,6 +324,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Ankieta',
+    'poll-modal.titleClosed': 'Ankieta zamknięta',
 
     'poll-modal.vote': 'głos',
     'poll-modal.votes': 'głosy',

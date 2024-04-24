@@ -324,6 +324,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Omröstning',
+    'poll-modal.titleClosed': 'Omröstning stängd',
 
     'poll-modal.vote': 'röst',
     'poll-modal.votes': 'röster',

@@ -324,6 +324,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Судалгаа',
+    'poll-modal.titleClosed': 'Судалгаа хаагдсан',
 
     'poll-modal.vote': 'сонголт',
     'poll-modal.votes': 'сонголтууд',

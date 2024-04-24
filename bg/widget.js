@@ -324,6 +324,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Анкета',
+    'poll-modal.titleClosed': 'Анкетата е затворена',
 
     'poll-modal.vote': 'глас',
     'poll-modal.votes': 'гласове',

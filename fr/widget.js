@@ -324,6 +324,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Sondage',
+    'poll-modal.titleClosed': 'Sondage fermé',
 
     'poll-modal.vote': 'vote',
     'poll-modal.votes': 'votes',
