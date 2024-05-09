@@ -333,6 +333,7 @@ export default {
 
     'poll-modal.sendVoteButton': 'Votar',
     'poll-modal.revokeVoteButton': 'Revogar voto',
+    'poll-modal.viewVotesButton': 'Resultados',
 
     /**
      * Flush chat confirm dialog

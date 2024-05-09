@@ -334,6 +334,7 @@ export default {
 
     'poll-modal.sendVoteButton': 'Rösta',
     'poll-modal.revokeVoteButton': 'Återkalla röst',
+    'poll-modal.viewVotesButton': 'Resultat',
 
     /**
      * Flush chat confirm dialog
