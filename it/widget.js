@@ -108,15 +108,15 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ Chatta con gli altri $N visitatori ora',
-    'chat.attentionGrabber2': '⚡ Chatta con gli altri visitatori ora',
+    'chat.attentionGrabber1': '⚡ Chatta con gli altri $N visitatori online adesso!',
+    'chat.attentionGrabber2': '⚡ Chatta con gli altri visitatori online adesso!',
     // $N is a number
-    // example: "⚡ Chat with the other 2 visitors now"
+    // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Chatta con gli altri visitatori in tempo reale. I messaggi sono pubblici e scompaiono dopo $N $A.',
-    'chat.welcomeMessageJWT': 'Chatta con gli altri visitatori in tempo reale. I messaggi potrebbero essere pubblici e scompaiono dopo $N $A.',
-    // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    'chat.welcomeMessage': 'Benvenuto! Chatta con altri visitatori in tempo reale. Nota: I messaggi sono pubblici e scompariranno dopo $N $A. Ricorda di essere rispettoso e goditi la conversazione!',
+    'chat.welcomeMessageJWT': 'Benvenuto! Chatta con altri visitatori in tempo reale. Nota: i messaggi potrebbero essere pubblici e scompariranno dopo $N $A. Ricorda di essere rispettoso e goditi la conversazione!',
+    // $N is a number and $A in a time unit taken from timeUnit
+    // example: "Welcome! Chat with other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
 
     'chat.messageDeleted.byYou': 'Hai cancellato questo messaggio',
     'chat.messageDeleted.byAuthor': 'Messaggio cancellato dall\'autore',

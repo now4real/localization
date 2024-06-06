@@ -108,15 +108,15 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ Чат с останалите $N посетители сега',
-    'chat.attentionGrabber2': '⚡ Чат с останалите посетители сега',
+    'chat.attentionGrabber1': '⚡ Чатете с $N други посетители онлайн сега!',
+    'chat.attentionGrabber2': '⚡ Чатете с други посетители онлайн сега!',
     // $N is a number
-    // example: "⚡ Chat with the other 2 visitors now"
+    // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Разговаряйте с другите посетители в реално време. Съобщенията са публични и изчезват след $N $A.',
-    'chat.welcomeMessageJWT': 'Разговаряйте с другите посетители в реално време. Съобщенията може да са публични и да изчезнат след $N $A.',
-    // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    'chat.welcomeMessage': 'Добре дошли! Чатете с други посетители в реално време. Моля, обърнете внимание: Всички съобщения са публични и ще изчезнат след $N $A. Не забравяйте да бъдете уважителни и да се наслаждавате на разговора!',
+    'chat.welcomeMessageJWT': 'Добре дошли! Чатете с други посетители в реално време. Моля, обърнете внимание: Всички съобщения може да бъдат публични и ще изчезнат след $N $A. Не забравяйте да бъдете уважителни и да се наслаждавате на разговора!',
+    // $N is a number and $A in a time unit taken from timeUnit
+    // example: "Welcome! Chat with other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
 
     'chat.messageDeleted.byYou': 'Изтрихте това съобщение',
     'chat.messageDeleted.byAuthor': 'Съобщението е изтрито от автора',

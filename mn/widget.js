@@ -108,15 +108,15 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ бусад $N зочидтой одоо чатлах',
-    'chat.attentionGrabber2': '⚡ бусад зочидтой одоо чатлах',
+    'chat.attentionGrabber1': '⚡ $N бусад зочидтой одоо чатаар холбогдоорой!',
+    'chat.attentionGrabber2': '⚡ Бусад зочидтой одоо чатаар холбогдоорой!',
     // $N is a number
-    // example: "⚡ Chat with the other 2 visitors now"
+    // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд олон нийтэд нээлттэй байх бөгөөд $N $A дараа алга болно.',
-    'chat.welcomeMessageJWT': 'Бодит цаг хугацаанд бусад зочидтой чатлах. Мессежүүд нь олон нийтэд нээлттэй байж болох бөгөөд $N $A дараа алга болно.',
-    // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    'chat.welcomeMessage': 'Тавтай морил! Бусад зочидтой бодит цаг хугацаанд чатлаарай. Анхааруулга: Бүх мессеж олон нийтэд ил байх ба $N $A дараа алга болно. Хүндэтгэлтэй байж, яриагаа сайхан өнгөрүүлээрэй!',
+    'chat.welcomeMessageJWT': 'Тавтай морил! Бусад зочидтой бодит цаг хугацаанд чатлаарай. Анхааруулга: Бүх мессеж олон нийтэд ил байх боломжтой ба $N $A дараа алга болно. Хүндэтгэлтэй байж, яриагаа сайхан өнгөрүүлээрэй!',
+    // $N is a number and $A in a time unit taken from timeUnit
+    // example: "Welcome! Chat with other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
 
     'chat.messageDeleted.byYou': 'Та энэ зурвасыг устгасан',
     'chat.messageDeleted.byAuthor': 'Автор зурвасыг устгасан',

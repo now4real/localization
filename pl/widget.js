@@ -108,15 +108,15 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ Czat teraz z innymi $N użytkownikami',
-    'chat.attentionGrabber2': '⚡ Czat teraz z innymi użytkownikami',
+    'chat.attentionGrabber1': '⚡ Czat z $N innymi odwiedzającymi online teraz!',
+    'chat.attentionGrabber2': '⚡ Czat z innymi odwiedzającymi online teraz!',
     // $N is a number
-    // example: "⚡ Chat with the other 2 visitors now"
+    // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Czat z innymi użytkownikami w czasie rzeczywistym. Wiadomości są publiczne i znikają po $N $A.',
-    'chat.welcomeMessageJWT': 'Czat z innymi użytkownikami w czasie rzeczywistym. Wiadomości mogą być publiczne i znikać po $N $A.',
-    // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    'chat.welcomeMessage': 'Witamy! Czat z innymi odwiedzającymi w czasie rzeczywistym. Proszę zauważyć: Wszystkie wiadomości są publiczne i znikną po $N $A. Pamiętaj, aby być uprzejmym i cieszyć się rozmową!',
+    'chat.welcomeMessageJWT': 'Witamy! Czat z innymi odwiedzającymi w czasie rzeczywistym. Proszę zauważyć: Wszystkie wiadomości mogą być publiczne i znikną po $N $A. Pamiętaj, aby być uprzejmym i cieszyć się rozmową!',
+    // $N is a number and $A in a time unit taken from timeUnit
+    // example: "Welcome! Chat with other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
 
     'chat.messageDeleted.byYou': 'Usunąłeś wiadomość',
     'chat.messageDeleted.byAuthor': 'Wiadomość usunięta przez autora',

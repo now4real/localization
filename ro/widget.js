@@ -108,15 +108,15 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ Chat cu ceilalți $N vizitatori acum',
-    'chat.attentionGrabber2': '⚡ Chat cu ceilalți vizitatori acum',
+    'chat.attentionGrabber1': '⚡ Discută cu cei $N alți vizitatori online acum!',
+    'chat.attentionGrabber2': '⚡ Discută cu ceilalți vizitatori online acum!',
     // $N is a number
-    // example: "⚡ Chat with the other 2 visitors now"
+    // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Chat cu ceilalți vizitatori în timp real. Mesajele sunt publice și dispar după $N $A.',
-    'chat.welcomeMessageJWT': 'Chat cu ceilalți vizitatori în timp real. Mesajele pot fi publice și dispar după $N $A.',
-    // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    'chat.welcomeMessage': 'Bine ați venit! Discută cu alți vizitatori în timp real. Vă rugăm să rețineți: Toate mesajele sunt publice și vor dispărea după $N $A. Nu uitați să fiți respectuoși și să vă bucurați de conversație!',
+    'chat.welcomeMessageJWT': 'Bine ați venit! Discută cu alți vizitatori în timp real. Vă rugăm să rețineți: Toate mesajele pot fi publice și vor dispărea după $N $A. Nu uitați să fiți respectuoși și să vă bucurați de conversație!',
+    // $N is a number and $A in a time unit taken from timeUnit
+    // example: "Welcome! Chat with other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
 
     'chat.messageDeleted.byYou': 'You deleted this message', // TODO
     'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO

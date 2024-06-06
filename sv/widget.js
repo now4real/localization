@@ -108,15 +108,15 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ Chatta med de andra $N besökarna nu',
-    'chat.attentionGrabber2': '⚡ Chatta med de andra besökarna nu',
+    'chat.attentionGrabber1': '⚡ Chatta med de $N andra besökarna online nu!',
+    'chat.attentionGrabber2': '⚡ Chatta med de andra besökarna online nu!',
     // $N is a number
-    // example: "⚡ Chat with the other 2 visitors now"
+    // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Chatta med de andra besökarna i realtid. Meddelanden är offentliga och försvinner efter $N $A.',
-    'chat.welcomeMessageJWT': 'Chatta med de andra besökarna i realtid. Meddelanden kan vara offentliga och försvinna efter $N $A.',
-    // $N is a number and $A in a time unit taken from timeUnit.
-    // example: "Chat with the other visitors in real time. Messages are public and disappear after 2 hours."
+    'chat.welcomeMessage': 'Välkommen! Chatta med andra besökare i realtid. Observera: Alla meddelanden är offentliga och försvinner efter $N $A. Kom ihåg att vara respektfull och njut av konversationen!',
+    'chat.welcomeMessageJWT': 'Välkommen! Chatta med andra besökare i realtid. Observera: Alla meddelanden kan vara offentliga och försvinner efter $N $A. Kom ihåg att vara respektfull och njut av konversationen!',
+    // $N is a number and $A in a time unit taken from timeUnit
+    // example: "Welcome! Chat with other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
 
     'chat.messageDeleted.byYou': 'Du raderade det här meddelandet',
     'chat.messageDeleted.byAuthor': 'Meddelande raderat av författaren',
