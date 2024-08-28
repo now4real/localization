@@ -186,6 +186,8 @@ export default {
      * GIF-picker labels
      */
     'gif-picker.search': 'Search GIF',
+    'gif-picker.retry': 'Error loading GIFs. <a>Try again</a>',
+    // keep <a> and </a> unchanged and surrounding the translation of "Try again"
 
     /**
      * Typing

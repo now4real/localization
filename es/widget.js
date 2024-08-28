@@ -185,7 +185,9 @@ export default {
     /**
      * GIF-picker labels
      */
-    'gif-picker.search': 'Search GIF', // TODO
+    'gif-picker.search': 'Cercar GIF',
+    'gif-picker.retry': 'Error al cargar los GIFs. <a>Torna a intentar</a>',
+    // keep <a> and </a> unchanged and surrounding the translation of "Try again"
 
     /**
      * Typing

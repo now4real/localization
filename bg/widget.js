@@ -186,6 +186,8 @@ export default {
      * GIF-picker labels
      */
     'gif-picker.search': 'Търсене на GIF',
+    'gif-picker.retry': 'Грешка при зареждането на GIF файлове. <a>Опитайте отново</a>',
+    // keep <a> and </a> unchanged and surrounding the translation of "Try again"
 
     /**
      * Typing
