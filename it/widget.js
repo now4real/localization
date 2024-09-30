@@ -116,7 +116,7 @@ export default {
     'chat.welcomeMessage': 'Chatta con gli altri visitatori in tempo reale. I messaggi sono pubblici e scompaiono dopo $N $A. Sii rispettoso e divertiti!',
     'chat.welcomeMessageJWT': 'Chatta con gli altri visitatori in tempo reale. I messaggi potrebbero essere pubblici e scompaiono dopo $N $A. Sii rispettoso e divertiti!',
     // $N is a number and $A in a time unit taken from timeUnit
-    // example: "Chat with other visitors in real-time. Messages are public and disappear after 20 minutes. Be respectful and enjoy!"
+    // example: "Chat with other visitors in real time. Messages are public and vanish after 20 minutes. Be kind and have fun!"
 
     'chat.messageDeleted.byYou': 'Hai cancellato questo messaggio',
     'chat.messageDeleted.byAuthor': 'Messaggio cancellato dall\'autore',
