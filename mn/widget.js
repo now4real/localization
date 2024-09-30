@@ -186,6 +186,8 @@ export default {
      * GIF-picker labels
      */
     'gif-picker.search': 'GIF хайх',
+    'gif-picker.retry': 'GIF-уудыг ачаалах явцад алдаа гарлаа. <a>Дахин оролдоно уу</a>',
+    // keep <a> and </a> unchanged and surrounding the translation of "Try again"
 
     /**
      * Typing
