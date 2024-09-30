@@ -113,10 +113,10 @@ export default {
     // $N is a number
     // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Bun venit! Chatuiți cu ceilalți vizitatori în timp real. Vă rugăm să rețineți: Toate mesajele sunt publice și vor dispărea după $N $A. Amintiți-vă să fiți respectuos și să vă bucurați de conversație!',
-    'chat.welcomeMessageJWT': 'Bun venit! Chatuiți cu ceilalți vizitatori în timp real. Vă rugăm să rețineți: Toate mesajele ar putea fi publice și vor dispărea după $N $A. Amintiți-vă să fiți respectuos și să vă bucurați de conversație!',
+    'chat.welcomeMessage': 'Discută cu alți vizitatori în timp real. Mesajele sunt publice și dispar după $N $A. Fii respectuos și distrează-te!',
+    'chat.welcomeMessageJWT': 'Discută cu alți vizitatori în timp real. Mesajele ar putea fi publice și dispar după $N $A. Fii respectuos și distrează-te!',
     // $N is a number and $A in a time unit taken from timeUnit
-    // example: "Welcome! Chat with the other visitors in real time. Please note: All messages are public and will disappear after 2 hours. Remember to be respectful and enjoy the conversation!"
+    // example: "Chat with other visitors in real-time. Messages are public and disappear after 20 minutes. Be respectful and enjoy!"
 
     'chat.messageDeleted.byYou': 'You deleted this message', // TODO
     'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
