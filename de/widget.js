@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Anmelden abgebrochen oder Cookies in diesem Browser deaktiviert',
     'chat.notPersistentError': 'Die Authentifizierung wird aufgrund Ihrer eingeschränkten Datenschutzeinstellungen nicht gespeichert. Um dies zu verhindern, aktivieren Sie bitte die Cookies für Now4real in Ihrem Browser.',
     'chat.disabledError': 'This chat has been disabled', // TODO
+    'chat.chatbotError': 'Ein Fehler ist beim Chatbot der Seite aufgetreten. Bitte versuchen Sie es erneut.',
 
     'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
     'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO

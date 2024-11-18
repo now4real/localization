@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',
     'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
     'chat.disabledError': 'Den här chatten har inaktiverats',
+    'chat.chatbotError': 'Ett fel inträffade med webbplatsens chatbot. Försök igen.',
 
     'chat.disabledByAdmin': 'Den här chatten har inaktiverats av administratören',
     'chat.disabledByModerator': 'Den här chatten har inaktiverats av en moderator',

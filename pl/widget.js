@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',
     'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
     'chat.disabledError': 'Ten czat został wyłączony',
+    'chat.chatbotError': 'Wystąpił błąd w chatbotie strony. Spróbuj ponownie.',
 
     'chat.disabledByAdmin': 'Ten czat został wyłączony przez administratora',
     'chat.disabledByModerator': 'Ten czat został wyłączony przez moderatora',

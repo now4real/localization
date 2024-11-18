@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Connexion annulée ou cookies désactivés sur ce navigateur',
     'chat.notPersistentError': 'L\'authentification ne sera pas mémorisée en raison de vos paramètres de confidentialité restreints. Veuillez activer les cookies pour Now4real dans votre navigateur pour éviter que cela ne se produise.',
     'chat.disabledError': 'Cette discussion a été désactivée',
+    'chat.chatbotError': 'Une erreur est survenue avec le chatbot du site. Veuillez réessayer.',
 
     'chat.disabledByAdmin': 'Cette discussion a été désactivée par l\'administrateur',
     'chat.disabledByModerator': 'Cette discussion a été désactivée par un modérateur',

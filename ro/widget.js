@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
     'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
     'chat.disabledError': 'This chat has been disabled', // TODO
+    'chat.chatbotError': 'A apărut o eroare cu chatbot-ul site-ului. Vă rugăm să încercați din nou.',
 
     'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
     'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO

@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Accesso annullato o cookie disabilitati su questo browser',
     'chat.notPersistentError': 'L\'autenticazione non sarà ricordata a causa di impostazioni di privacy restrittive. Abilita i cookie per Now4real nel tuo browser per evitare che ciò accada.',
     'chat.disabledError': 'Questa chat è stata disabilitata',
+    'chat.chatbotError': 'Si è verificato un errore con il chatbot del sito. Riprova per favore.',
 
     'chat.signinRequired': '<a>Accedi</a> per chattare',
     // keep <a> and </a> unchanged and surrounding the translation of "Sign in"

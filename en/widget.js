@@ -137,6 +137,7 @@ export default {
     'chat.abortedError': 'Sign-in canceled or cookies disabled on this browser',
     'chat.notPersistentError': 'The authentication will not be remembered due to your restricted privacy settings. Please enable cookies for Now4real in your browser to prevent this from happening.',
     'chat.disabledError': 'This chat has been disabled',
+    'chat.chatbotError': 'An error occurred with the site\'s chatbot. Please try again.',
 
     'chat.disabledByAdmin': 'This chat has been disabled by the admin',
     'chat.disabledByModerator': 'This chat has been disabled by a moderator',
