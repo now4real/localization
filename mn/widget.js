@@ -258,7 +258,6 @@ export default {
     'mute-modal.body.update': 'Блоклох хугацааг шинэчлэх:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'Хэрэглэгчийг хүссэн үедээ блокоос гаргаж болно.',
     'mute-modal.body.deleteInfo': 'Дууг хаасан тохиолдолд хэрэглэгч бусад мессежийг нийтлэх боломжгүй болно. Та хүссэн үедээ хэрэглэгчийн дууг асааж болно.',
 
     'mute-modal.body.deleteAlert': 'Та хэрэглэгчийг блокоос гаргалаа',

@@ -258,7 +258,6 @@ export default {
     'mute-modal.body.update': 'Aktualizacja okresu wyciszenia:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
     'mute-modal.body.deleteInfo': 'Jeśli wyciszony, użytkownik nie będzie mógł publikować innych wiadomości. Możesz wyłączyć wyciszenie użytkownika, kiedy tylko chcesz.',
 
     'mute-modal.body.deleteAlert': 'Uwalniasz użytkownika',

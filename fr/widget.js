@@ -258,7 +258,6 @@ export default {
     'mute-modal.body.update': 'Modifier la période de sourdine :',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'Vous pouvez désactiver le mode sourdine de l\'utilisateur quand vous le souhaitez.',
     'mute-modal.body.deleteInfo': 'S\'il est désactivé, l\'utilisateur ne pourra pas publier d\'autres messages. Vous pouvez réactiver l\'utilisateur quand vous le souhaitez.',
 
     'mute-modal.body.deleteAlert': 'Vous désactivez le mode sourdine pour l\'utilisateur',

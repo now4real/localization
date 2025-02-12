@@ -258,7 +258,6 @@ export default {
     'mute-modal.body.update': 'Променете периода на заглушаване:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'Можете да премахнете заглушаването на посетителя когато пожелаете.',
     'mute-modal.body.deleteInfo': 'Ако е изключен, потребителят няма да може да публикува други съобщения. Можете да включите звука на потребителя, когато пожелаете.',
 
     'mute-modal.body.deleteAlert': 'Ще премахнете заглушаването на посетителя',

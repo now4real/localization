@@ -258,7 +258,6 @@ export default {
     'mute-modal.body.update': 'Uppdatera tystnings period:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'Du kan avtysta användaren när du vill.',
     'mute-modal.body.deleteInfo': 'Om ljudet är avstängt kommer användaren inte att kunna publicera andra meddelanden. Du kan ta bort ljudet från användaren när du vill.',
 
     'mute-modal.body.deleteAlert': 'Du avtystar användaren',
