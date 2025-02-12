@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
     'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+    'chat.messageDeleted.byAI': 'Mesaj șters de AI după raportare',
     'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
     'chat.messageHidden.byYou': 'Hidden by you', // TODO
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Prea repede ...\nTe rog nu inunda chat-ul cu prea multe mesaje',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Imi pare rau... Acest mesaj este considerat nepotrivit',
+    'chat.blockedError': 'Ne pare rău, mesajul dvs. pare inadecvat. <a>Află mai multe</a>',
     'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
     'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
     'chat.disabledError': 'This chat has been disabled', // TODO

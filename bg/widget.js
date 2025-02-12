@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Съобщението е изтрито от модератор',
     'chat.messageDeleted.byAdmin': 'Съобщението е изтрито от администратор',
     'chat.messageDeleted.byNow4real': 'Съобщението е изтрито от администратора на Now4real',
+    'chat.messageDeleted.byAI': 'Съобщението е изтрито от AI след докладване',
     'chat.messageDeleted.unknown': 'Съобщението е изтрито',
 
     'chat.messageHidden.byYou': 'Скрити от вас',
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Пишете прекалено бързо...\nНедейте да препълвате чата!',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Съжаляваме... Това съобщение изглежда неподходящо',
+    'chat.blockedError': 'Съжаляваме... Това съобщение изглежда неподходящо. <a>Научете повече</a>',
     'chat.abortedError': 'Вписването е отказано или бисквитките на браузера са изключени',
     'chat.notPersistentError': 'Автентикацията няма да се запомни заради ограничените настройки за поверителност. Разрешете бисквитките за Now4real във вашия браузер, за да решите този проблем.',
     'chat.disabledError': 'Чатът е деактивиран',

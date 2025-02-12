@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Meddelande raderat av en moderator',
     'chat.messageDeleted.byAdmin': 'Meddelande raderat av administratören',
     'chat.messageDeleted.byNow4real': 'Meddelande raderat av administratören',
+    'chat.messageDeleted.byAI': 'Meddelande raderat av AI efter anmälan',
     'chat.messageDeleted.unknown': 'Meddelande raderat',
 
     'chat.messageHidden.byYou': 'Gömd av dig',
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Du är lite för snabb...\nSnälla översvämma inte chatten',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Ursäkta, men... det här meddelandet verkar olämpligt',
+    'chat.blockedError': 'Ledsen, ditt meddelande verkar olämpligt. <a>Läs mer</a>',
     'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',
     'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
     'chat.disabledError': 'Den här chatten har inaktiverats',

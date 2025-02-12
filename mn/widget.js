@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Модератор зурвасыг устгасан',
     'chat.messageDeleted.byAdmin': 'Админ зурвасыг устгасан',
     'chat.messageDeleted.byNow4real': 'Админ зурвасыг устгасан',
+    'chat.messageDeleted.byAI': 'Тайлан гаргасны дараа AI мессежийг устгасан',
     'chat.messageDeleted.unknown': 'Зурвас устсан',
 
     'chat.messageHidden.byYou': 'Чамаас нуусан',
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Хэт хурдан бичиж байна...\nЧаатыг дүүргэж болохгүй',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Уучлаарай... Зурвас тохиромжгүй хэллэгтэй байна',
+    'chat.blockedError': 'Уучлаарай, таны зурвас тохиромжгүй байна. <a>Илүү ихийг унших</a>',
     'chat.abortedError': 'Энэ браузераас Нэвтрэхийг хориглосон эсвэл cookie-г идэвхгүй болгосон байна',
     'chat.notPersistentError': 'Нууцлалыг хадгалах үүднээс таних явцыг сануулахгүй. Байдлыг давтахгүйн тул браузер дээрээ Now4real-ийн cookie-г идэвхжүүлнэ үү.',
     'chat.disabledError': 'Энэ чаатыг идэвхгүй болгосон',

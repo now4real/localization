@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Message supprimé par un modérateur',
     'chat.messageDeleted.byAdmin': 'Message supprimé par l\'administrateur',
     'chat.messageDeleted.byNow4real': 'Message supprimé par l\'administrateur',
+    'chat.messageDeleted.byAI': 'Message supprimé par l’IA après signalement',
     'chat.messageDeleted.unknown': 'Message supprimé',
 
     'chat.messageHidden.byYou': 'Caché par toi',
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Vous êtes un peu trop rapide...\nVeuillez ne pas inonder la discussion',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Désolé... Ce message semble inapproprié',
+    'chat.blockedError': 'Désolé, votre message semble inapproprié. <a>En savoir plus</a>',
     'chat.abortedError': 'Connexion annulée ou cookies désactivés sur ce navigateur',
     'chat.notPersistentError': 'L\'authentification ne sera pas mémorisée en raison de vos paramètres de confidentialité restreints. Veuillez activer les cookies pour Now4real dans votre navigateur pour éviter que cela ne se produise.',
     'chat.disabledError': 'Cette discussion a été désactivée',

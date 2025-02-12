@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Wiadomość usunięta przez moderatora',
     'chat.messageDeleted.byAdmin': 'Wiadomość usunięta przez administratora',
     'chat.messageDeleted.byNow4real': 'Wiadomość usunięta przez administratora',
+    'chat.messageDeleted.byAI': 'Wiadomość usunięta przez AI po zgłoszeniu',
     'chat.messageDeleted.unknown': 'Wiadomość usunięta',
 
     'chat.messageHidden.byYou': 'Ukryty przez Ciebie',
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Jesteś trochę za szybki...\nProsimy nie zalewać czatu',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Przepraszamy... Ta wiadomość wydaje się nieodpowiednia',
+    'chat.blockedError': 'Przepraszamy, Twoja wiadomość wydaje się nieodpowiednia. <a>Dowiedz się więcej</a>',
     'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',
     'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
     'chat.disabledError': 'Ten czat został wyłączony',

@@ -123,6 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
     'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+    'chat.messageDeleted.byAI': 'Mensagem excluída pela IA após denúncia',
     'chat.messageDeleted.unknown': 'Message deleted', // TODO
 
     'chat.messageHidden.byYou': 'Hidden by you', // TODO
@@ -133,7 +134,7 @@ export default {
     'chat.tooFrequentError': 'Você está sendo\' rápido demais... \nPor favor não congestione o bate-papo',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Desculpe ... Esta mensagem parece inadequada',
+    'chat.blockedError': 'Desculpe, sua mensagem parece imprópria. <a>Saiba mais</a>',
     'chat.abortedError': 'Login cancelado ou cookies desativados neste navegador',
     'chat.notPersistentError': 'A autenticação não será lembrada devido às suas configurações de privacidade restritas. Ative os cookies para Now4real no seu navegador para evitar que isso aconteça.',
     'chat.disabledError': 'This chat has been disabled', // TODO
