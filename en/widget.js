@@ -123,7 +123,7 @@ export default {
     'chat.messageDeleted.byModerator': 'Message deleted by a moderator',
     'chat.messageDeleted.byAdmin': 'Message deleted by the admin',
     'chat.messageDeleted.byNow4real': 'Message deleted by the admin',
-    'chat.messageDeleted.byAI': 'Deleted by AI after report',
+    'chat.messageDeleted.byAI': 'Message deleted by AI after report',
     'chat.messageDeleted.unknown': 'Message deleted',
 
     'chat.messageHidden.byYou': 'Hidden by you',
