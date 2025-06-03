@@ -157,6 +157,9 @@ export default {
 
     'chat.userIdenticon': 'User fingerprint',
 
+    'chat.showMoreBtn': 'Show more',
+    'chat.showLessBtn': 'Show less',
+
     /**
      * Presence
      */

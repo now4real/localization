@@ -156,6 +156,9 @@ export default {
     'chat.showBtn': 'Show', // means "show this message" // TODO
 
     'chat.userIdenticon': 'User fingerprint', // TODO
+    
+    'chat.showMoreBtn': 'Arată mai mult',
+    'chat.showLessBtn': 'Arată mai puțin',
 
     /**
      * Presence

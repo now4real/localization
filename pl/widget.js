@@ -156,6 +156,9 @@ export default {
     'chat.showBtn': 'Pokaż', // means "show this message"
 
     'chat.userIdenticon': 'Odcisk użytkownika',
+    
+    'chat.showMoreBtn': 'Pokaż więcej',
+    'chat.showLessBtn': 'Pokaż mniej',
 
     /**
      * Presence

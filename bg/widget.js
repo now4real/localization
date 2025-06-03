@@ -157,6 +157,9 @@ export default {
 
     'chat.userIdenticon': 'Пръстов отпечатък на потребителя',
 
+    'chat.showMoreBtn': 'Покажи повече',
+    'chat.showLessBtn': 'Покажи по-малко',
+
     /**
      * Presence
      */

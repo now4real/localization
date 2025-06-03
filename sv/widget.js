@@ -156,6 +156,9 @@ export default {
     'chat.showBtn': 'Visa', // means "show this message"
 
     'chat.userIdenticon': 'Användarens fingeravtryck',
+    
+    'chat.showMoreBtn': 'Visa mer',
+    'chat.showLessBtn': 'Visa mindre',
 
     /**
      * Presence

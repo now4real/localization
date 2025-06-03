@@ -156,6 +156,9 @@ export default {
     'chat.showBtn': 'Үзүүлэх', // means "show this message"
 
     'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
+    
+    'chat.showMoreBtn': 'Илүү ихийг үзүүлэх',
+    'chat.showLessBtn': 'Бага үзүүлэх',
 
     /**
      * Presence
