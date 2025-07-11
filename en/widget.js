@@ -126,6 +126,8 @@ export default {
     'chat.messageDeleted.byAI': 'Message deleted by AI after report',
     'chat.messageDeleted.unknown': 'Message deleted',
 
+    'chat.messageEdited': 'Edited',
+
     'chat.messageHidden.byYou': 'Hidden by you',
 
     'chat.placeholder': 'Type a message',
@@ -139,6 +141,7 @@ export default {
     'chat.notPersistentError': 'The authentication will not be remembered due to your restricted privacy settings. Please enable cookies for Now4real in your browser to prevent this from happening.',
     'chat.disabledError': 'This chat has been disabled',
     'chat.chatbotError': 'An error occurred with the site\'s chatbot. Please try again.',
+    'chat.loadMoreError': 'Unable to load older messages',
 
     'chat.disabledByAdmin': 'This chat has been disabled by the admin',
     'chat.disabledByModerator': 'This chat has been disabled by a moderator',
@@ -154,6 +157,7 @@ export default {
     'chat.reportBtn': 'Report', // means "report this message"
     'chat.hideBtn': 'Hide', // means "hide this message"
     'chat.showBtn': 'Show', // means "show this message"
+    'chat.editBtn': 'Edit', // means "edit this message"
 
     'chat.userIdenticon': 'User fingerprint',
 

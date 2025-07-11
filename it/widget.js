@@ -126,6 +126,8 @@ export default {
     'chat.messageDeleted.byAI': 'Messaggio cancellato dall\'IA a seguito di una segnalazione',
     'chat.messageDeleted.unknown': 'Messaggio cancellato',
 
+    'chat.messageEdited': 'Modificato',
+
     'chat.messageHidden.byYou': 'Nascosto da te',
 
     'chat.placeholder': 'Scrivi un messaggio',
@@ -139,6 +141,7 @@ export default {
     'chat.notPersistentError': 'L\'autenticazione non sarà ricordata a causa di impostazioni di privacy restrittive. Abilita i cookie per Now4real nel tuo browser per evitare che ciò accada.',
     'chat.disabledError': 'Questa chat è stata disabilitata',
     'chat.chatbotError': 'Si è verificato un errore con il chatbot del sito. Riprova per favore.',
+    'chat.loadMoreError': 'Non è stato possibile caricare i messaggi precedenti',
 
     'chat.signinRequired': '<a>Accedi</a> per chattare',
     // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
@@ -154,6 +157,7 @@ export default {
     'chat.reportBtn': 'Segnala', // means "report this message"
     'chat.hideBtn': 'Nascondi', // means "hide this message"
     'chat.showBtn': 'Mostra', // means "show this message"
+    'chat.editBtn': 'Modifica', // means "edit this message"
 
     'chat.userIdenticon': 'Fingerprint dell\'utente',
 
