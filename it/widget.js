@@ -142,12 +142,14 @@ export default {
     'chat.disabledError': 'Questa chat è stata disabilitata',
     'chat.chatbotError': 'Si è verificato un errore con il chatbot del sito. Riprova per favore.',
     'chat.loadMoreError': 'Non è stato possibile caricare i messaggi precedenti',
-
-    'chat.signinRequired': '<a>Accedi</a> per chattare',
-    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+    'chat.editNotAuthorizedError': 'Questo messaggio non può essere modificato',
+    'chat.deleteNotAuthorizedError': 'Questo messaggio non può essere eliminato',
 
     'chat.disabledByAdmin': 'Questa chat è stata disabilitata dall\'amministratore',
     'chat.disabledByModerator': 'Questa chat è stata disabilitata da un moderatore',
+    'chat.signinRequired': '<a>Accedi</a> per chattare',
+    // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
+    
     'chat.viewOnly': 'Sola lettura',
 
     // below are the actions on messages that appear in a contextual menu

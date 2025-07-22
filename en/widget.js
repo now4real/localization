@@ -142,6 +142,8 @@ export default {
     'chat.disabledError': 'This chat has been disabled',
     'chat.chatbotError': 'An error occurred with the site\'s chatbot. Please try again.',
     'chat.loadMoreError': 'Unable to load older messages',
+    'chat.editNotAuthorizedError': 'This message cannot be edited',
+    'chat.deleteNotAuthorizedError': 'This message cannot be deleted',
 
     'chat.disabledByAdmin': 'This chat has been disabled by the admin',
     'chat.disabledByModerator': 'This chat has been disabled by a moderator',
