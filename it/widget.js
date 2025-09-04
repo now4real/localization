@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Disconnetti',
     'status-header.signin': 'Accedi',
     'status-header.editUserProfile': 'Modifica profilo',
+    'status-header.sounds': 'Suoni',
+    'status-header.soundsNote': 'Le notifiche sonore rimangono attive per alcuni minuti quando il tab va in background',
 
     'status-header.notRememberedLogin': 'Provvisoriamente',
     // means that the login status is temporary and will not be remembered next time

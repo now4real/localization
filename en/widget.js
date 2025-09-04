@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Sign out',
     'status-header.signin': 'Sign in',
     'status-header.editUserProfile': 'Edit profile',
+    'status-header.sounds': 'Sounds',
+    'status-header.soundsNote': 'Sound notifications remain active for a few minutes after the tab goes into the background',
 
     'status-header.notRememberedLogin': 'Not remembered',
     // means that the login status is temporary and will not be remembered next time
