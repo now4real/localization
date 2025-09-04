@@ -118,6 +118,9 @@ export default {
     // $N is a number and $A in a time unit taken from timeUnit
     // example: "Chat with other visitors in real time. Messages are public and vanish after 20 minutes. Be kind and have fun!"
 
+    'chat.welcomeMessageNoExpiration': 'Chat with other visitors in real time. Messages are public. Be kind and have fun!',
+    'chat.welcomeMessageNoExpirationJWT': 'Chat with other visitors in real time. Messages might be public. Be kind and have fun!',
+
     'chat.messageDeleted.byYou': 'You deleted this message',
     'chat.messageDeleted.byAuthor': 'Message deleted by the author',
     'chat.messageDeleted.byModerator': 'Message deleted by a moderator',
