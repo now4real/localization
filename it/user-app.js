@@ -31,7 +31,7 @@ export default {
     'emailSigninStep1.continue': 'Continua',
     'emailSigninStep1.newEmail': 'Utilizza un\'altra email',
 
-    'emailSigninStep1.invalidEmailError': 'La mail inserità è invalida',
+    'emailSigninStep1.invalidEmailError': 'L\'email inserita non è valida',
 
     /**
      * Email signin step 2
@@ -48,7 +48,7 @@ export default {
     'emailSigninStep2.confirm': 'Conferma',
 
     'emailSigninStep2.otpResendFeedback': 'Ti abbiamo inviato un nuovo codice',
-    'emailSigninStep2.invalidOtpError': 'Il codice inserito è invalido o scaduto',
+    'emailSigninStep2.invalidOtpError': 'Il codice inserito non è valido o è scaduto',
 
     /**
      * Email signin step 3
@@ -70,7 +70,7 @@ export default {
 
     'emailSigninStep3.continue': 'Continua',
 
-    'emailSigninStep3.invalidNameError': 'Il nome inserito è invalido',
+    'emailSigninStep3.invalidNameError': 'Il nome inserito non è valido',
 
     /**
      * Edit profile
@@ -104,7 +104,7 @@ export default {
     'noRegistrationSignin.ok': 'OK',
     'noRegistrationSignin.newNick': 'Utilizza un altro nickname',
 
-    'noRegistrationSignin.invalidNickError': 'Il nickname inserito è invalido',
+    'noRegistrationSignin.invalidNickError': 'Il nickname inserito non è valido',
 
     /**
      * Social and email signin
