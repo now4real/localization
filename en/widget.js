@@ -150,6 +150,8 @@ export default {
     'chat.editNotAuthorizedError': 'This message cannot be edited',
     'chat.deleteNotAuthorizedError': 'This message cannot be deleted',
 
+    'chat.copiedInfo': 'Message copied',
+
     'chat.disabledByAdmin': 'This chat has been disabled by the admin',
     'chat.disabledByModerator': 'This chat has been disabled by a moderator',
     'chat.signinRequired': '<a>Sign in</a> to chat',
@@ -159,6 +161,7 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Reply', // means "reply to this message"
+    'chat.copyBtn': 'Copy', // means "copy this message"
     'chat.deleteBtn': 'Delete', // means "delete this message"
     'chat.muteBtn': 'Mute', // means "mute this user"
     'chat.reportBtn': 'Report', // means "report this message"
