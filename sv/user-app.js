@@ -49,6 +49,7 @@ export default {
 
     'emailSigninStep2.otpResendFeedback': 'Vi har skickat en ny kod',
     'emailSigninStep2.invalidOtpError': 'Ogiltig eller utgången kod',
+    'emailSigninStep2.emailDeliveryError': 'Vi kunde inte leverera e-postmeddelandet med verifieringskoden. Kontrollera din skräppostmapp eller verifiera din adress innan du försöker igen.',
 
     /**
      * Email signin step 3

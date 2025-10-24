@@ -49,6 +49,7 @@ export default {
 
     'emailSigninStep2.otpResendFeedback': 'Шинэ код илгээсэн',
     'emailSigninStep2.invalidOtpError': 'Хүчингүй эсвэл хугацаа дууссан код байна',
+    'emailSigninStep2.emailDeliveryError': 'Баталгаажуулах кодыг илгээсэн имэйлийг хүргэж чадсангүй. Дахин оролдохоосоо өмнө Спам хавтасыг шалгаж эсвэл имэйл хаягаа шалгана уу.',
 
     /**
      * Email signin step 3

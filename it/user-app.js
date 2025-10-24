@@ -49,6 +49,7 @@ export default {
 
     'emailSigninStep2.otpResendFeedback': 'Ti abbiamo inviato un nuovo codice',
     'emailSigninStep2.invalidOtpError': 'Il codice inserito non è valido o è scaduto',
+    'emailSigninStep2.emailDeliveryError': 'Non siamo riusciti a recapitare l\'email con il codice di verifica. Controlla la cartella Spam o verifica il tuo indirizzo prima di riprovare.',
 
     /**
      * Email signin step 3

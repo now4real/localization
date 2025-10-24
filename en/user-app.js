@@ -49,6 +49,7 @@ export default {
 
     'emailSigninStep2.otpResendFeedback': 'We\'ve sent a new code',
     'emailSigninStep2.invalidOtpError': 'Invalid or expired code',
+    'emailSigninStep2.emailDeliveryError': 'We couldn\'t deliver the verification code email. Please check your Spam folder or verify your address before trying again.',
 
     /**
      * Email signin step 3

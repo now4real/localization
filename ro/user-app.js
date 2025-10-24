@@ -49,6 +49,7 @@ export default {
 
     'emailSigninStep2.otpResendFeedback': 'Ți-am trimis un cod nou',
     'emailSigninStep2.invalidOtpError': 'Cod invalid sau expirat',
+    'emailSigninStep2.emailDeliveryError': 'Nu am putut livra emailul cu codul de verificare. Verifică folderul Spam sau confirmă adresa înainte de a încerca din nou.',
 
     /**
      * Email signin step 3

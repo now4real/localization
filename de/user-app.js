@@ -49,6 +49,7 @@
 
     'emailSigninStep2.otpResendFeedback': 'Wir haben einen neuen Code gesendet.',
     'emailSigninStep2.invalidOtpError': 'Ungültiger oder abgelaufener Code',
+    'emailSigninStep2.emailDeliveryError': 'Wir konnten die E-Mail mit dem Bestätigungscode nicht zustellen. Prüfen Sie Ihren Spam-Ordner oder verifizieren Sie Ihre Adresse, bevor Sie es erneut versuchen.',
 
     /**
      * Email signin step 3

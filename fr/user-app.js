@@ -49,6 +49,7 @@
 
     'emailSigninStep2.otpResendFeedback': 'Nous avons envoyé un nouveau code',
     'emailSigninStep2.invalidOtpError': 'Code invalide ou expiré',
+    'emailSigninStep2.emailDeliveryError': 'Nous n\'avons pas pu vous envoyer l\'e-mail contenant le code de vérification. Vérifiez votre dossier Spam ou confirmez votre adresse avant de réessayer.',
 
     /**
      * Email signin step 3

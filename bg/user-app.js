@@ -49,6 +49,7 @@ export default {
 
     'emailSigninStep2.otpResendFeedback': 'Изпратихме ви нов код',
     'emailSigninStep2.invalidOtpError': 'Невалиден или изтекъл код',
+    'emailSigninStep2.emailDeliveryError': 'Не успяхме да доставим имейла с кода за верификация. Проверете папката Спам или потвърдете адреса си преди да опитате отново.',
 
     /**
      * Email signin step 3
