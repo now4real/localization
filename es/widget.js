@@ -36,7 +36,7 @@ export default {
     'commons.signedWith.linkedin': 'Registrado a través de LinkedIn',
     'commons.signedWith.email': 'Registrado a través de email',
     'commons.signedWith.jwt': 'Registrado en este sitio',
-    'commons.signedWith.noRegistration': 'Connectat en aquest xat',
+    'commons.signedWith.noRegistration': 'Conectado en este chat',
 
     'commons.close': 'Cerrar', // close button
 
@@ -52,9 +52,9 @@ export default {
      * Menu
      */
     'status-header.options': 'Opciones',
-    'status-header.flushChat': 'Flush this chat', // TODO
-    'status-header.disableChat': 'Disable this chat', // TODO
-    'status-header.enableChat': 'Enable this chat', // TODO
+    'status-header.flushChat': 'Vaciar este chat',
+    'status-header.disableChat': 'Desactivar este chat',
+    'status-header.enableChat': 'Activar este chat',
     'status-header.createPoll': 'Crear encuesta',
     'status-header.terminatePoll': 'Finalizar encuesta',
     'status-header.removePoll': 'Eliminar encuesta',
@@ -63,13 +63,13 @@ export default {
     'status-header.terms': 'Términos del Servicio',
     'status-header.privacy': 'Política de Privacidad',
     'status-header.signout': 'Cerrar Sesión',
-    'status-header.signin': 'Sign in', // TODO
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.signin': 'Iniciar sesión',
+    'status-header.editUserProfile': 'Editar perfil',
 
     'status-header.notRememberedLogin': 'Sin recordar',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'Para cambiar tu nombre visible y foto, <a>edita tu perfil</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -108,28 +108,28 @@ export default {
     /**
      * Chat
      */
-    'chat.attentionGrabber1': '⚡ Xateja amb els $N altres visitants en línia ara!',
-    'chat.attentionGrabber2': '⚡ Xateja amb els altres visitants en línia ara!',
+    'chat.attentionGrabber1': '⚡ ¡Chatea con los $N otros visitantes en línea ahora!',
+    'chat.attentionGrabber2': '⚡ ¡Chatea con los demás visitantes en línea ahora!',
     // $N is a number
     // example: "⚡ Chat with the 2 other visitors online now!"
 
-    'chat.welcomeMessage': 'Xateja amb altres visitants en temps real. Els missatges són públics i desapareixen després de $N $A. Sigues amable i diverteix-te!',
-    'chat.welcomeMessageJWT': 'Xateja amb altres visitants en temps real. Els missatges poden ser públics i desapareixen després de $N $A. Sigues amable i diverteix-te!',
+    'chat.welcomeMessage': 'Chatea con otros visitantes en tiempo real. Los mensajes son públicos y desaparecen después de $N $A. Sé amable y diviértete!',
+    'chat.welcomeMessageJWT': 'Chatea con otros visitantes en tiempo real. Los mensajes pueden ser públicos y desaparecen después de $N $A. Sé amable y diviértete!',
     // $N is a number and $A in a time unit taken from timeUnit
     // example: "Chat with other visitors in real time. Messages are public and vanish after 20 minutes. Be kind and have fun!"
 
-    'chat.welcomeMessageNoExpiration': 'Xateja amb altres visitants en temps real. Els missatges són públics. Sigues amable i diverteix-te!',
-    'chat.welcomeMessageNoExpirationJWT': 'Xateja amb altres visitants en temps real. Els missatges poden ser públics. Sigues amable i diverteix-te!',
+    'chat.welcomeMessageNoExpiration': 'Chatea con otros visitantes en tiempo real. Los mensajes son públicos. Sé amable y diviértete!',
+    'chat.welcomeMessageNoExpirationJWT': 'Chatea con otros visitantes en tiempo real. Los mensajes pueden ser públicos. Sé amable y diviértete!',
 
-    'chat.messageDeleted.byYou': 'You deleted this message', // TODO
-    'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
-    'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
-    'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
-    'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
-    'chat.messageDeleted.byAI': 'Missatge eliminat per la IA després del report',
-    'chat.messageDeleted.unknown': 'Message deleted', // TODO
+    'chat.messageDeleted.byYou': 'Has eliminado este mensaje',
+    'chat.messageDeleted.byAuthor': 'Mensaje eliminado por el autor',
+    'chat.messageDeleted.byModerator': 'Mensaje eliminado por un moderador',
+    'chat.messageDeleted.byAdmin': 'Mensaje eliminado por el administrador',
+    'chat.messageDeleted.byNow4real': 'Mensaje eliminado por el administrador',
+    'chat.messageDeleted.byAI': 'Mensaje eliminado por la IA tras la denuncia',
+    'chat.messageDeleted.unknown': 'Mensaje eliminado',
 
-    'chat.messageHidden.byYou': 'Hidden by you', // TODO
+    'chat.messageHidden.byYou': 'Oculto por ti',
 
     'chat.placeholder': 'Escribe un mensaje',
     'chat.postBtn': 'Publicar', // means "publish this message"
@@ -137,14 +137,14 @@ export default {
     'chat.tooFrequentError': 'Vas un poco rápido...\nPor favor, no llenes el chat',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
 
-    'chat.blockedError': 'Ho sentim, el teu missatge sembla inapropiat. <a>Aprèn més</a>',
+    'chat.blockedError': 'Lo sentimos, tu mensaje parece inapropiado. <a>Más información</a>',
     'chat.abortedError': 'Inicio de sesión cancelado o cookies desactivadas en este navegador',
     'chat.notPersistentError': 'La autenticación no será recordada debido a tu configuración de privacidad restringida. Por favor, habilita las cookies para Now4real en tu navegador para evitar que esto suceda.',
-    'chat.disabledError': 'This chat has been disabled', // TODO
-    'chat.chatbotError': 'S\'ha produït un error amb el chatbot del lloc. Si us plau, torna-ho a provar.',
+    'chat.disabledError': 'Este chat ha sido desactivado',
+    'chat.chatbotError': 'Se ha producido un error con el chatbot del sitio. Por favor, inténtalo de nuevo.',
 
-    'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
-    'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
+    'chat.disabledByAdmin': 'Este chat ha sido desactivado por el administrador',
+    'chat.disabledByModerator': 'Este chat ha sido desactivado por un moderador',
     'chat.signinRequired': '<a>Inicia sesión</a> para hablar',
     // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
@@ -153,15 +153,15 @@ export default {
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Responder', // means "reply to this message"
     'chat.deleteBtn': 'Eliminar', // means "delete this message"
-    'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.muteBtn': 'Silenciar',
     'chat.reportBtn': 'Denunciar', // means "report this message"
-    'chat.hideBtn': 'Hide', // means "hide this message" // TODO
-    'chat.showBtn': 'Show', // means "show this message" // TODO
+    'chat.hideBtn': 'Ocultar',
+    'chat.showBtn': 'Mostrar',
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Identificador del usuario',
     
-    'chat.showMoreBtn': 'Mostra més',
-    'chat.showLessBtn': 'Mostra menys',
+    'chat.showMoreBtn': 'Mostrar más',
+    'chat.showLessBtn': 'Mostrar menos',
 
     /**
      * Presence
@@ -193,8 +193,8 @@ export default {
     /**
      * GIF-picker labels
      */
-    'gif-picker.search': 'Cercar GIF',
-    'gif-picker.retry': 'Error al cargar los GIFs. <a>Torna a intentar</a>',
+    'gif-picker.search': 'Buscar GIF',
+    'gif-picker.retry': 'Error al cargar los GIF. <a>Inténtalo de nuevo</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "Try again"
 
     /**
@@ -251,47 +251,47 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Mute User', // TODO
+    'mute-modal.title': 'Silenciar usuario',
 
-    'mute-modal.header': 'User $U has been muted until $E', // TODO
+    'mute-modal.header': 'El usuario $U ha sido silenciado por $E',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-    'mute-modal.headerForever': 'User $U has been muted', // TODO
+    'mute-modal.headerForever': 'El usuario $U ha sido silenciado',
 
-    'mute-modal.body.set': 'Mute user $U for:', // TODO
+    'mute-modal.body.set': 'Silenciar al usuario $U durante:',
     // example: "Mute user Ben for:" followed by input fields with "3 days"
 
-    'mute-modal.body.update': 'Update mute period:', // TODO
+    'mute-modal.body.update': 'Actualizar periodo de silencio:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.', // TODO
+    'mute-modal.body.deleteInfo': 'Si está silenciado, el usuario no podrá publicar más mensajes. Puedes quitar el silencio cuando quieras.',
 
-    'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+    'mute-modal.body.deleteAlert': 'Vas a quitar el silencio al usuario',
 
-    'mute-modal.button': 'Confirm', // TODO
+    'mute-modal.button': 'Confirmar',
 
     /**
      * Hide/Show dialog
      */
-    'hide-modal.hideTitle': 'Hide Messages', // TODO
-    'hide-modal.showTitle': 'Show Messages', // TODO
+    'hide-modal.hideTitle': 'Ocultar mensajes',
+    'hide-modal.showTitle': 'Mostrar mensajes',
 
-    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).', // TODO
+    'hide-modal.hideHeader': 'Ocultar todos los mensajes publicados por $U (no sabrá que los has ocultado).',
     // example: "Hide all messages posted by Ben (they won't know you have muted them)."
 
-    'hide-modal.showHeader': 'Show again messages posted by $U.', // TODO
+    'hide-modal.showHeader': 'Volver a mostrar los mensajes publicados por $U.',
     // example: "Show again messages posted by Ben."
 
-    'hide-modal.hideInfo': 'You can show them again whenever you want.', // TODO
+    'hide-modal.hideInfo': 'Puedes volver a mostrarlos cuando quieras.',
 
-    'hide-modal.button': 'Confirm', // TODO
+    'hide-modal.button': 'Confirmar',
 
     /**
      * Confirm dialog
      */
-    'confirmation-modal.title': 'Confirm', // TODO
-    'confirmation-modal.ok': 'Yes', // TODO
-    'confirmation-modal.cancel': 'No', // TODO
+    'confirmation-modal.title': 'Confirmar',
+    'confirmation-modal.ok': 'Sí',
+    'confirmation-modal.cancel': 'No',
 
     /**
      * Report dialog
@@ -333,7 +333,7 @@ export default {
      * Poll dialog
      */
     'poll-modal.title': 'Encuesta',
-    'poll-modal.titleClosed': 'Enquesta tancada',
+    'poll-modal.titleClosed': 'Encuesta cerrada',
 
     'poll-modal.vote': 'voto',
     'poll-modal.votes': 'votos',
@@ -343,17 +343,17 @@ export default {
 
     'poll-modal.sendVoteButton': 'Votar',
     'poll-modal.revokeVoteButton': 'Revocar voto',
-    'poll-modal.viewVotesButton': 'Resultats',
+    'poll-modal.viewVotesButton': 'Resultados',
 
     /**
      * Flush chat confirm dialog
      */
-    'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+    'flush-chat-confirmation-modal.message': '¿Seguro que quieres vaciar este chat?',
 
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+    'disable-chat-confirmation-modal.message': '¿Seguro que quieres desactivar este chat?',
 
     /**
      * Terminate poll confirm dialog

@@ -5,7 +5,7 @@
     'socialLoginTitle': 'Inicio de sesión social de Now4real',
     'noRegLoginTitle': 'Inicio de sesión en Now4real',
     'emailLoginTitle': 'Inicio de sesión por email de Now4real',
-    'whiteLabelLoginTitle': 'Inicio de sesión al xat',
+    'whiteLabelLoginTitle': 'Inicio de sesión en el chat',
     'editProfileTitle': 'Editar tu perfil - Now4real',
     'whiteLabelEditProfileTitle': 'Editar tu perfil',
 
@@ -13,7 +13,7 @@
     'sessionExpiredError': 'La sesión ha caducado. Por favor, comienza de nuevo.',
     'recaptchaError': '¡Oops! Parece que eres un robot',
     'sendThrottlingError': 'Debes esperar al menos $N minutos desde el email anterior antes de obtener un nuevo código. Inténtalo de nuevo más tarde.',
-    'noOpenerError': 'No es pot procedir amb l\'autenticació. Torna-ho a provar o canvia el navegador.',
+    'noOpenerError': 'No se puede proceder con la autenticación. Inténtalo de nuevo o cambia de navegador.',
 
     'n4rTermsAndPrivacy': 'Haz click en “$B” para aceptar los <a1>Términos del Servicio</a1> y la <a2>Política de Privacidad</a2> de Now4real',
     // $B is the button text
@@ -29,7 +29,7 @@
     'emailSigninStep1.emailPlaceholder': 'Email',
 
     'emailSigninStep1.continue': 'Continuar',
-    'emailSigninStep1.newEmail': 'Utilitzeu un altre email',
+    'emailSigninStep1.newEmail': 'Utiliza otro email',
 
     'emailSigninStep1.invalidEmailError': 'Email inválido',
 
