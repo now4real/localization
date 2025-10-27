@@ -3,15 +3,15 @@
 | Language                 | `Widget`                 | `User App`               | `Email`                  |
 | -------------------------| -------------------------| -------------------------| -------------------------|
 | 🇧🇬 Bulgarian `bg`         | ✅                        | ✅                        | ✅                        |
-| 🇩🇪 German `de`            | ⚠️                       | ✅                        | ✅                        |
+| 🇩🇪 German `de`            | ✅                        | ✅                        | ✅                        |
 | 🇺🇸 English `en`           | ✅                        | ✅                        | ✅                        |
 | 🇪🇸 Spanish `es`           | ✅                        | ✅                        | ✅                        |
 | 🇫🇷 French `fr`            | ✅                        | ✅                        | ✅                        |
 | 🇮🇹 Italian `it`           | ✅                        | ✅                        | ✅                        |
 | 🇲🇳 Mongolian `mn`         | ✅                        | ✅                        | ✅                        |
 | 🇵🇱 Polish `pl`            | ✅                        | ✅                        | ✅                        |
-| 🇵🇹 Portuguese `pt`        | ⚠️                       | ✅                        | ✅                        |
-| 🇷🇴 Romanian `ro`          | ⚠️                       | ✅                        | ✅                        |
+| 🇵🇹 Portuguese `pt`        | ✅                        | ✅                        | ✅                        |
+| 🇷🇴 Romanian `ro`          | ✅                        | ✅                        | ✅                        |
 | 🇸🇻 Swedish `sv`           | ✅                        | ✅                        | ✅                        |
 
 ✅ translation completed  

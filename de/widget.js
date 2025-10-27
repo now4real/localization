@@ -52,9 +52,9 @@ export default {
      * Menu
      */
     'status-header.options': 'Optionen',
-    'status-header.flushChat': 'Flush this chat', // TODO
-    'status-header.disableChat': 'Disable this chat', // TODO
-    'status-header.enableChat': 'Enable this chat', // TODO
+    'status-header.flushChat': 'Diesen Chat leeren',
+    'status-header.disableChat': 'Diesen Chat deaktivieren',
+    'status-header.enableChat': 'Diesen Chat aktivieren',
     'status-header.createPoll': 'Umfrage erstellen',
     'status-header.terminatePoll': 'Umfrage beenden',
     'status-header.removePoll': 'Umfrage entfernen',
@@ -63,13 +63,13 @@ export default {
     'status-header.terms': 'Nutzungsbedingungen',
     'status-header.privacy': 'Datenschutz-Bestimmungen',
     'status-header.signout': 'Ausloggen',
-    'status-header.signin': 'Sign in', // TODO
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.signin': 'Anmelden',
+    'status-header.editUserProfile': 'Profil bearbeiten',
 
     'status-header.notRememberedLogin': 'Nicht gespeichert',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'Um Ihren Anzeigenamen und Ihr Bild zu ändern, <a>bearbeiten Sie Ihr Profil</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -121,15 +121,15 @@ export default {
     'chat.welcomeMessageNoExpiration': 'Chatte in Echtzeit mit anderen Besuchern. Nachrichten sind öffentlich. Sei freundlich und hab Spaß!',
     'chat.welcomeMessageNoExpirationJWT': 'Chatte in Echtzeit mit anderen Besuchern. Nachrichten könnten öffentlich sein. Sei freundlich und hab Spaß!',
 
-    'chat.messageDeleted.byYou': 'You deleted this message', // TODO
-    'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
-    'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
-    'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
-    'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+    'chat.messageDeleted.byYou': 'Sie haben diese Nachricht gelöscht',
+    'chat.messageDeleted.byAuthor': 'Nachricht vom Autor gelöscht',
+    'chat.messageDeleted.byModerator': 'Nachricht von einem Moderator gelöscht',
+    'chat.messageDeleted.byAdmin': 'Nachricht vom Admin gelöscht',
+    'chat.messageDeleted.byNow4real': 'Nachricht vom Admin gelöscht',
     'chat.messageDeleted.byAI': 'Nachricht wurde von KI nach Meldung gelöscht',
-    'chat.messageDeleted.unknown': 'Message deleted', // TODO
+    'chat.messageDeleted.unknown': 'Nachricht gelöscht',
 
-    'chat.messageHidden.byYou': 'Hidden by you', // TODO
+    'chat.messageHidden.byYou': 'Von Ihnen ausgeblendet',
 
     'chat.placeholder': 'Schreiben',
     'chat.postBtn': 'Post', // means "publish this message"
@@ -140,11 +140,11 @@ export default {
     'chat.blockedError': 'Entschuldigung... diese Nachricht scheint unangemessen zu sein. <a>Mehr erfahren</a>',
     'chat.abortedError': 'Anmelden abgebrochen oder Cookies in diesem Browser deaktiviert',
     'chat.notPersistentError': 'Die Authentifizierung wird aufgrund Ihrer eingeschränkten Datenschutzeinstellungen nicht gespeichert. Um dies zu verhindern, aktivieren Sie bitte die Cookies für Now4real in Ihrem Browser.',
-    'chat.disabledError': 'This chat has been disabled', // TODO
+    'chat.disabledError': 'Dieser Chat wurde deaktiviert',
     'chat.chatbotError': 'Ein Fehler ist beim Chatbot der Seite aufgetreten. Bitte versuchen Sie es erneut.',
 
-    'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
-    'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
+    'chat.disabledByAdmin': 'Dieser Chat wurde vom Admin deaktiviert',
+    'chat.disabledByModerator': 'Dieser Chat wurde von einem Moderator deaktiviert',
     'chat.signinRequired': '<a>Melden Sie sich an</a>, um zu chatten',
     // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
@@ -153,12 +153,12 @@ export default {
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Antworten', // means "reply to this message"
     'chat.deleteBtn': 'Löschen', // means "delete this message"
-    'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.muteBtn': 'Stummschalten',
     'chat.reportBtn': 'Melden', // means "report this message"
-    'chat.hideBtn': 'Hide', // means "hide this message" // TODO
-    'chat.showBtn': 'Show', // means "show this message" // TODO
+    'chat.hideBtn': 'Ausblenden',
+    'chat.showBtn': 'Einblenden',
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Benutzer-Fingerabdruck',
 
     'chat.showMoreBtn': 'Mehr anzeigen',
     'chat.showLessBtn': 'Weniger anzeigen',
@@ -251,47 +251,47 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Mute User', // TODO
+    'mute-modal.title': 'Benutzer stummschalten',
 
-    'mute-modal.header': 'User $U has been muted until $E', // TODO
+    'mute-modal.header': 'Benutzer $U wurde bis $E stummschaltet',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-    'mute-modal.headerForever': 'User $U has been muted', // TODO
+    'mute-modal.headerForever': 'Benutzer $U wurde stummschaltet',
 
-    'mute-modal.body.set': 'Mute user $U for:', // TODO
+    'mute-modal.body.set': 'Benutzer $U stummschalten für:',
     // example: "Mute user Ben for:" followed by input fields with "3 days"
 
-    'mute-modal.body.update': 'Update mute period:', // TODO
+    'mute-modal.body.update': 'Stummschaltungsdauer aktualisieren:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.', // TODO
+    'mute-modal.body.deleteInfo': 'Wenn stummgeschaltet, kann der Benutzer keine weiteren Nachrichten veröffentlichen. Sie können die Stummschaltung jederzeit aufheben.',
 
-    'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+    'mute-modal.body.deleteAlert': 'Sie heben die Stummschaltung des Benutzers auf',
 
-    'mute-modal.button': 'Confirm', // TODO
+    'mute-modal.button': 'Bestätigen',
 
     /**
      * Hide/Show dialog
      */
-    'hide-modal.hideTitle': 'Hide Messages', // TODO
-    'hide-modal.showTitle': 'Show Messages', // TODO
+    'hide-modal.hideTitle': 'Nachrichten ausblenden',
+    'hide-modal.showTitle': 'Nachrichten einblenden',
 
-    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).', // TODO
+    'hide-modal.hideHeader': 'Alle Nachrichten von $U ausblenden (der Benutzer erfährt nicht, dass Sie ihn stummgeschaltet haben).',
     // example: "Hide all messages posted by Ben (they won't know you have muted them)."
 
-    'hide-modal.showHeader': 'Show again messages posted by $U.', // TODO
+    'hide-modal.showHeader': 'Nachrichten von $U wieder einblenden.',
     // example: "Show again messages posted by Ben."
 
-    'hide-modal.hideInfo': 'You can show them again whenever you want.', // TODO
+    'hide-modal.hideInfo': 'Sie können sie jederzeit wieder einblenden.',
 
-    'hide-modal.button': 'Confirm', // TODO
+    'hide-modal.button': 'Bestätigen',
 
     /**
      * Confirm dialog
      */
-    'confirmation-modal.title': 'Confirm', // TODO
-    'confirmation-modal.ok': 'Yes', // TODO
-    'confirmation-modal.cancel': 'No', // TODO
+    'confirmation-modal.title': 'Bestätigen',
+    'confirmation-modal.ok': 'Ja',
+    'confirmation-modal.cancel': 'Nein',
 
     /**
      * Report dialog
@@ -348,12 +348,12 @@ export default {
     /**
      * Flush chat confirm dialog
      */
-    'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+    'flush-chat-confirmation-modal.message': 'Sind Sie sicher, dass Sie diesen Chat leeren möchten?',
 
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+    'disable-chat-confirmation-modal.message': 'Sind Sie sicher, dass Sie diesen Chat deaktivieren möchten?',
 
     /**
      * Terminate poll confirm dialog

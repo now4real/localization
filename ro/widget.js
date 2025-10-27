@@ -52,9 +52,9 @@ export default {
      * Menu
      */
     'status-header.options': 'Optiuni',
-    'status-header.flushChat': 'Flush this chat', // TODO
-    'status-header.disableChat': 'Disable this chat', // TODO
-    'status-header.enableChat': 'Enable this chat', // TODO
+    'status-header.flushChat': 'Golește acest chat',
+    'status-header.disableChat': 'Dezactivează acest chat',
+    'status-header.enableChat': 'Activează acest chat',
     'status-header.createPoll': 'Creează sondaj',
     'status-header.terminatePoll': 'Încheie sondaj',
     'status-header.removePoll': 'Șterge sondaj',
@@ -63,13 +63,13 @@ export default {
     'status-header.terms': 'Termene si conditii',
     'status-header.privacy': 'Politica de confidențialitate',
     'status-header.signout': 'Ieșire',
-    'status-header.signin': 'Sign in', // TODO
-    'status-header.editUserProfile': 'Edit profile', // TODO
+    'status-header.signin': 'Autentificare',
+    'status-header.editUserProfile': 'Editează profilul',
 
     'status-header.notRememberedLogin': 'Nu-mi amintesc',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>', // TODO
+    'status-header.editUserProfileModal': 'Pentru a-ți schimba numele afișat și poza, <a>editează profilul</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -121,15 +121,15 @@ export default {
     'chat.welcomeMessageNoExpiration': 'Chat cu alți vizitatori în timp real. Mesajele sunt publice. Fii amabil și distrează-te!',
     'chat.welcomeMessageNoExpirationJWT': 'Chat cu alți vizitatori în timp real. Mesajele ar putea fi publice. Fii amabil și distrează-te!',
 
-    'chat.messageDeleted.byYou': 'You deleted this message', // TODO
-    'chat.messageDeleted.byAuthor': 'Message deleted by the author', // TODO
-    'chat.messageDeleted.byModerator': 'Message deleted by a moderator', // TODO
-    'chat.messageDeleted.byAdmin': 'Message deleted by the admin', // TODO
-    'chat.messageDeleted.byNow4real': 'Message deleted by the admin', // TODO
+    'chat.messageDeleted.byYou': 'Ai șters acest mesaj',
+    'chat.messageDeleted.byAuthor': 'Mesaj șters de autor',
+    'chat.messageDeleted.byModerator': 'Mesaj șters de un moderator',
+    'chat.messageDeleted.byAdmin': 'Mesaj șters de administrator',
+    'chat.messageDeleted.byNow4real': 'Mesaj șters de administrator',
     'chat.messageDeleted.byAI': 'Mesaj șters de AI după raportare',
-    'chat.messageDeleted.unknown': 'Message deleted', // TODO
+    'chat.messageDeleted.unknown': 'Mesaj șters',
 
-    'chat.messageHidden.byYou': 'Hidden by you', // TODO
+    'chat.messageHidden.byYou': 'Ascuns de tine',
 
     'chat.placeholder': 'Scrie mesajul',
     'chat.postBtn': 'Publica', // means "publica mesajul tau"
@@ -140,12 +140,12 @@ export default {
     'chat.blockedError': 'Ne pare rău, mesajul dvs. pare inadecvat. <a>Află mai multe</a>',
     'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',
     'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
-    'chat.disabledError': 'This chat has been disabled', // TODO
+    'chat.disabledError': 'Acest chat a fost dezactivat',
     'chat.chatbotError': 'A apărut o eroare cu chatbot-ul site-ului. Vă rugăm să încercați din nou.',
 
-    'chat.disabledByAdmin': 'This chat has been disabled by the admin', // TODO
-    'chat.disabledByModerator': 'This chat has been disabled by a moderator', // TODO
-    'chat.signinRequired': '<a>Intra in</a> to chat',
+    'chat.disabledByAdmin': 'Acest chat a fost dezactivat de administrator',
+    'chat.disabledByModerator': 'Acest chat a fost dezactivat de un moderator',
+    'chat.signinRequired': '<a>Intra in</a> pentru a discuta',
     // keep <a> and </a> unchanged and surrounding the translation of "Sign in"
 
     'chat.viewOnly': 'Doar vizualizare',
@@ -153,12 +153,12 @@ export default {
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Raspunde', // means "reply to this message"
     'chat.deleteBtn': 'Stergere', // means "delete this message"
-    'chat.muteBtn': 'Mute', // means "mute this user" // TODO
+    'chat.muteBtn': 'Mutează', // means "mute this user"
     'chat.reportBtn': 'Raportează', // means "report this message"
-    'chat.hideBtn': 'Hide', // means "hide this message" // TODO
-    'chat.showBtn': 'Show', // means "show this message" // TODO
+    'chat.hideBtn': 'Ascunde', // means "hide this message"
+    'chat.showBtn': 'Arată', // means "show this message"
 
-    'chat.userIdenticon': 'User fingerprint', // TODO
+    'chat.userIdenticon': 'Amprentă utilizator',
     
     'chat.showMoreBtn': 'Arată mai mult',
     'chat.showLessBtn': 'Arată mai puțin',
@@ -237,7 +237,7 @@ export default {
      */
     'jwt-modal.title': 'Consimtamant',
 
-    'jwt-modal.header': 'Pentru a discuta trebuie sa accepti <a1>Termene si Servicii</a1> and the <a2>Politica de Confidentialitate</a2> de la acest site si Now4real',
+    'jwt-modal.header': 'Pentru a discuta trebuie sa accepti <a1>Termene si Servicii</a1> și <a2>Politica de Confidentialitate</a2> de la acest site și Now4real',
     // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
     // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
 
@@ -251,47 +251,47 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Mute User', // TODO
+    'mute-modal.title': 'Mutează utilizatorul',
 
-    'mute-modal.header': 'User $U has been muted until $E', // TODO
+    'mute-modal.header': 'Utilizatorul $U a fost redus la tăcere până la $E',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
 
-    'mute-modal.headerForever': 'User $U has been muted', // TODO
+    'mute-modal.headerForever': 'Utilizatorul $U a fost redus la tăcere',
 
-    'mute-modal.body.set': 'Mute user $U for:', // TODO
+    'mute-modal.body.set': 'Redu la tăcere utilizatorul $U pentru:',
     // example: "Mute user Ben for:" followed by input fields with "3 days"
 
-    'mute-modal.body.update': 'Update mute period:', // TODO
+    'mute-modal.body.update': 'Actualizează perioada de reducere la tăcere:',
     // example: "Update mute period:" followed by input fields with "5 days"
 
-    'mute-modal.body.deleteInfo': 'If muted, the user will not be able to publish other messages. You can unmute the user whenever you want.', // TODO
+    'mute-modal.body.deleteInfo': 'Dacă este redus la tăcere, utilizatorul nu va putea publica alte mesaje. Îi poți elimina restricția oricând.',
 
-    'mute-modal.body.deleteAlert': 'You are unmuting the user', // TODO
+    'mute-modal.body.deleteAlert': 'Înlături reducerea la tăcere a utilizatorului',
 
-    'mute-modal.button': 'Confirm', // TODO
+    'mute-modal.button': 'Confirmă',
 
     /**
      * Hide/Show dialog
      */
-    'hide-modal.hideTitle': 'Hide Messages', // TODO
-    'hide-modal.showTitle': 'Show Messages', // TODO
+    'hide-modal.hideTitle': 'Ascunde mesaje',
+    'hide-modal.showTitle': 'Arată mesaje',
 
-    'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).', // TODO
+    'hide-modal.hideHeader': 'Ascunde toate mesajele publicate de $U (nu va ști că le-ai ascuns).',
     // example: "Hide all messages posted by Ben (they won't know you have muted them)."
 
-    'hide-modal.showHeader': 'Show again messages posted by $U.', // TODO
+    'hide-modal.showHeader': 'Arată din nou mesajele publicate de $U.',
     // example: "Show again messages posted by Ben."
 
-    'hide-modal.hideInfo': 'You can show them again whenever you want.', // TODO
+    'hide-modal.hideInfo': 'Le poți afișa din nou oricând.',
 
-    'hide-modal.button': 'Confirm', // TODO
+    'hide-modal.button': 'Confirmă',
 
     /**
      * Confirm dialog
      */
-    'confirmation-modal.title': 'Confirm', // TODO
-    'confirmation-modal.ok': 'Yes', // TODO
-    'confirmation-modal.cancel': 'No', // TODO
+    'confirmation-modal.title': 'Confirmare',
+    'confirmation-modal.ok': 'Da',
+    'confirmation-modal.cancel': 'Nu',
 
     /**
      * Report dialog
@@ -348,12 +348,12 @@ export default {
     /**
      * Flush chat confirm dialog
      */
-    'flush-chat-confirmation-modal.message': 'Are you sure you want to flush this chat?', // TODO
+    'flush-chat-confirmation-modal.message': 'Sigur vrei să golești acest chat?',
 
     /**
      * Disable chat confirm dialog
      */
-    'disable-chat-confirmation-modal.message': 'Are you sure you want to disable this chat?', // TODO
+    'disable-chat-confirmation-modal.message': 'Sigur vrei să dezactivezi acest chat?',
 
     /**
      * Terminate poll confirm dialog
