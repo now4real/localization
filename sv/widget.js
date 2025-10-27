@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Logga ut',
     'status-header.signin': 'Logga in',
     'status-header.editUserProfile': 'Redigera profil',
+    'status-header.sounds': 'Ljud',
+    'status-header.soundsNote': 'Ljudaviseringar förblir aktiva i några minuter efter att fliken hamnar i bakgrunden',
 
     'status-header.notRememberedLogin': 'Sparas inte',
     // means that the login status is temporary and will not be remembered next time
@@ -128,6 +130,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Meddelande raderat av administratören',
     'chat.messageDeleted.byAI': 'Meddelande raderat av AI efter anmälan',
     'chat.messageDeleted.unknown': 'Meddelande raderat',
+    
+    'chat.messageEdited': 'Redigerad',
 
     'chat.messageHidden.byYou': 'Gömd av dig',
 
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'Autentiseringen sparas inte på grund av dina begränsade dataskyddsinställningar. För att förhindra detta, vänligen aktivera kakorna (cookies) för Now4real i din webbläsare.',
     'chat.disabledError': 'Den här chatten har inaktiverats',
     'chat.chatbotError': 'Ett fel inträffade med webbplatsens chatbot. Försök igen.',
+    'chat.loadMoreError': 'Det gick inte att läsa in äldre meddelanden',
+    'chat.editNotAuthorizedError': 'Detta meddelande kan inte redigeras',
+    'chat.deleteNotAuthorizedError': 'Detta meddelande kan inte raderas',
+
+    'chat.copiedInfo': 'Meddelandet kopierat',
 
     'chat.disabledByAdmin': 'Den här chatten har inaktiverats av administratören',
     'chat.disabledByModerator': 'Den här chatten har inaktiverats av en moderator',
@@ -151,12 +160,14 @@ export default {
     'chat.viewOnly': 'Endast visningsläge',
 
     // below are the actions on messages that appear in a contextual menu
-    'chat.replyBtn': 'Svara',
-    'chat.deleteBtn': 'Radera',
+    'chat.replyBtn': 'Svara', // means "reply to this message"
+    'chat.copyBtn': 'Kopiera', // means "copy this message"
+    'chat.deleteBtn': 'Radera', // means "delete this message"
     'chat.muteBtn': 'Tysta', // means "mute this user"
     'chat.reportBtn': 'Anmäl', // means "report this message"
     'chat.hideBtn': 'Dölj', // means "hide this message"
     'chat.showBtn': 'Visa', // means "show this message"
+    'chat.editBtn': 'Redigera', // means "edit this message"
 
     'chat.userIdenticon': 'Användarens fingeravtryck',
     

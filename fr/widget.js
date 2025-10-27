@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Déconnexion',
     'status-header.signin': 'Connexion',
     'status-header.editUserProfile': 'Modifier le profil',
+    'status-header.sounds': 'Sons',
+    'status-header.soundsNote': 'Les notifications sonores restent actives quelques minutes après que l’onglet passe en arrière-plan',
 
     'status-header.notRememberedLogin': 'Non mémorisé',
     // means that the login status is temporary and will not be remembered next time
@@ -129,6 +131,8 @@ export default {
     'chat.messageDeleted.byAI': 'Message supprimé par l’IA après signalement',
     'chat.messageDeleted.unknown': 'Message supprimé',
 
+    'chat.messageEdited': 'Modifié',
+
     'chat.messageHidden.byYou': 'Caché par toi',
 
     'chat.placeholder': 'Saisir un message',
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'L\'authentification ne sera pas mémorisée en raison de vos paramètres de confidentialité restreints. Veuillez activer les cookies pour Now4real dans votre navigateur pour éviter que cela ne se produise.',
     'chat.disabledError': 'Cette discussion a été désactivée',
     'chat.chatbotError': 'Une erreur est survenue avec le chatbot du site. Veuillez réessayer.',
+    'chat.loadMoreError': 'Impossible de charger les anciens messages',
+    'chat.editNotAuthorizedError': 'Ce message ne peut pas être modifié',
+    'chat.deleteNotAuthorizedError': 'Ce message ne peut pas être supprimé',
+
+    'chat.copiedInfo': 'Message copié',
 
     'chat.disabledByAdmin': 'Cette discussion a été désactivée par l\'administrateur',
     'chat.disabledByModerator': 'Cette discussion a été désactivée par un modérateur',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Répondre', // means "reply to this message"
+    'chat.copyBtn': 'Copier', // means "copy this message"
     'chat.deleteBtn': 'Supprimer', // means "delete this message"
     'chat.muteBtn': 'Sourdine', // means "mute this user"
     'chat.reportBtn': 'Signaler', // means "report this message"
     'chat.hideBtn': 'Cacher', // means "hide this message"
     'chat.showBtn': 'Afficher', // means "show this message"
+    'chat.editBtn': 'Modifier', // means "edit this message"
 
     'chat.userIdenticon': 'Empreinte utilisateur',
     

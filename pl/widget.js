@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Wyloguj się',
     'status-header.signin': 'Zaloguj się',
     'status-header.editUserProfile': 'Edytuj profil',
+    'status-header.sounds': 'Dźwięki',
+    'status-header.soundsNote': 'Powiadomienia dźwiękowe pozostają aktywne przez kilka minut po przejściu karty w tło',
 
     'status-header.notRememberedLogin': 'Nie zapamiętany',
     // means that the login status is temporary and will not be remembered next time
@@ -128,6 +130,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Wiadomość usunięta przez administratora',
     'chat.messageDeleted.byAI': 'Wiadomość usunięta przez AI po zgłoszeniu',
     'chat.messageDeleted.unknown': 'Wiadomość usunięta',
+    
+    'chat.messageEdited': 'Edytowano',
 
     'chat.messageHidden.byYou': 'Ukryty przez Ciebie',
 
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'Uwierzytelnienie nie zostanie zapamiętane ze względu na Twoje ustawienia prywatności. Prosimy włączyć obsługę plików cookie w swojej przeglądarce, aby temu zapobiec.',
     'chat.disabledError': 'Ten czat został wyłączony',
     'chat.chatbotError': 'Wystąpił błąd w chatbotie strony. Spróbuj ponownie.',
+    'chat.loadMoreError': 'Nie można załadować starszych wiadomości',
+    'chat.editNotAuthorizedError': 'Nie można edytować tej wiadomości',
+    'chat.deleteNotAuthorizedError': 'Nie można usunąć tej wiadomości',
+
+    'chat.copiedInfo': 'Wiadomość skopiowana',
 
     'chat.disabledByAdmin': 'Ten czat został wyłączony przez administratora',
     'chat.disabledByModerator': 'Ten czat został wyłączony przez moderatora',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Odpowiedz', // means "reply to this message"
+    'chat.copyBtn': 'Kopiuj', // means "copy this message"
     'chat.deleteBtn': 'Usuń', // means "delete this message"
     'chat.muteBtn': 'Wycisz', // means "mute this user"
     'chat.reportBtn': 'Zgłoś', // means "report this message"
     'chat.hideBtn': 'Ukryj', // means "hide this message"
     'chat.showBtn': 'Pokaż', // means "show this message"
+    'chat.editBtn': 'Edytuj', // means "edit this message"
 
     'chat.userIdenticon': 'Odcisk użytkownika',
     

@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Ausloggen',
     'status-header.signin': 'Anmelden',
     'status-header.editUserProfile': 'Profil bearbeiten',
+    'status-header.sounds': 'Töne',
+    'status-header.soundsNote': 'Tonbenachrichtigungen bleiben einige Minuten aktiv nachdem der Tab in den Hintergrund gewechselt ist',
 
     'status-header.notRememberedLogin': 'Nicht gespeichert',
     // means that the login status is temporary and will not be remembered next time
@@ -129,6 +131,8 @@ export default {
     'chat.messageDeleted.byAI': 'Nachricht wurde von KI nach Meldung gelöscht',
     'chat.messageDeleted.unknown': 'Nachricht gelöscht',
 
+    'chat.messageEdited': 'Bearbeitet',
+
     'chat.messageHidden.byYou': 'Von Ihnen ausgeblendet',
 
     'chat.placeholder': 'Schreiben',
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'Die Authentifizierung wird aufgrund Ihrer eingeschränkten Datenschutzeinstellungen nicht gespeichert. Um dies zu verhindern, aktivieren Sie bitte die Cookies für Now4real in Ihrem Browser.',
     'chat.disabledError': 'Dieser Chat wurde deaktiviert',
     'chat.chatbotError': 'Ein Fehler ist beim Chatbot der Seite aufgetreten. Bitte versuchen Sie es erneut.',
+    'chat.loadMoreError': 'Ältere Nachrichten konnten nicht geladen werden',
+    'chat.editNotAuthorizedError': 'Diese Nachricht kann nicht bearbeitet werden',
+    'chat.deleteNotAuthorizedError': 'Diese Nachricht kann nicht gelöscht werden',
+
+    'chat.copiedInfo': 'Nachricht kopiert',
 
     'chat.disabledByAdmin': 'Dieser Chat wurde vom Admin deaktiviert',
     'chat.disabledByModerator': 'Dieser Chat wurde von einem Moderator deaktiviert',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Antworten', // means "reply to this message"
+    'chat.copyBtn': 'Kopieren', // means "copy this message"
     'chat.deleteBtn': 'Löschen', // means "delete this message"
     'chat.muteBtn': 'Stummschalten',
     'chat.reportBtn': 'Melden', // means "report this message"
-    'chat.hideBtn': 'Ausblenden',
-    'chat.showBtn': 'Einblenden',
+    'chat.hideBtn': 'Ausblenden', // means "hide this message"
+    'chat.showBtn': 'Einblenden', // means "show this message"
+    'chat.editBtn': 'Bearbeiten', // means "edit this message"
 
     'chat.userIdenticon': 'Benutzer-Fingerabdruck',
 

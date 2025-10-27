@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Отписване',
     'status-header.signin': 'Вписване',
     'status-header.editUserProfile': 'Редактиране на профила',
+    'status-header.sounds': 'Звуци',
+    'status-header.soundsNote': 'Звуковите известия остават активни няколко минути след като разделът премине на заден план',
 
     'status-header.notRememberedLogin': 'Не се запаметява',
     // means that the login status is temporary and will not be remembered next time
@@ -128,6 +130,8 @@ export default {
     'chat.messageDeleted.byNow4real': 'Съобщението е изтрито от администратора на Now4real',
     'chat.messageDeleted.byAI': 'Съобщението е изтрито от AI след докладване',
     'chat.messageDeleted.unknown': 'Съобщението е изтрито',
+    
+    'chat.messageEdited': 'Редактирано',
 
     'chat.messageHidden.byYou': 'Скрити от вас',
 
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'Автентикацията няма да се запомни заради ограничените настройки за поверителност. Разрешете бисквитките за Now4real във вашия браузер, за да решите този проблем.',
     'chat.disabledError': 'Чатът е деактивиран',
     'chat.chatbotError': 'Възникна грешка с чатбота на сайта. Моля, опитайте отново.',
+    'chat.loadMoreError': 'Неуспешно зареждане на по-стари съобщения',
+    'chat.editNotAuthorizedError': 'Това съобщение не може да бъде редактирано',
+    'chat.deleteNotAuthorizedError': 'Това съобщение не може да бъде изтрито',
+
+    'chat.copiedInfo': 'Съобщението е копирано',
 
     'chat.disabledByAdmin': 'Чатът е деактивиран от администратор',
     'chat.disabledByModerator': 'Чатът е деактивиран от модератор',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Отговор', // means "reply to this message"
+    'chat.copyBtn': 'Копирай', // means "copy this message"
     'chat.deleteBtn': 'Изтриване', // means "delete this message"
     'chat.muteBtn': 'Заглушаване', // means "mute this user"
     'chat.reportBtn': 'Докладване', // means "report this message"
     'chat.hideBtn': 'Крия', // means "hide this message"
     'chat.showBtn': 'Покажи', // means "show this message"
+    'chat.editBtn': 'Редактирай', // means "edit this message"
 
     'chat.userIdenticon': 'Пръстов отпечатък на потребителя',
 

@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Cerrar Sesión',
     'status-header.signin': 'Iniciar sesión',
     'status-header.editUserProfile': 'Editar perfil',
+    'status-header.sounds': 'Sonidos',
+    'status-header.soundsNote': 'Las notificaciones sonoras permanecen activas unos minutos después de que la pestaña pase a segundo plano',
 
     'status-header.notRememberedLogin': 'Sin recordar',
     // means that the login status is temporary and will not be remembered next time
@@ -129,6 +131,8 @@ export default {
     'chat.messageDeleted.byAI': 'Mensaje eliminado por la IA tras la denuncia',
     'chat.messageDeleted.unknown': 'Mensaje eliminado',
 
+    'chat.messageEdited': 'Editado',
+
     'chat.messageHidden.byYou': 'Oculto por ti',
 
     'chat.placeholder': 'Escribe un mensaje',
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'La autenticación no será recordada debido a tu configuración de privacidad restringida. Por favor, habilita las cookies para Now4real en tu navegador para evitar que esto suceda.',
     'chat.disabledError': 'Este chat ha sido desactivado',
     'chat.chatbotError': 'Se ha producido un error con el chatbot del sitio. Por favor, inténtalo de nuevo.',
+    'chat.loadMoreError': 'No se pueden cargar mensajes anteriores',
+    'chat.editNotAuthorizedError': 'Este mensaje no se puede editar',
+    'chat.deleteNotAuthorizedError': 'Este mensaje no se puede eliminar',
+
+    'chat.copiedInfo': 'Mensaje copiado',
 
     'chat.disabledByAdmin': 'Este chat ha sido desactivado por el administrador',
     'chat.disabledByModerator': 'Este chat ha sido desactivado por un moderador',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Responder', // means "reply to this message"
+    'chat.copyBtn': 'Copiar', // means "copy this message"
     'chat.deleteBtn': 'Eliminar', // means "delete this message"
-    'chat.muteBtn': 'Silenciar',
+    'chat.muteBtn': 'Silenciar', // means "mute this user"
     'chat.reportBtn': 'Denunciar', // means "report this message"
-    'chat.hideBtn': 'Ocultar',
-    'chat.showBtn': 'Mostrar',
+    'chat.hideBtn': 'Ocultar', // means "hide this message"
+    'chat.showBtn': 'Mostrar', // means "show this message"
+    'chat.editBtn': 'Editar', // means "edit this message"
 
     'chat.userIdenticon': 'Identificador del usuario',
     

@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Ieșire',
     'status-header.signin': 'Autentificare',
     'status-header.editUserProfile': 'Editează profilul',
+    'status-header.sounds': 'Sunete',
+    'status-header.soundsNote': 'Notificările sonore rămân active câteva minute după ce fila trece în fundal',
 
     'status-header.notRememberedLogin': 'Nu-mi amintesc',
     // means that the login status is temporary and will not be remembered next time
@@ -129,6 +131,8 @@ export default {
     'chat.messageDeleted.byAI': 'Mesaj șters de AI după raportare',
     'chat.messageDeleted.unknown': 'Mesaj șters',
 
+    'chat.messageEdited': 'Editat',
+
     'chat.messageHidden.byYou': 'Ascuns de tine',
 
     'chat.placeholder': 'Scrie mesajul',
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'Autetificarea nu este posibila deoarece ai setari ridicate de mentinere a intimitatii. Permite acum browser-ului cookie de la Now4real.',
     'chat.disabledError': 'Acest chat a fost dezactivat',
     'chat.chatbotError': 'A apărut o eroare cu chatbot-ul site-ului. Vă rugăm să încercați din nou.',
+    'chat.loadMoreError': 'Nu se pot încărca mesaje mai vechi',
+    'chat.editNotAuthorizedError': 'Acest mesaj nu poate fi editat',
+    'chat.deleteNotAuthorizedError': 'Acest mesaj nu poate fi șters',
+
+    'chat.copiedInfo': 'Mesaj copiat',
 
     'chat.disabledByAdmin': 'Acest chat a fost dezactivat de administrator',
     'chat.disabledByModerator': 'Acest chat a fost dezactivat de un moderator',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Raspunde', // means "reply to this message"
+    'chat.copyBtn': 'Copiază', // means "copy this message"
     'chat.deleteBtn': 'Stergere', // means "delete this message"
     'chat.muteBtn': 'Mutează', // means "mute this user"
     'chat.reportBtn': 'Raportează', // means "report this message"
     'chat.hideBtn': 'Ascunde', // means "hide this message"
     'chat.showBtn': 'Arată', // means "show this message"
+    'chat.editBtn': 'Editează', // means "edit this message"
 
     'chat.userIdenticon': 'Amprentă utilizator',
     

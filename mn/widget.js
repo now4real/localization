@@ -65,6 +65,8 @@ export default {
     'status-header.signout': 'Гарах',
     'status-header.signin': 'Орох',
     'status-header.editUserProfile': 'Профайл засварлах',
+    'status-header.sounds': 'Дуу',
+    'status-header.soundsNote': 'Таб ард талд шилжсэний дараа дууны мэдэгдлүүд хэдэн минут үргэлжилнэ',
 
     'status-header.notRememberedLogin': 'Нэвтрэх хандалт хадгалагдахгүй',
     // means that the login status is temporary and will not be remembered next time
@@ -129,6 +131,8 @@ export default {
     'chat.messageDeleted.byAI': 'Тайлан гаргасны дараа AI мессежийг устгасан',
     'chat.messageDeleted.unknown': 'Зурвас устсан',
 
+    'chat.messageEdited': 'Зассан',
+
     'chat.messageHidden.byYou': 'Чамаас нуусан',
 
     'chat.placeholder': 'Зурвас бичих',
@@ -142,6 +146,11 @@ export default {
     'chat.notPersistentError': 'Нууцлалыг хадгалах үүднээс таних явцыг сануулахгүй. Байдлыг давтахгүйн тул браузер дээрээ Now4real-ийн cookie-г идэвхжүүлнэ үү.',
     'chat.disabledError': 'Энэ чаатыг идэвхгүй болгосон',
     'chat.chatbotError': 'Сайтын чатботтой холбоотой алдаа гарлаа. Та дахин оролдоно уу.',
+    'chat.loadMoreError': 'Хуучин зурвасуудыг ачаалж чадсангүй',
+    'chat.editNotAuthorizedError': 'Энэ зурвасыг засварлах боломжгүй',
+    'chat.deleteNotAuthorizedError': 'Энэ зурвасыг устгах боломжгүй',
+
+    'chat.copiedInfo': 'Зурвас хуулсан',
 
     'chat.disabledByAdmin': 'Энэ чатыг Админ идэвхгүй болгосон',
     'chat.disabledByModerator': 'Энэ чатыг Модератор хүчингүй болгосон',
@@ -152,11 +161,13 @@ export default {
 
     // below are the actions on messages that appear in a contextual menu
     'chat.replyBtn': 'Хариулах', // means "reply to this message"
+    'chat.copyBtn': 'Хуулах', // means "copy this message"
     'chat.deleteBtn': 'Устгах', // means "delete this message"
     'chat.muteBtn': 'Блоклох', // means "mute this user"
     'chat.reportBtn': 'мэдээлэх', // means "report this message"
     'chat.hideBtn': 'Нуух', // means "hide this message"
     'chat.showBtn': 'Үзүүлэх', // means "show this message"
+    'chat.editBtn': 'Засварлах', // means "edit this message"
 
     'chat.userIdenticon': 'Хэрэглэгчийн хурууны хээ',
     

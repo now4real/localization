@@ -202,7 +202,7 @@ const ALPHA_2_CODES = languages.getAlpha2Codes()
 const availableLangs = fs.readdirSync(LOCALIZATION_PATH, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
-    .filter(file => file !== 'util' && file !== 'common')
+    .filter(file => file !== 'util' && file !== 'common' && file !== '.git' && file !== 'node_modules')
     .filter(lang => {
         const check = ALPHA_2_CODES[lang]
 
