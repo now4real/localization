@@ -374,5 +374,10 @@ export default {
     /**
      * Remove poll confirm dialog
      */
-    'remove-poll-confirmation-modal.message': 'Czy na pewno chcesz usunąć bieżącą ankietę?'
+    'remove-poll-confirmation-modal.message': 'Czy na pewno chcesz usunąć bieżącą ankietę?',
+
+    /**
+     * Delete message confirm dialog
+     */
+    'delete-message-confirmation-modal.message': 'Czy na pewno chcesz usunąć tę wiadomość?'
 }

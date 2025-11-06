@@ -374,5 +374,10 @@ export default {
     /**
      * Remove poll confirm dialog
      */
-    'remove-poll-confirmation-modal.message': 'Är du säker på att du vill ta bort den aktuella omröstningen?'
+    'remove-poll-confirmation-modal.message': 'Är du säker på att du vill ta bort den aktuella omröstningen?',
+
+    /**
+     * Delete message confirm dialog
+     */
+    'delete-message-confirmation-modal.message': 'Är du säker på att du vill radera det här meddelandet?'
 }

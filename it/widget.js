@@ -374,5 +374,10 @@ export default {
     /**
      * Remove poll confirm dialog
      */
-    'remove-poll-confirmation-modal.message': 'Sei sicuro di voler rimuovere il sondaggio corrente?'
+    'remove-poll-confirmation-modal.message': 'Sei sicuro di voler rimuovere il sondaggio corrente?',
+
+    /**
+     * Delete message confirm dialog
+     */
+    'delete-message-confirmation-modal.message': 'Sei sicuro di voler eliminare questo messaggio?'
 }

@@ -374,5 +374,10 @@ export default {
     /**
      * Remove poll confirm dialog
      */
-    'remove-poll-confirmation-modal.message': 'Сигурни ли сте, че искате да премахнете текущата анкета?'
+    'remove-poll-confirmation-modal.message': 'Сигурни ли сте, че искате да премахнете текущата анкета?',
+
+    /**
+     * Delete message confirm dialog
+     */
+    'delete-message-confirmation-modal.message': 'Сигурни ли сте, че искате да изтриете това съобщение?'
 }

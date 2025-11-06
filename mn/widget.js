@@ -374,5 +374,10 @@ export default {
     /**
      * Remove poll confirm dialog
      */
-    'remove-poll-confirmation-modal.message': 'Та одоогийн судалгааг устгахдаа итгэлтэй байна уу?'
+    'remove-poll-confirmation-modal.message': 'Та одоогийн судалгааг устгахдаа итгэлтэй байна уу?',
+
+    /**
+     * Delete message confirm dialog
+     */
+    'delete-message-confirmation-modal.message': 'Та энэ зурвасыг устгахдаа итгэлтэй байна уу?'
 }

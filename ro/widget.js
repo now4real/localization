@@ -374,5 +374,10 @@ export default {
     /**
      * Remove poll confirm dialog
      */
-    'remove-poll-confirmation-modal.message': 'Sigur doriți să ștergeți sondajul curent?'
+    'remove-poll-confirmation-modal.message': 'Sigur doriți să ștergeți sondajul curent?',
+
+    /**
+     * Delete message confirm dialog
+     */
+    'delete-message-confirmation-modal.message': 'Sigur vrei să ștergi acest mesaj?'
 }
