@@ -204,7 +204,7 @@ export default {
     /**
      * GIF-picker labels
      */
-    'gif-picker.search': 'GIF suchen',
+    'gif-picker.search': 'KLIPY durchsuchen',
     'gif-picker.retry': 'Fehler beim Laden der GIFs. <a>Erneut versuchen</a>',
     // keep <a> and </a> unchanged and surrounding the translation of "Try again"
 
