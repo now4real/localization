@@ -15,11 +15,6 @@ export default {
     'sendThrottlingError': 'Трябва да изчакате поне $N минути след предишния имейл, преди да получите нов код. Опитайте отново по-късно.',
     'noOpenerError': 'Не може да продължите с удостоверяването. Моля, опитайте отново или променете браузъра си.',
 
-    'n4rTermsAndPrivacy': 'Кликнете върху “$B” за да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real',
-    // $B is the button text
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     /**
      * Email signin step 1
      */
@@ -33,10 +28,12 @@ export default {
 
     'emailSigninStep1.invalidEmailError': 'Невалиден имейл',
 
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Продължавайки, приемате <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real.',
+
     /**
      * Email signin step 2
      */
-    'emailSigninStep2.title': 'Имейл Верификация',
+    'emailSigninStep2.title': 'Имейл верификация',
 
     'emailSigninStep2.info1': 'Изпратихме ви код за верификация на вашия имейл адрес ($E)',
     // $E is the user email
@@ -58,16 +55,19 @@ export default {
 
     'emailSigninStep3.feedback': 'Кодът е верифициран. Остава последна стъпка...',
 
-    'emailSigninStep3.nameInfo': 'Вашето публично име (ще се показва в чата)',
-    'emailSigninStep3.namePlaceholder': 'Име',
+    'emailSigninStep3.name': 'Публично име',
+    'emailSigninStep3.nameInfo': 'Ще се показва публично в чата.',
+    'emailSigninStep3.namePlaceholder': 'Публично име',
 
-    'emailSigninStep3.pictureInfo': 'Вашето изображение (ще се показва публично в чата)',
+    'emailSigninStep3.picture': 'Профилна снимка',
+    'emailSigninStep3.pictureInfo': 'Ще се показва публично в чата.',
 
     'emailSigninStep3.useGravatar': 'Използвай Gravatar изображение',
     'emailSigninStep3.gravatarInfo': 'Използваме външна услуга, наречена Gravatar, за да управляваме вашето изображение. Моля, <a>регистрирайте се в Gravatar/WordPress</a>, за да го промените.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'emailSigninStep3.emailInfo': 'Вашият имейл адрес (ще остане частно)',
+    'emailSigninStep3.email': 'Имейл',
+    'emailSigninStep3.emailInfo': 'Ще остане частно.',
 
     'emailSigninStep3.continue': 'Продължи',
 
@@ -78,31 +78,34 @@ export default {
      */
     'editProfile.title': 'Редактирайте вашия профил',
 
-    'editProfile.pictureInfo': 'Вашето изображение (ще се показва публично в чата)',
+    'editProfile.name': 'Публично име',
+    'editProfile.nameInfo': 'Ще се показва публично в чата.',
+    'editProfile.namePlaceholder': 'Публично име',
 
-    'editProfile.nameInfo': 'Вашето публично име (ще се показва в чата)',
-    'editProfile.namePlaceholder': 'Име',
-
-    'editProfile.emailInfo': 'Вашият имейл адрес (ще остане частен)',
-
-    'editProfile.updatedFeedback': 'Актуализирахме вашите данни. Можете да затворите тази страница сигурно.',
+    'editProfile.picture': 'Профилна снимка',
+    'editProfile.pictureInfo': 'Ще се показва публично в чата.',
 
     'editProfile.useGravatar': 'Използвай Gravatar изображение',
     'editProfile.gravatarInfo': 'Използваме външна услуга, наречена Gravatar, за да управляваме вашето изображение. Моля, <a>регистрирайте се в Gravatar/WordPress</a>, за да го промените.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
+    'editProfile.email': 'Имейл',
+    'editProfile.emailInfo': 'Ще остане частно.',
+
     'editProfile.update': 'Актуализиране',
+    'editProfile.updatedFeedback': 'Актуализирахме вашите данни. Можете да затворите тази страница сигурно.',
 
     /**
      * No registration signin
      */
-    'noRegistrationSignin.nickInfo': 'Изберете прякор, за да чатите на $S',
-    // $S is the site
-    // example: "Choose a nickname to chat on example.com"
+    'noRegistrationSignin.title': 'Изберете прякор за чат',
 
     'noRegistrationSignin.nickPlaceholder': 'Прякор',
 
-    'noRegistrationSignin.ok': 'ОК',
+    'noRegistrationSignin.ok': 'Влезте в чата',
+
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Влизайки в чата, приемате <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</а2> на Now4real.',
+
     'noRegistrationSignin.newNick': 'Използвай друг прякор',
 
     'noRegistrationSignin.invalidNickError': 'Невалиден прякор',
@@ -110,8 +113,7 @@ export default {
     /**
      * Social and email signin
      */
-    'socialSignin.title': 'Вписване',
-    'socialSignin.header': 'Комуникирайте във всеки сайт, който използва Now4real',
+    'socialSignin.title': 'Влезте за чат',
 
     // buttons:
     'socialSignin.google': 'Вписване чрез Google',
@@ -120,7 +122,7 @@ export default {
     'socialSignin.linkedin': 'Вписване чрез LinkedIn',
     'socialSignin.email': 'Вписване чрез имейл',
 
-    'socialSignin.signin': 'Вписване',
+    'socialSignin.n4rTermsAndPrivacy': 'Вписвайки се, приемате <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real.',
 
     'socialSignin.newUser': 'Използвай друг акаунт',
 }

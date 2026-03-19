@@ -15,11 +15,6 @@ export default {
     'sendThrottlingError': 'Du måste vänta minst $N minuter från föregående e-postmeddelande innan du får en ny kod. Försök igen senare.',
     'noOpenerError': 'Kan inte fortsätta med autentiseringen. Försök igen eller byt webbläsare.',
 
-    'n4rTermsAndPrivacy': 'Klicka på “$B” för att acceptera Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>',
-    // $B is the button text
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     /**
      * Email signin step 1
      */
@@ -32,6 +27,8 @@ export default {
     'emailSigninStep1.newEmail': 'Använd en annan e-post',
 
     'emailSigninStep1.invalidEmailError': 'Ogiltig e-postadress',
+
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Genom att fortsätta godkänner du Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>.',
 
     /**
      * Email signin step 2
@@ -58,16 +55,19 @@ export default {
 
     'emailSigninStep3.feedback': 'Koden är verifierad. Ett sista steg kvar...',
 
-    'emailSigninStep3.nameInfo': 'Ditt visningsnamn (det kommer att visas offentligt i chatten)',
-    'emailSigninStep3.namePlaceholder': 'Namn',
+    'emailSigninStep3.name': 'Visningsnamn',
+    'emailSigninStep3.nameInfo': 'Det kommer att visas offentligt i chatten.',
+    'emailSigninStep3.namePlaceholder': 'Visningsnamn',
 
-    'emailSigninStep3.pictureInfo': 'Din bild (den kommer att visas offentligt i chatten)',
+    'emailSigninStep3.picture': 'Profilbild',
+    'emailSigninStep3.pictureInfo': 'Den kommer att visas offentligt i chatten.',
 
     'emailSigninStep3.useGravatar': 'Använd Gravatar-bild',
     'emailSigninStep3.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'emailSigninStep3.emailInfo': 'Din e-post (den kommer att förbli privat)',
+    'emailSigninStep3.email': 'E-post',
+    'emailSigninStep3.emailInfo': 'Den förblir privat.',
 
     'emailSigninStep3.continue': 'Fortsätt',
 
@@ -78,31 +78,34 @@ export default {
      */
     'editProfile.title': 'Redigera din profil',
 
-    'editProfile.pictureInfo': 'Din bild (den kommer att visas offentligt i chatten)',
+    'editProfile.name': 'Visningsnamn',
+    'editProfile.nameInfo': 'Det kommer att visas offentligt i chatten.',
+    'editProfile.namePlaceholder': 'Visningsnamn',
 
-    'editProfile.nameInfo': 'Ditt visningsnamn (det kommer att visas offentligt i chatten)',
-    'editProfile.namePlaceholder': 'Namn',
-
-    'editProfile.emailInfo': 'Din e-post (den förblir privat)',
-
-    'editProfile.updatedFeedback': 'Vi har uppdaterat din profil. Du kan säkert stänga den här sidan.',
+    'editProfile.picture': 'Profilbild',
+    'editProfile.pictureInfo': 'Den kommer att visas offentligt i chatten.',
 
     'editProfile.useGravatar': 'Använd Gravatar-bild',
     'editProfile.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register 	to Gravatar/WordPress"
+    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+
+    'editProfile.email': 'E-post',
+    'editProfile.emailInfo': 'Den förblir privat.',
 
     'editProfile.update': 'Uppdatera',
- 
+    'editProfile.updatedFeedback': 'Vi har uppdaterat din profil. Du kan säkert stänga den här sidan.',
+
     /**
      * No registration signin
      */
-    'noRegistrationSignin.nickInfo': 'Välj ett smeknamn för att chatta på $S',
-    // $S is the site
-    // example: "Choose a nickname to chat on example.com"
+    'noRegistrationSignin.title': 'Välj ett smeknamn för att chatta',
 
     'noRegistrationSignin.nickPlaceholder': 'Smeknamn',
 
-    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.ok': 'Gå med i chatten',
+
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Genom att gå med i chatten godkänner du Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>.',
+
     'noRegistrationSignin.newNick': 'Använd ett annat smeknamn',
 
     'noRegistrationSignin.invalidNickError': 'Ogiltigt smeknamn',
@@ -110,8 +113,7 @@ export default {
     /**
      * Social and email signin
      */
-    'socialSignin.title': 'Logga in',
-    'socialSignin.header': 'Börja chatta på alla webbplatser som använder Now4real',
+    'socialSignin.title': 'Logga in för att chatta',
 
     // buttons:
     'socialSignin.google': 'Logga in med Google',
@@ -120,7 +122,7 @@ export default {
     'socialSignin.linkedin': 'Logga in med LinkedIn',
     'socialSignin.email': 'Logga in med e-post',
 
-    'socialSignin.signin': 'Logga in',
+    'socialSignin.n4rTermsAndPrivacy': 'Genom att logga in godkänner du Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>.',
 
     'socialSignin.newUser': 'Använd ett annat konto',
 }

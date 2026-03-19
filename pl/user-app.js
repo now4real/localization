@@ -15,11 +15,6 @@
     'sendThrottlingError': 'Musisz poczekać co najmniej $N minut od poprzedniego e-maila, zanim otrzymasz nowy kod. Spróbuj ponownie później.',
     'noOpenerError': 'Nie można kontynuować uwierzytelniania. Spróbuj ponownie lub zmień przeglądarkę.',
 
-    'n4rTermsAndPrivacy': 'Kliknij “$B” aby zaakceptować <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real',
-    // $B is the button text
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     /**
      * Email signin step 1
      */
@@ -32,6 +27,8 @@
     'emailSigninStep1.newEmail': 'Użyj innego adresu e-mail',
 
     'emailSigninStep1.invalidEmailError': 'Nieprawidłowy adres e-mail',
+
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Kontynuując, akceptujesz <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real.',
 
     /**
      * Email signin step 2
@@ -58,16 +55,19 @@
 
     'emailSigninStep3.feedback': 'Kod zweryfikowany. Ostatni krok...',
 
-    'emailSigninStep3.nameInfo': 'Twoja nazwa wyświetlana (będzie widoczna publicznie w czacie)',
-    'emailSigninStep3.namePlaceholder': 'Imię',
+    'emailSigninStep3.name': 'Nazwa wyświetlana',
+    'emailSigninStep3.nameInfo': 'Będzie widoczna publicznie w czacie.',
+    'emailSigninStep3.namePlaceholder': 'Nazwa wyświetlana',
 
-    'emailSigninStep3.pictureInfo': 'Twoje zdjęcie (będzie widoczne publicznie w czacie)',
+    'emailSigninStep3.picture': 'Zdjęcie profilowe',
+    'emailSigninStep3.pictureInfo': 'Będzie widoczne publicznie w czacie.',
 
     'emailSigninStep3.useGravatar': 'Użyj obrazu Gravatara',
     'emailSigninStep3.gravatarInfo': 'Korzystamy z usługi zewnętrznej o nazwie Gravatar do zarządzania Twoim zdjęciem. Proszę <a>zarejestruj się w Gravatar/WordPress</a>, aby je zmienić.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'emailSigninStep3.emailInfo': 'Twój adres e-mail (będzie pozostał prywatny)',
+    'emailSigninStep3.email': 'E-mail',
+    'emailSigninStep3.emailInfo': 'Pozostanie prywatny.',
 
     'emailSigninStep3.continue': 'Kontynuuj',
 
@@ -78,31 +78,34 @@
      */
     'editProfile.title': 'Edytuj swój profil',
 
-    'editProfile.pictureInfo': 'Twoje zdjęcie (będzie widoczne publicznie w czacie)',
+    'editProfile.name': 'Nazwa wyświetlana',
+    'editProfile.nameInfo': 'Będzie widoczna publicznie w czacie.',
+    'editProfile.namePlaceholder': 'Nazwa wyświetlana',
 
-    'editProfile.nameInfo': 'Twoja nazwa wyświetlana (będzie widoczna publicznie w czacie)',
-    'editProfile.namePlaceholder': 'Imię',
-
-    'editProfile.emailInfo': 'Twój adres e-mail (będzie pozostał prywatny)',
-
-    'editProfile.updatedFeedback': 'Zaktualizowaliśmy Twoje dane. Możesz bezpiecznie zamknąć tę stronę.',
+    'editProfile.picture': 'Zdjęcie profilowe',
+    'editProfile.pictureInfo': 'Będzie widoczne publicznie w czacie.',
 
     'editProfile.useGravatar': 'Użyj obrazu Gravatara',
     'editProfile.gravatarInfo': 'Korzystamy z usługi zewnętrznej o nazwie Gravatar do zarządzania Twoim zdjęciem. Proszę <a>zarejestruj się w Gravatar/WordPress</a>, aby je zmienić.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
+    'editProfile.email': 'E-mail',
+    'editProfile.emailInfo': 'Pozostanie prywatny.',
+
     'editProfile.update': 'Aktualizuj',
+    'editProfile.updatedFeedback': 'Zaktualizowaliśmy Twoje dane. Możesz bezpiecznie zamknąć tę stronę.',
 
     /**
      * No registration signin
      */
-    'noRegistrationSignin.nickInfo': 'Wybierz pseudonim, aby rozmawiać na $S',
-    // $S is the site
-    // example: "Choose a nickname to chat on example.com"
+    'noRegistrationSignin.title': 'Wybierz pseudonim, aby rozmawiać na czacie',
 
     'noRegistrationSignin.nickPlaceholder': 'Pseudonim',
 
-    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.ok': 'Dołącz do czatu',
+
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Dołączając do czatu, akceptujesz <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real.',
+
     'noRegistrationSignin.newNick': 'Użyj innego pseudonimu',
 
     'noRegistrationSignin.invalidNickError': 'Nieprawidłowy pseudonim',
@@ -110,8 +113,7 @@
     /**
      * Social and email signin
      */
-    'socialSignin.title': 'Zaloguj się',
-    'socialSignin.header': 'Rozpocznij czat na dowolnej witrynie korzystającej z Now4real',
+    'socialSignin.title': 'Zaloguj się, aby rozmawiać',
 
     // buttons:
     'socialSignin.google': 'Zaloguj się przez Google',
@@ -120,7 +122,7 @@
     'socialSignin.linkedin': 'Zaloguj się przez LinkedIn',
     'socialSignin.email': 'Zaloguj się przez e-mail',
 
-    'socialSignin.signin': 'Zaloguj',
+    'socialSignin.n4rTermsAndPrivacy': 'Logując się, akceptujesz <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real.',
 
     'socialSignin.newUser': 'Użyj innego konta',
 }

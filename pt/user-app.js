@@ -15,11 +15,6 @@ export default {
     'sendThrottlingError': 'Você deve aguardar pelo menos $N minutos desde o último email antes de obter um novo código. Tente novamente mais tarde.',
     'noOpenerError': 'Não é possível prosseguir com a autenticação. Por favor, tente novamente ou mude o navegador.',
 
-    'n4rTermsAndPrivacy': 'Click em “$B” para aceitar os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> de Now4real',
-    // $B is the button text
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     /**
      * Email signin step 1
      */
@@ -32,6 +27,8 @@ export default {
     'emailSigninStep1.newEmail': 'Usar outro e-mail',
 
     'emailSigninStep1.invalidEmailError': 'Email inválido',
+
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Ao continuar, você concorda com os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> da Now4real.',
 
     /**
      * Email signin step 2
@@ -58,16 +55,19 @@ export default {
 
     'emailSigninStep3.feedback': 'Código verificado. Mais um passo...',
 
-    'emailSigninStep3.nameInfo': 'Seu nome de exibição (aparecerá publicamente no chat)',
-    'emailSigninStep3.namePlaceholder': 'Nome',
+    'emailSigninStep3.name': 'Nome de exibição',
+    'emailSigninStep3.nameInfo': 'Aparecerá publicamente no chat.',
+    'emailSigninStep3.namePlaceholder': 'Nome de exibição',
 
-    'emailSigninStep3.pictureInfo': 'Sua foto (aparecerá publicamente no chat)',
+    'emailSigninStep3.picture': 'Foto de perfil',
+    'emailSigninStep3.pictureInfo': 'Aparecerá publicamente no chat.',
 
     'emailSigninStep3.useGravatar': 'Usar imagem do Gravatar',
     'emailSigninStep3.gravatarInfo': 'Utilizamos um serviço de terceiros chamado Gravatar para gerenciar sua foto. Por favor, <a>registre-se no Gravatar/WordPress</a> para alterá-la.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'emailSigninStep3.emailInfo': 'Seu email (permanecerá privado)',
+    'emailSigninStep3.email': 'Email',
+    'emailSigninStep3.emailInfo': 'Permanecerá privado.',
 
     'emailSigninStep3.continue': 'Continuar',
 
@@ -78,31 +78,34 @@ export default {
      */
     'editProfile.title': 'Editar seu perfil',
 
-    'editProfile.pictureInfo': 'Sua foto (aparecerá publicamente no chat)',
+    'editProfile.name': 'Nome de exibição',
+    'editProfile.nameInfo': 'Aparecerá publicamente no chat.',
+    'editProfile.namePlaceholder': 'Nome de exibição',
 
-    'editProfile.nameInfo': 'Seu nome de exibição (aparecerá publicamente no chat)',
-    'editProfile.namePlaceholder': 'Nome',
-
-    'editProfile.emailInfo': 'Seu email (permanecerá privado)',
-
-    'editProfile.updatedFeedback': 'Atualizamos seus dados. Você pode fechar esta página com segurança.',
+    'editProfile.picture': 'Foto de perfil',
+    'editProfile.pictureInfo': 'Aparecerá publicamente no chat.',
 
     'editProfile.useGravatar': 'Usar imagem do Gravatar',
     'editProfile.gravatarInfo': 'Utilizamos um serviço de terceiros chamado Gravatar para gerenciar sua foto. Por favor, <a>registre-se no Gravatar/WordPress</a> para alterá-la.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
+    'editProfile.email': 'Email',
+    'editProfile.emailInfo': 'Permanecerá privado.',
+
     'editProfile.update': 'Atualizar',
+    'editProfile.updatedFeedback': 'Atualizamos seus dados. Você pode fechar esta página com segurança.',
 
     /**
      * No registration signin
      */
-    'noRegistrationSignin.nickInfo': 'Escolha um apelido para conversar no $S',
-    // $S is the site
-    // example: "Choose a nickname to chat on example.com"
+    'noRegistrationSignin.title': 'Escolha um apelido para conversar',
 
     'noRegistrationSignin.nickPlaceholder': 'Apelido',
 
-    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.ok': 'Entrar no chat',
+
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Ao entrar no chat, você concorda com os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> da Now4real.',
+
     'noRegistrationSignin.newNick': 'Usar outro apelido',
 
     'noRegistrationSignin.invalidNickError': 'Apelido inválido',
@@ -110,8 +113,7 @@ export default {
     /**
      * Social and email signin
      */
-    'socialSignin.title': 'Entrar',
-    'socialSignin.header': 'Começar a conversar em qualquer website que utiliza Now4real',
+    'socialSignin.title': 'Entrar para conversar',
 
     // buttons:
     'socialSignin.google': 'Entrar com Google',
@@ -120,7 +122,7 @@ export default {
     'socialSignin.linkedin': 'Entrar com LinkedIn',
     'socialSignin.email': 'Entrar com email',
 
-    'socialSignin.signin': 'Entrar',
+    'socialSignin.n4rTermsAndPrivacy': 'Ao entrar, você concorda com os <a1>Termos de Serviço</a1> e a <a2>Política de Privacidade</a2> da Now4real.',
 
     'socialSignin.newUser': 'Usar outra conta',
 }

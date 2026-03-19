@@ -15,11 +15,6 @@ export default {
     'sendThrottlingError': 'Trebuie să aștepți cel puțin $N minute de la ultimul email înainte de a primi un cod nou. Încearcă din nou mai târziu.',
     'noOpenerError': 'Nu se poate continua cu autentificarea. Încercați din nou sau schimbați browserul.',
 
-    'n4rTermsAndPrivacy': 'Apasă “$B” pentru a accepta <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real',
-    // $B is the button text
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
-
     /**
      * Email signin step 1
      */
@@ -32,6 +27,8 @@ export default {
     'emailSigninStep1.newEmail': 'Utilizați un alt email',
 
     'emailSigninStep1.invalidEmailError': 'Email invalid',
+
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Continuând, ești de acord cu <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real.',
 
     /**
      * Email signin step 2
@@ -58,16 +55,19 @@ export default {
 
     'emailSigninStep3.feedback': 'Cod verificat. Un ultim pas...',
 
-    'emailSigninStep3.nameInfo': 'Numele tău (va apărea public în chat)',
-    'emailSigninStep3.namePlaceholder': 'Nume',
+    'emailSigninStep3.name': 'Nume afișat',
+    'emailSigninStep3.nameInfo': 'Va apărea public în chat.',
+    'emailSigninStep3.namePlaceholder': 'Nume afișat',
 
-    'emailSigninStep3.pictureInfo': 'Fotografia ta (va apărea public în chat)',
+    'emailSigninStep3.picture': 'Fotografie de profil',
+    'emailSigninStep3.pictureInfo': 'Va apărea public în chat.',
 
     'emailSigninStep3.useGravatar': 'Folosește imaginea Gravatar',
     'emailSigninStep3.gravatarInfo': 'Folosim un serviciu de la terți numit Gravatar pentru a gestiona fotografia ta. Te rugăm să <a>te înregistrezi la Gravatar/WordPress</a> pentru a o schimba.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
-    'emailSigninStep3.emailInfo': 'Adresa ta de email (va rămâne privată)',
+    'emailSigninStep3.email': 'Email',
+    'emailSigninStep3.emailInfo': 'Va rămâne privată.',
 
     'emailSigninStep3.continue': 'Continuă',
 
@@ -78,31 +78,34 @@ export default {
      */
     'editProfile.title': 'Editează-ți profilul',
 
-    'editProfile.pictureInfo': 'Fotografia ta (va apărea public în chat)',
+    'editProfile.name': 'Nume afișat',
+    'editProfile.nameInfo': 'Va apărea public în chat.',
+    'editProfile.namePlaceholder': 'Nume afișat',
 
-    'editProfile.nameInfo': 'Numele tău (va apărea public în chat)',
-    'editProfile.namePlaceholder': 'Nume',
-
-    'editProfile.emailInfo': 'Adresa ta de email (va rămâne privată)',
-
-    'editProfile.updatedFeedback': 'Am actualizat datele tale. Poți închide în siguranță această pagină.',
+    'editProfile.picture': 'Fotografie de profil',
+    'editProfile.pictureInfo': 'Va apărea public în chat.',
 
     'editProfile.useGravatar': 'Folosește imaginea Gravatar',
     'editProfile.gravatarInfo': 'Folosim un serviciu de la terți numit Gravatar pentru a gestiona fotografia ta. Te rugăm să <a>te înregistrezi la Gravatar/WordPress</a> pentru a o schimba.',
     // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
 
+    'editProfile.email': 'Email',
+    'editProfile.emailInfo': 'Va rămâne privată.',
+
     'editProfile.update': 'Actualizează',
+    'editProfile.updatedFeedback': 'Am actualizat datele tale. Poți închide în siguranță această pagină.',
 
     /**
      * No registration signin
      */
-    'noRegistrationSignin.nickInfo': 'Alege un pseudonim pentru a chat-ui pe $S',
-    // $S is the site
-    // example: "Choose a nickname to chat on example.com"
+    'noRegistrationSignin.title': 'Alege un pseudonim pentru a chata',
 
     'noRegistrationSignin.nickPlaceholder': 'Pseudonim',
 
-    'noRegistrationSignin.ok': 'OK',
+    'noRegistrationSignin.ok': 'Intră în chat',
+
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Intrând în chat, ești de acord cu <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real.',
+
     'noRegistrationSignin.newNick': 'Folosește un alt pseudonim',
 
     'noRegistrationSignin.invalidNickError': 'Pseudonim invalid',
@@ -110,8 +113,7 @@ export default {
     /**
      * Social and email signin
      */
-    'socialSignin.title': 'Conectare',
-    'socialSignin.header': 'Începe să chat-ui pe orice site care utilizează Now4real',
+    'socialSignin.title': 'Conectare pentru a chata',
 
     // buttons:
     'socialSignin.google': 'Conectați-vă cu Google',
@@ -120,7 +122,7 @@ export default {
     'socialSignin.linkedin': 'Conectați-vă cu LinkedIn',
     'socialSignin.email': 'Conectați-vă cu email',
 
-    'socialSignin.signin': 'Conectați-vă',
+    'socialSignin.n4rTermsAndPrivacy': 'Conectându-vă, sunteți de acord cu <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real.',
 
     'socialSignin.newUser': 'Folosește un alt cont',
 }
