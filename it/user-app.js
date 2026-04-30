@@ -15,6 +15,8 @@ export default {
     'sendThrottlingError': 'Devi aspettare almeno $N minuti dalla email precedente, prima di ottenere un nuovo codice. Riprova più tardi.',
     'noOpenerError': 'Non è possibile proseguire con l\'autenticazione. Riprova o cambia browser.',
 
+    'signinCompletion.closePageHint': 'Ora puoi chiudere questa pagina per completare l\'accesso.',
+
     /**
      * Email signin step 1
      */

@@ -15,6 +15,8 @@
     'sendThrottlingError': 'Vous devez attendre au moins $N minutes depuis le dernier e-mail avant d\'obtenir un nouveau code. Réessayez plus tard.',
     'noOpenerError': 'Impossible de procéder à l\'authentification. Veuillez réessayer ou changer de navigateur.',
 
+    'signinCompletion.closePageHint': 'Vous pouvez maintenant fermer cette page pour terminer la connexion.',
+
     /**
      * Email signin step 1
      */

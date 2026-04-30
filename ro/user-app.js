@@ -15,6 +15,8 @@ export default {
     'sendThrottlingError': 'Trebuie să aștepți cel puțin $N minute de la ultimul email înainte de a primi un cod nou. Încearcă din nou mai târziu.',
     'noOpenerError': 'Nu se poate continua cu autentificarea. Încercați din nou sau schimbați browserul.',
 
+    'signinCompletion.closePageHint': 'Acum poți închide această pagină pentru a finaliza autentificarea.',
+
     /**
      * Email signin step 1
      */

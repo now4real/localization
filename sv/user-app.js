@@ -15,6 +15,8 @@ export default {
     'sendThrottlingError': 'Du måste vänta minst $N minuter från föregående e-postmeddelande innan du får en ny kod. Försök igen senare.',
     'noOpenerError': 'Kan inte fortsätta med autentiseringen. Försök igen eller byt webbläsare.',
 
+    'signinCompletion.closePageHint': 'Du kan nu stänga den här sidan för att slutföra inloggningen.',
+
     /**
      * Email signin step 1
      */

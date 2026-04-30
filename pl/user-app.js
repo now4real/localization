@@ -15,6 +15,8 @@
     'sendThrottlingError': 'Musisz poczekać co najmniej $N minut od poprzedniego e-maila, zanim otrzymasz nowy kod. Spróbuj ponownie później.',
     'noOpenerError': 'Nie można kontynuować uwierzytelniania. Spróbuj ponownie lub zmień przeglądarkę.',
 
+    'signinCompletion.closePageHint': 'Możesz teraz zamknąć tę stronę, aby dokończyć logowanie.',
+
     /**
      * Email signin step 1
      */
