@@ -174,6 +174,12 @@ export default {
     'chat.showMoreBtn': 'Visa mer',
     'chat.showLessBtn': 'Visa mindre',
 
+    'chat.reactionPickerBtn': 'Välj en reaktion',
+    'chat.reactionsTitle': 'Reaktioner',
+    'chat.reactionsAll': 'Alla',
+    'chat.reactionsRemoveHint': 'Ta bort din reaktion',
+    'chat.youLabel': 'Du',
+
     /**
      * Presence
      */

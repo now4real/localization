@@ -174,6 +174,12 @@ export default {
     'chat.showMoreBtn': 'Mostrar mais',
     'chat.showLessBtn': 'Mostrar menos',
 
+    'chat.reactionPickerBtn': 'Escolha uma reação',
+    'chat.reactionsTitle': 'Reações',
+    'chat.reactionsAll': 'Todas',
+    'chat.reactionsRemoveHint': 'Remova sua reação',
+    'chat.youLabel': 'Você',
+
     /**
      * Presence
      */

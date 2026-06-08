@@ -174,6 +174,12 @@ export default {
     'chat.showMoreBtn': 'Илүү ихийг үзүүлэх',
     'chat.showLessBtn': 'Бага үзүүлэх',
 
+    'chat.reactionPickerBtn': 'Реакц сонгох',
+    'chat.reactionsTitle': 'Реакцууд',
+    'chat.reactionsAll': 'Бүгд',
+    'chat.reactionsRemoveHint': 'Өөрийн реакцыг арилгах',
+    'chat.youLabel': 'Та',
+
     /**
      * Presence
      */

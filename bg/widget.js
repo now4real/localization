@@ -174,6 +174,12 @@ export default {
     'chat.showMoreBtn': 'Покажи повече',
     'chat.showLessBtn': 'Покажи по-малко',
 
+    'chat.reactionPickerBtn': 'Изберете реакция',
+    'chat.reactionsTitle': 'Реакции',
+    'chat.reactionsAll': 'Всички',
+    'chat.reactionsRemoveHint': 'Премахнете реакцията си',
+    'chat.youLabel': 'Вие',
+
     /**
      * Presence
      */

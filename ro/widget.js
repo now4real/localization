@@ -174,6 +174,12 @@ export default {
     'chat.showMoreBtn': 'Arată mai mult',
     'chat.showLessBtn': 'Arată mai puțin',
 
+    'chat.reactionPickerBtn': 'Alege o reacție',
+    'chat.reactionsTitle': 'Reacții',
+    'chat.reactionsAll': 'Toate',
+    'chat.reactionsRemoveHint': 'Elimină-ți reacția',
+    'chat.youLabel': 'Tu',
+
     /**
      * Presence
      */
