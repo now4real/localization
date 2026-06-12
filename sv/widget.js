@@ -176,7 +176,6 @@ export default {
 
     'chat.reactionPickerBtn': 'Välj en reaktion',
     'chat.reactionsTitle': 'Reaktioner',
-    'chat.reactionsAll': 'Alla',
     'chat.reactionsRemoveHint': 'Ta bort din reaktion',
     'chat.youLabel': 'Du',
 

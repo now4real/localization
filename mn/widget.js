@@ -176,7 +176,6 @@ export default {
 
     'chat.reactionPickerBtn': 'Реакц сонгох',
     'chat.reactionsTitle': 'Реакцууд',
-    'chat.reactionsAll': 'Бүгд',
     'chat.reactionsRemoveHint': 'Өөрийн реакцыг арилгах',
     'chat.youLabel': 'Та',
 

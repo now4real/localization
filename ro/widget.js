@@ -176,7 +176,6 @@ export default {
 
     'chat.reactionPickerBtn': 'Alege o reacție',
     'chat.reactionsTitle': 'Reacții',
-    'chat.reactionsAll': 'Toate',
     'chat.reactionsRemoveHint': 'Elimină-ți reacția',
     'chat.youLabel': 'Tu',
 
