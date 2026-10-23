@@ -251,13 +251,13 @@ export default {
     /**
      * JWT login dialog
      */
-    'jwt-modal.title': 'Зөвшөөрөл',
+    'jwt-modal.title': 'Чатлаж эхлэхээс өмнө',
 
-    'jwt-modal.header': 'Чаатыг ашиглахын тулд Та Now4real-ийн <a1>Үйлчилгээний нөхцөл</a1> ба <a2>БНууцлалын бодлогыг</a2> зөвшөөрөх ёстой',
+    'jwt-modal.header': 'Энэ чатыг Now4real үзүүлдэг. Чатлаж эхлэхийн тулд та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1>-ийг зөвшөөрч, манай <a2>Нууцлал болон күүкийн бодлого</a2>-ыг уншсанаа баталгаажуулах ёстой.',
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy and Cookie Policy"
 
-    'jwt-modal.acceptBtn': 'Зөвшөөрөх',
+    'jwt-modal.acceptBtn': 'Зөвшөөрч үргэлжлүүлэх',
 
     // below are the keys used when an additional consent message is in place
     'jwt-modal.disagreeRadio': 'Санал нийлэхгүй байна',

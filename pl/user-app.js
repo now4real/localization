@@ -30,7 +30,7 @@
 
     'emailSigninStep1.invalidEmailError': 'Nieprawidłowy adres e-mail',
 
-    'emailSigninStep1.n4rTermsAndPrivacy': 'Kontynuując, akceptujesz <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real.',
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Ten czat jest udostępniany przez Now4real. Kontynuując, akceptujesz <a1>Warunki korzystania z usługi</a1> Now4real i potwierdzasz przeczytanie naszej <a2>Polityki prywatności i plików cookie</a2>.',
 
     /**
      * Email signin step 2
@@ -64,9 +64,9 @@
     'emailSigninStep3.picture': 'Zdjęcie profilowe',
     'emailSigninStep3.pictureInfo': 'Będzie widoczne publicznie w czacie.',
 
-    'emailSigninStep3.useGravatar': 'Użyj obrazu Gravatara',
-    'emailSigninStep3.gravatarInfo': 'Korzystamy z usługi zewnętrznej o nazwie Gravatar do zarządzania Twoim zdjęciem. Proszę <a>zarejestruj się w Gravatar/WordPress</a>, aby je zmienić.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'emailSigninStep3.useGravatar': 'Użyj mojego zdjęcia profilowego z Gravatar',
+    'emailSigninStep3.gravatarInfo': 'Do pobrania zdjęcia używany jest skrót Twojego adresu e-mail. Utwórz konto lub zmień swoje zdjęcie w serwisie <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'emailSigninStep3.email': 'E-mail',
     'emailSigninStep3.emailInfo': 'Pozostanie prywatny.',
@@ -87,9 +87,9 @@
     'editProfile.picture': 'Zdjęcie profilowe',
     'editProfile.pictureInfo': 'Będzie widoczne publicznie w czacie.',
 
-    'editProfile.useGravatar': 'Użyj obrazu Gravatara',
-    'editProfile.gravatarInfo': 'Korzystamy z usługi zewnętrznej o nazwie Gravatar do zarządzania Twoim zdjęciem. Proszę <a>zarejestruj się w Gravatar/WordPress</a>, aby je zmienić.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'editProfile.useGravatar': 'Użyj mojego zdjęcia profilowego z Gravatar',
+    'editProfile.gravatarInfo': 'Do pobrania zdjęcia używany jest skrót Twojego adresu e-mail. Utwórz konto lub zmień swoje zdjęcie w serwisie <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'editProfile.email': 'E-mail',
     'editProfile.emailInfo': 'Pozostanie prywatny.',
@@ -106,7 +106,7 @@
 
     'noRegistrationSignin.ok': 'Dołącz do czatu',
 
-    'noRegistrationSignin.n4rTermsAndPrivacy': 'Dołączając do czatu, akceptujesz <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real.',
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Ten czat jest udostępniany przez Now4real. Dołączając do czatu, akceptujesz <a1>Warunki korzystania z usługi</a1> Now4real i potwierdzasz przeczytanie naszej <a2>Polityki prywatności i plików cookie</a2>.',
 
     'noRegistrationSignin.newNick': 'Użyj innego pseudonimu',
 
@@ -124,7 +124,7 @@
     'socialSignin.linkedin': 'Zaloguj się przez LinkedIn',
     'socialSignin.email': 'Zaloguj się przez e-mail',
 
-    'socialSignin.n4rTermsAndPrivacy': 'Logując się, akceptujesz <a1>Warunki korzystania z usługi</a1> i <a2>Politykę prywatności</a2> Now4real.',
+    'socialSignin.n4rTermsAndPrivacy': 'Ten czat jest udostępniany przez Now4real. Logując się, akceptujesz <a1>Warunki korzystania z usługi</a1> Now4real i potwierdzasz przeczytanie naszej <a2>Polityki prywatności i plików cookie</a2>.',
 
     'socialSignin.newUser': 'Użyj innego konta',
 }

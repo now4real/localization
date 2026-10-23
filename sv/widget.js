@@ -251,13 +251,13 @@ export default {
     /**
      * JWT login dialog
      */
-    'jwt-modal.title': 'Samtycke',
+    'jwt-modal.title': 'Innan du chattar',
 
-    'jwt-modal.header': 'För att börja chatta behöver du acceptera <a1>användarvillkoren</a1> och <a2>integritetspolicyn</a2> från Now4real (chattjänsten)',
+    'jwt-modal.header': 'Den här chatten tillhandahålls av Now4real. För att börja chatta måste du godkänna Now4reals <a1>användarvillkor</a1> och bekräfta att du har läst vår <a2>integritets- och cookiepolicy</a2>.',
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy and Cookie Policy"
 
-    'jwt-modal.acceptBtn': 'Acceptera',
+    'jwt-modal.acceptBtn': 'Godkänn och fortsätt',
 
     // below are the keys used when an additional consent message is in place
     'jwt-modal.disagreeRadio': 'Säga emot',

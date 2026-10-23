@@ -30,7 +30,7 @@ export default {
 
     'emailSigninStep1.invalidEmailError': 'Email invalid',
 
-    'emailSigninStep1.n4rTermsAndPrivacy': 'Continuând, ești de acord cu <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real.',
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Acest chat este furnizat de Now4real. Continuând, ești de acord cu <a1>Termenii de utilizare</a1> ai Now4real și confirmi că ai citit <a2>Politica noastră de confidențialitate și cookie-uri</a2>.',
 
     /**
      * Email signin step 2
@@ -64,9 +64,9 @@ export default {
     'emailSigninStep3.picture': 'Fotografie de profil',
     'emailSigninStep3.pictureInfo': 'Va apărea public în chat.',
 
-    'emailSigninStep3.useGravatar': 'Folosește imaginea Gravatar',
-    'emailSigninStep3.gravatarInfo': 'Folosim un serviciu de la terți numit Gravatar pentru a gestiona fotografia ta. Te rugăm să <a>te înregistrezi la Gravatar/WordPress</a> pentru a o schimba.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'emailSigninStep3.useGravatar': 'Folosește fotografia mea de profil Gravatar',
+    'emailSigninStep3.gravatarInfo': 'Pentru a o prelua, se folosește un hash al adresei tale de e-mail. Creează un cont sau schimbă-ți fotografia pe <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'emailSigninStep3.email': 'Email',
     'emailSigninStep3.emailInfo': 'Va rămâne privată.',
@@ -87,9 +87,9 @@ export default {
     'editProfile.picture': 'Fotografie de profil',
     'editProfile.pictureInfo': 'Va apărea public în chat.',
 
-    'editProfile.useGravatar': 'Folosește imaginea Gravatar',
-    'editProfile.gravatarInfo': 'Folosim un serviciu de la terți numit Gravatar pentru a gestiona fotografia ta. Te rugăm să <a>te înregistrezi la Gravatar/WordPress</a> pentru a o schimba.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'editProfile.useGravatar': 'Folosește fotografia mea de profil Gravatar',
+    'editProfile.gravatarInfo': 'Pentru a o prelua, se folosește un hash al adresei tale de e-mail. Creează un cont sau schimbă-ți fotografia pe <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'editProfile.email': 'Email',
     'editProfile.emailInfo': 'Va rămâne privată.',
@@ -106,7 +106,7 @@ export default {
 
     'noRegistrationSignin.ok': 'Intră în chat',
 
-    'noRegistrationSignin.n4rTermsAndPrivacy': 'Intrând în chat, ești de acord cu <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real.',
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Acest chat este furnizat de Now4real. Intrând în chat, ești de acord cu <a1>Termenii de utilizare</a1> ai Now4real și confirmi că ai citit <a2>Politica noastră de confidențialitate și cookie-uri</a2>.',
 
     'noRegistrationSignin.newNick': 'Folosește un alt pseudonim',
 
@@ -124,7 +124,7 @@ export default {
     'socialSignin.linkedin': 'Conectați-vă cu LinkedIn',
     'socialSignin.email': 'Conectați-vă cu email',
 
-    'socialSignin.n4rTermsAndPrivacy': 'Conectându-vă, sunteți de acord cu <a1>Termenii de utilizare</a1> și <a2>Politica de confidențialitate</a2> a Now4real.',
+    'socialSignin.n4rTermsAndPrivacy': 'Acest chat este furnizat de Now4real. Conectându-vă, sunteți de acord cu <a1>Termenii de utilizare</a1> ai Now4real și confirmați că ați citit <a2>Politica noastră de confidențialitate și cookie-uri</a2>.',
 
     'socialSignin.newUser': 'Folosește un alt cont',
 }

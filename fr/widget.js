@@ -251,13 +251,13 @@ export default {
     /**
      * JWT login dialog
      */
-    'jwt-modal.title': 'Consentir',
+    'jwt-modal.title': 'Avant de discuter',
 
-    'jwt-modal.header': 'Pour commencer à discuter, vous devez acceptez les <a1>Conditions d\'Utilisation</a1> et la <a2>Politique de Confidentialité</a2> de Now4real (le service de discussion)',
+    'jwt-modal.header': 'Ce chat est fourni par Now4real. Pour commencer à discuter, vous devez accepter les <a1>Conditions d\'utilisation</a1> de Now4real et reconnaître avoir lu notre <a2>Politique de confidentialité et de cookies</a2>.',
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy and Cookie Policy"
 
-    'jwt-modal.acceptBtn': 'Accepter',
+    'jwt-modal.acceptBtn': 'Accepter et continuer',
 
     // below are the keys used when an additional consent message is in place
     'jwt-modal.disagreeRadio': 'Refuser',

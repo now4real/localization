@@ -30,7 +30,7 @@ export default {
 
     'emailSigninStep1.invalidEmailError': 'Невалиден имейл',
 
-    'emailSigninStep1.n4rTermsAndPrivacy': 'Продължавайки, приемате <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real.',
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Този чат се предоставя от Now4real. Продължавайки, приемате <a1>Условията за ползване</a1> на Now4real и потвърждавате, че сте прочели нашата <a2>Политика за поверителност и бисквитки</a2>.',
 
     /**
      * Email signin step 2
@@ -64,9 +64,9 @@ export default {
     'emailSigninStep3.picture': 'Профилна снимка',
     'emailSigninStep3.pictureInfo': 'Ще се показва публично в чата.',
 
-    'emailSigninStep3.useGravatar': 'Използвай Gravatar изображение',
-    'emailSigninStep3.gravatarInfo': 'Използваме външна услуга, наречена Gravatar, за да управляваме вашето изображение. Моля, <a>регистрирайте се в Gravatar/WordPress</a>, за да го промените.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'emailSigninStep3.useGravatar': 'Използвай профилната ми снимка от Gravatar',
+    'emailSigninStep3.gravatarInfo': 'За извличането ѝ се използва хеш на вашия имейл адрес. Създайте акаунт или променете снимката си в <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'emailSigninStep3.email': 'Имейл',
     'emailSigninStep3.emailInfo': 'Ще остане частно.',
@@ -87,9 +87,9 @@ export default {
     'editProfile.picture': 'Профилна снимка',
     'editProfile.pictureInfo': 'Ще се показва публично в чата.',
 
-    'editProfile.useGravatar': 'Използвай Gravatar изображение',
-    'editProfile.gravatarInfo': 'Използваме външна услуга, наречена Gravatar, за да управляваме вашето изображение. Моля, <a>регистрирайте се в Gravatar/WordPress</a>, за да го промените.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'editProfile.useGravatar': 'Използвай профилната ми снимка от Gravatar',
+    'editProfile.gravatarInfo': 'За извличането ѝ се използва хеш на вашия имейл адрес. Създайте акаунт или променете снимката си в <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'editProfile.email': 'Имейл',
     'editProfile.emailInfo': 'Ще остане частно.',
@@ -106,7 +106,7 @@ export default {
 
     'noRegistrationSignin.ok': 'Влезте в чата',
 
-    'noRegistrationSignin.n4rTermsAndPrivacy': 'Влизайки в чата, приемате <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</а2> на Now4real.',
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Този чат се предоставя от Now4real. Влизайки в чата, приемате <a1>Условията за ползване</a1> на Now4real и потвърждавате, че сте прочели нашата <a2>Политика за поверителност и бисквитки</a2>.',
 
     'noRegistrationSignin.newNick': 'Използвай друг прякор',
 
@@ -124,7 +124,7 @@ export default {
     'socialSignin.linkedin': 'Вписване чрез LinkedIn',
     'socialSignin.email': 'Вписване чрез имейл',
 
-    'socialSignin.n4rTermsAndPrivacy': 'Вписвайки се, приемате <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real.',
+    'socialSignin.n4rTermsAndPrivacy': 'Този чат се предоставя от Now4real. Вписвайки се, приемате <a1>Условията за ползване</a1> на Now4real и потвърждавате, че сте прочели нашата <a2>Политика за поверителност и бисквитки</a2>.',
 
     'socialSignin.newUser': 'Използвай друг акаунт',
 }

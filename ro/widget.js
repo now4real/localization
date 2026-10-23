@@ -251,13 +251,13 @@ export default {
     /**
      * JWT login dialog
      */
-    'jwt-modal.title': 'Consimtamant',
+    'jwt-modal.title': 'Înainte de a discuta',
 
-    'jwt-modal.header': 'Pentru a discuta trebuie sa accepti <a1>Termene si Servicii</a1> și <a2>Politica de Confidentialitate</a2> de la acest site și Now4real',
-    // keep <a1> and </a1> unchanged and surrounding the translation of "Termene si Servicii"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Politica de Confidentialitate"
+    'jwt-modal.header': 'Acest chat este furnizat de Now4real. Pentru a începe să discuți, trebuie să accepți <a1>Termenii de utilizare</a1> ai Now4real și să confirmi că ai citit <a2>Politica noastră de confidențialitate și cookie-uri</a2>.',
+    // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy and Cookie Policy"
 
-    'jwt-modal.acceptBtn': 'Accept',
+    'jwt-modal.acceptBtn': 'Acceptă și continuă',
 
     // below are the keys used when an additional consent message is in place
     'jwt-modal.disagreeRadio': 'Dezacord',

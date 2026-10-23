@@ -30,7 +30,7 @@ export default {
 
     'emailSigninStep1.invalidEmailError': 'Зөв имэйл хаяг оруулна уу',
 
-    'emailSigninStep1.n4rTermsAndPrivacy': 'Үргэлжлүүлснээр та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г зөвшөөрч байна.',
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Энэ чатыг Now4real үзүүлдэг. Үргэлжлүүлснээр та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1>-ийг зөвшөөрч, манай <a2>Нууцлал болон күүкийн бодлого</a2>-ыг уншсанаа баталгаажуулж байна.',
 
     /**
      * Email signin step 2
@@ -64,9 +64,9 @@ export default {
     'emailSigninStep3.picture': 'Профайл зураг',
     'emailSigninStep3.pictureInfo': 'Нийтийн чатанд харагдана.',
 
-    'emailSigninStep3.useGravatar': 'Gravatar зургийг ашиглах',
-    'emailSigninStep3.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a>.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'emailSigninStep3.useGravatar': 'Миний Gravatar профайлын зургийг ашиглах',
+    'emailSigninStep3.gravatarInfo': 'Зургийг авахын тулд таны имэйл хаягийн хэшийг ашигладаг. <a>Gravatar</a> дээр бүртгэл үүсгэх эсвэл зургаа өөрчлөх боломжтой.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'emailSigninStep3.email': 'Имэйл',
     'emailSigninStep3.emailInfo': 'Бусдад харагдахгүй.',
@@ -87,9 +87,9 @@ export default {
     'editProfile.picture': 'Профайл зураг',
     'editProfile.pictureInfo': 'Нийтийн чатанд харагдана.',
 
-    'editProfile.useGravatar': 'Gravatar зургийг ашиглах',
-    'editProfile.gravatarInfo': 'Бид, Gravatar гэдэг гуравдагч талын үйлчилгээг ашиглан таны зургийг харуулдаг. Зургийг өөрчлөхийн тулд <a>Gravatar/WordPress -т бүртгүүлнэ үү</a>.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'editProfile.useGravatar': 'Миний Gravatar профайлын зургийг ашиглах',
+    'editProfile.gravatarInfo': 'Зургийг авахын тулд таны имэйл хаягийн хэшийг ашигладаг. <a>Gravatar</a> дээр бүртгэл үүсгэх эсвэл зургаа өөрчлөх боломжтой.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'editProfile.email': 'Имэйл',
     'editProfile.emailInfo': 'Бусдад харагдахгүй.',
@@ -106,7 +106,7 @@ export default {
 
     'noRegistrationSignin.ok': 'Чатад нэгдэх',
 
-    'noRegistrationSignin.n4rTermsAndPrivacy': 'Чатад нэгдснээр та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г зөвшөөрч байна.',
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Энэ чатыг Now4real үзүүлдэг. Чатад нэгдснээр та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1>-ийг зөвшөөрч, манай <a2>Нууцлал болон күүкийн бодлого</a2>-ыг уншсанаа баталгаажуулж байна.',
 
     'noRegistrationSignin.newNick': 'Өөр нэр ашиглах',
 
@@ -124,7 +124,7 @@ export default {
     'socialSignin.linkedin': 'LinkedIn-р нэвтрэх',
     'socialSignin.email': 'И-мэйлээр нэвтрэх',
 
-    'socialSignin.n4rTermsAndPrivacy': 'Нэвтэрснээр та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1> болон <a2>Нууцлалын бодлого</a2>-г зөвшөөрч байна.',
+    'socialSignin.n4rTermsAndPrivacy': 'Энэ чатыг Now4real үзүүлдэг. Нэвтэрснээр та Now4real-ын <a1>Үйлчилгээний нөхцөл</a1>-ийг зөвшөөрч, манай <a2>Нууцлал болон күүкийн бодлого</a2>-ыг уншсанаа баталгаажуулж байна.',
 
     'socialSignin.newUser': 'Өөр бүртгэл ашиглана уу',
 }

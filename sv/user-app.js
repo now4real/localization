@@ -30,7 +30,7 @@ export default {
 
     'emailSigninStep1.invalidEmailError': 'Ogiltig e-postadress',
 
-    'emailSigninStep1.n4rTermsAndPrivacy': 'Genom att fortsätta godkänner du Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>.',
+    'emailSigninStep1.n4rTermsAndPrivacy': 'Den här chatten tillhandahålls av Now4real. Genom att fortsätta godkänner du Now4reals <a1>användarvillkor</a1> och bekräftar att du har läst vår <a2>integritets- och cookiepolicy</a2>.',
 
     /**
      * Email signin step 2
@@ -64,9 +64,9 @@ export default {
     'emailSigninStep3.picture': 'Profilbild',
     'emailSigninStep3.pictureInfo': 'Den kommer att visas offentligt i chatten.',
 
-    'emailSigninStep3.useGravatar': 'Använd Gravatar-bild',
-    'emailSigninStep3.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'emailSigninStep3.useGravatar': 'Använd min profilbild från Gravatar',
+    'emailSigninStep3.gravatarInfo': 'En hash av din e-postadress används för att hämta den. Skapa ett konto eller ändra din bild på <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'emailSigninStep3.email': 'E-post',
     'emailSigninStep3.emailInfo': 'Den förblir privat.',
@@ -87,9 +87,9 @@ export default {
     'editProfile.picture': 'Profilbild',
     'editProfile.pictureInfo': 'Den kommer att visas offentligt i chatten.',
 
-    'editProfile.useGravatar': 'Använd Gravatar-bild',
-    'editProfile.gravatarInfo': 'Vi använder en tredjepartstjänst som heter Gravatar för att hantera din bild. Vänligen <a>registrera dig på Gravatar/WordPress</a> för att ändra det.',
-    // keep <a> and </a> unchanged and surrounding the translation of "register to Gravatar/WordPress"
+    'editProfile.useGravatar': 'Använd min profilbild från Gravatar',
+    'editProfile.gravatarInfo': 'En hash av din e-postadress används för att hämta den. Skapa ett konto eller ändra din bild på <a>Gravatar</a>.',
+    // keep <a> and </a> unchanged and surrounding the translation of "Gravatar"
 
     'editProfile.email': 'E-post',
     'editProfile.emailInfo': 'Den förblir privat.',
@@ -106,7 +106,7 @@ export default {
 
     'noRegistrationSignin.ok': 'Gå med i chatten',
 
-    'noRegistrationSignin.n4rTermsAndPrivacy': 'Genom att gå med i chatten godkänner du Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>.',
+    'noRegistrationSignin.n4rTermsAndPrivacy': 'Den här chatten tillhandahålls av Now4real. Genom att gå med i chatten godkänner du Now4reals <a1>användarvillkor</a1> och bekräftar att du har läst vår <a2>integritets- och cookiepolicy</a2>.',
 
     'noRegistrationSignin.newNick': 'Använd ett annat smeknamn',
 
@@ -124,7 +124,7 @@ export default {
     'socialSignin.linkedin': 'Logga in med LinkedIn',
     'socialSignin.email': 'Logga in med e-post',
 
-    'socialSignin.n4rTermsAndPrivacy': 'Genom att logga in godkänner du Now4reals <a1>användarvillkor</a1> och <a2>integritetspolicy</a2>.',
+    'socialSignin.n4rTermsAndPrivacy': 'Den här chatten tillhandahålls av Now4real. Genom att logga in godkänner du Now4reals <a1>användarvillkor</a1> och bekräftar att du har läst vår <a2>integritets- och cookiepolicy</a2>.',
 
     'socialSignin.newUser': 'Använd ett annat konto',
 }

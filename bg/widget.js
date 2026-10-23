@@ -251,13 +251,13 @@ export default {
     /**
      * JWT login dialog
      */
-    'jwt-modal.title': 'Съгласие',
+    'jwt-modal.title': 'Преди да започнете чата',
 
-    'jwt-modal.header': 'За да започнете да си пишете с другите, е необходимо да приемете <a1>Условията за ползване</a1> и <a2>Политиката за поверителност</a2> на Now4real (чат услугата)',
+    'jwt-modal.header': 'Този чат се предоставя от Now4real. За да започнете да чатите, трябва да приемете <a1>Условията за ползване</a1> на Now4real и да потвърдите, че сте прочели нашата <a2>Политика за поверителност и бисквитки</a2>.',
     // keep <a1> and </a1> unchanged and surrounding the translation of "Terms of Service"
-    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy Policy"
+    // keep <a2> and </a2> unchanged and surrounding the translation of "Privacy and Cookie Policy"
 
-    'jwt-modal.acceptBtn': 'Приемам',
+    'jwt-modal.acceptBtn': 'Приемам и продължавам',
 
     // below are the keys used when an additional consent message is in place
     'jwt-modal.disagreeRadio': 'Не съм съгласен',
