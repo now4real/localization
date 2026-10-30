@@ -137,6 +137,9 @@ export default {
 
     'chat.placeholder': 'Зурвас бичих',
     'chat.postBtn': 'Постлох', // means "publish this message"
+    'chat.waitBeforePosting': '⏳ Чат маш идэвхтэй байна. Дараагийн зурвасаа илгээхээс өмнө $T хүлээнэ үү.',
+    // $T is optional; extra spaces are removed when the duration is omitted.
+    'chat.waitDuration': '$N s', // $N is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Хэт хурдан бичиж байна...\nЧаатыг дүүргэж болохгүй',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex

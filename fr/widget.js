@@ -137,6 +137,9 @@ export default {
 
     'chat.placeholder': 'Saisir un message',
     'chat.postBtn': 'Publier', // means "publish this message"
+    'chat.waitBeforePosting': '⏳ La discussion est très active. Patientez $T avant le prochain envoi.',
+    // $T is optional; extra spaces are removed when the duration is omitted.
+    'chat.waitDuration': '$N s', // $N is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Vous êtes un peu trop rapide...\nVeuillez ne pas inonder la discussion',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex

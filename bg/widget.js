@@ -137,6 +137,9 @@ export default {
 
     'chat.placeholder': 'Напишете съобщение',
     'chat.postBtn': 'Post', // means "publish this message"
+    'chat.waitBeforePosting': '⏳ Чатът е много активен. Изчакайте $T преди следващото съобщение.',
+    // $T is optional; extra spaces are removed when the duration is omitted.
+    'chat.waitDuration': '$N s', // $N is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Пишете прекалено бързо...\nНедейте да препълвате чата!',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex

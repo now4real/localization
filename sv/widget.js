@@ -137,6 +137,9 @@ export default {
 
     'chat.placeholder': 'Skriv ett meddelande',
     'chat.postBtn': 'Skicka', // means "publish this message"
+    'chat.waitBeforePosting': '⏳ Chatten är mycket aktiv. Vänta $T innan du skickar nästa meddelande.',
+    // $T is optional; extra spaces are removed when the duration is omitted.
+    'chat.waitDuration': '$N s', // $N is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Du är lite för snabb...\nSnälla översvämma inte chatten',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex

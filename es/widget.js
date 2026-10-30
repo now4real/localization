@@ -137,6 +137,9 @@ export default {
 
     'chat.placeholder': 'Escribe un mensaje',
     'chat.postBtn': 'Publicar', // means "publish this message"
+    'chat.waitBeforePosting': '⏳ El chat está muy activo. Espera $T antes de enviar otro mensaje.',
+    // $T is optional; extra spaces are removed when the duration is omitted.
+    'chat.waitDuration': '$N s', // $N is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Vas un poco rápido...\nPor favor, no llenes el chat',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex

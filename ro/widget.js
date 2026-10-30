@@ -137,6 +137,9 @@ export default {
 
     'chat.placeholder': 'Scrie mesajul',
     'chat.postBtn': 'Publica', // means "publica mesajul tau"
+    'chat.waitBeforePosting': '⏳ Chatul este foarte activ. Așteaptă $T înainte de a trimite următorul mesaj.',
+    // $T is optional; extra spaces are removed when the duration is omitted.
+    'chat.waitDuration': '$N s', // $N is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Prea repede ...\nTe rog nu inunda chat-ul cu prea multe mesaje',
     // \n means to break the line; \' distinguishes the apostrophe from the final apex
