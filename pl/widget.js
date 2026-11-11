@@ -137,7 +137,7 @@ export default {
 
     'chat.placeholder': 'Wpisz wiadomość',
     'chat.postBtn': 'Wyślij', // means "publish this message"
-    'chat.waitBeforePosting': '⏳ Aby rozmowa pozostała czytelna, poczekaj $T s przed ponownym wysłaniem.',
+    'chat.waitBeforePosting': 'Aby rozmowa pozostała czytelna, poczekaj $Ts przed ponownym wysłaniem.',
     // $T is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Jesteś trochę za szybki...\nProsimy nie zalewać czatu',

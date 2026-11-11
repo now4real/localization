@@ -137,7 +137,7 @@ export default {
 
     'chat.placeholder': 'Schreiben',
     'chat.postBtn': 'Post', // means "publish this message"
-    'chat.waitBeforePosting': '⏳ Damit die Unterhaltung gut lesbar bleibt, warte bitte $T s, bevor du erneut etwas sendest.',
+    'chat.waitBeforePosting': 'Damit die Unterhaltung gut lesbar bleibt, warte bitte $Ts, bevor du erneut etwas sendest.',
     // $T is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Sie sind ein wenig zu schnell...\nbitte nicht zu viel schreiben',

@@ -137,7 +137,7 @@ export default {
 
     'chat.placeholder': 'Зурвас бичих',
     'chat.postBtn': 'Постлох', // means "publish this message"
-    'chat.waitBeforePosting': '⏳ Яриаг уншихад хялбар байлгахын тулд дахин илгээхээсээ өмнө $T s хүлээнэ үү.',
+    'chat.waitBeforePosting': 'Яриаг уншихад хялбар байлгахын тулд дахин илгээхээсээ өмнө $Ts хүлээнэ үү.',
     // $T is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Хэт хурдан бичиж байна...\nЧаатыг дүүргэж болохгүй',

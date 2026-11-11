@@ -137,7 +137,7 @@ export default {
 
     'chat.placeholder': 'Skriv ett meddelande',
     'chat.postBtn': 'Skicka', // means "publish this message"
-    'chat.waitBeforePosting': '⏳ För att hålla samtalet lätt att följa, vänta $T s innan du skickar igen.',
+    'chat.waitBeforePosting': 'För att hålla samtalet lätt att följa, vänta $Ts innan du skickar igen.',
     // $T is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Du är lite för snabb...\nSnälla översvämma inte chatten',

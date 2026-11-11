@@ -137,7 +137,7 @@ export default {
 
     'chat.placeholder': 'Scrie mesajul',
     'chat.postBtn': 'Publica', // means "publica mesajul tau"
-    'chat.waitBeforePosting': '⏳ Pentru ca discuția să fie ușor de urmărit, așteaptă $T s înainte de a trimite din nou.',
+    'chat.waitBeforePosting': 'Pentru ca discuția să fie ușor de urmărit, așteaptă $Ts înainte de a trimite din nou.',
     // $T is the remaining number of seconds.
 
     'chat.tooFrequentError': 'Prea repede ...\nTe rog nu inunda chat-ul cu prea multe mesaje',

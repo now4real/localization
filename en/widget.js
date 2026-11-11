@@ -137,7 +137,7 @@ export default {
 
     'chat.placeholder': 'Type a message',
     'chat.postBtn': 'Post', // means "publish this message"
-    'chat.waitBeforePosting': '⏳ To keep the conversation readable, please wait $T s before posting again.',
+    'chat.waitBeforePosting': 'To keep the conversation readable, please wait $Ts before posting again.',
     // $T is the remaining number of seconds.
 
     'chat.tooFrequentError': 'You are a bit too fast...\nPlease don\'t flood the chat',
