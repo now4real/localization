@@ -71,7 +71,7 @@ export default {
     'status-header.notRememberedLogin': 'Нэвтрэх хандалт хадгалагдахгүй',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'Дэлгэцийн нэр болон зургийг солихын тулд <a>Профайл засварлах</a> дээр дарна уу',
+    'status-header.editUserProfileModal': 'Дэлгэцийн нэр болон зургийг солихын тулд <a>Профайл засварлах</a> дээр дарна уу.',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"   
 
     /**
@@ -316,7 +316,7 @@ export default {
     'report-modal.title': 'Мессежийг мэдээлэх',
 
     'report-modal.header': 'Та яагаад энэ мессежийг мэдээлж байна вэ?',
-    'report-modal.note': 'Хэрэв хэн нэгэн яаралтай аюулд орсон бол орон нутгийн түргэн тусламж дуудах - хүлээх хэрэггүй',
+    'report-modal.note': 'Хэрэв хэн нэгэн яаралтай аюулд орсон бол орон нутгийн түргэн тусламж дуудах - хүлээх хэрэггүй.',
 
     'report-modal.hateSpeech': 'Үзэн ядсан үг хэллэг эсвэл дээрэлхэх',
     'report-modal.violence': 'Терроризм эсвэл хүчирхийлэл',

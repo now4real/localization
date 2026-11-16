@@ -71,7 +71,7 @@ export default {
     'status-header.notRememberedLogin': 'Sparas inte',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'För att ändra ditt visningsnamn och bild, <a>redigera din profil</a>',
+    'status-header.editUserProfileModal': 'För att ändra ditt visningsnamn och bild, <a>redigera din profil</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -316,7 +316,7 @@ export default {
     'report-modal.title': 'Anmäl Meddelande',
 
     'report-modal.header': 'Varför rapporterar du det här meddelandet?',
-    'report-modal.note': 'Om någon är i omedelbar fara, ring den lokala räddningstjänsten - vänta inte',
+    'report-modal.note': 'Om någon är i omedelbar fara, ring den lokala räddningstjänsten - vänta inte.',
 
     'report-modal.hateSpeech': 'Hatprat eller mobbning',
     'report-modal.violence': 'Terrorism eller våld',

@@ -71,7 +71,7 @@ export default {
     'status-header.notRememberedLogin': 'Nu-mi amintesc',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'Pentru a-ți schimba numele afișat și poza, <a>editează profilul</a>',
+    'status-header.editUserProfileModal': 'Pentru a-ți schimba numele afișat și poza, <a>editează profilul</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -316,7 +316,7 @@ export default {
     'report-modal.title': 'Raportează mesajul',
 
     'report-modal.header': 'De ce raportați acest mesaj?',
-    'report-modal.note': 'Dacă cineva se află în pericol imediat, sunați la serviciile locale de urgență - nu așteptați',
+    'report-modal.note': 'Dacă cineva se află în pericol imediat, sunați la serviciile locale de urgență - nu așteptați.',
 
     'report-modal.hateSpeech': 'Discurs de ură sau hărțuire',
     'report-modal.violence': 'Terorism sau violență',

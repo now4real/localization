@@ -71,7 +71,7 @@ export default {
     'status-header.notRememberedLogin': 'Not remembered',
     // means that the login status is temporary and will not be remembered next time
 
-    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>',
+    'status-header.editUserProfileModal': 'To change your display name and picture, <a>edit your profile</a>.',
     // keep <a> and </a> unchanged and surrounding the translation of "edit your profile"
 
     /**
@@ -316,7 +316,7 @@ export default {
     'report-modal.title': 'Report Message',
 
     'report-modal.header': 'Why are you reporting this message?',
-    'report-modal.note': 'If someone is in immediate danger, call the local emergency services - don\'t wait',
+    'report-modal.note': 'If someone is in immediate danger, call the local emergency services - don\'t wait.',
 
     'report-modal.hateSpeech': 'Hate speech or bullying',
     'report-modal.violence': 'Terrorism or violence',
