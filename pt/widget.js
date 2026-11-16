@@ -268,7 +268,7 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Silenciar Usuário',
+    'mute-modal.title': 'Silenciar usuário',
 
     'mute-modal.header': 'Usuário $U foi silenciado até $E',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
@@ -290,8 +290,8 @@ export default {
     /**
      * Hide/Show dialog
      */
-    'hide-modal.hideTitle': 'Ocultar Mensagens',
-    'hide-modal.showTitle': 'Mostrar Mensagens',
+    'hide-modal.hideTitle': 'Ocultar mensagens',
+    'hide-modal.showTitle': 'Mostrar mensagens',
 
     'hide-modal.hideHeader': 'Ocultar todas as mensagens publicadas por $U (eles não saberão que você o silenciou).',
     // example: "Hide all messages posted by Ben (they won't know you have muted them)."
@@ -313,7 +313,7 @@ export default {
     /**
      * Report dialog
      */
-    'report-modal.title': 'Denunciar Mensagem',
+    'report-modal.title': 'Denunciar mensagem',
 
     'report-modal.header': 'Por que você está denunciando esta mensagem?',
     'report-modal.note': 'Se alguém estiver em perigo imediato, ligue para os serviços de emergência locais - não espere.',

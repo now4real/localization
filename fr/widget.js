@@ -268,7 +268,7 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Mettre en Sourdine',
+    'mute-modal.title': 'Mettre en sourdine',
 
     'mute-modal.header': 'L\'utilisateur $U a été mis en sourdine jusqu\'à $E',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"

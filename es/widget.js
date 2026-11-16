@@ -313,7 +313,7 @@ export default {
     /**
      * Report dialog
      */
-    'report-modal.title': 'Denunciar Mensaje',
+    'report-modal.title': 'Denunciar mensaje',
 
     'report-modal.header': '¿Por qué quieres denunciar este mensaje?',
     'report-modal.note': 'Si alguien está en peligro inmediato, llame a los servicios de emergencia locales - no espere.',

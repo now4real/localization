@@ -313,7 +313,7 @@ export default {
     /**
      * Report dialog
      */
-    'report-modal.title': 'Nachricht Melden',
+    'report-modal.title': 'Nachricht melden',
 
     'report-modal.header': 'Warum melden Sie diese Nachricht?',
     'report-modal.note': 'Wenn jemand in unmittelbarer Gefahr ist, rufen Sie den örtlichen Notdienst an – warten Sie nicht.',

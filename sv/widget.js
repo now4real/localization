@@ -268,7 +268,7 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Tysta Användaren',
+    'mute-modal.title': 'Tysta användaren',
 
     'mute-modal.header': 'Användaren $U har tystats tills $E',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
@@ -313,7 +313,7 @@ export default {
     /**
      * Report dialog
      */
-    'report-modal.title': 'Anmäl Meddelande',
+    'report-modal.title': 'Anmäl meddelande',
 
     'report-modal.header': 'Varför rapporterar du det här meddelandet?',
     'report-modal.note': 'Om någon är i omedelbar fara, ring den lokala räddningstjänsten - vänta inte.',

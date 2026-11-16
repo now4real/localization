@@ -268,7 +268,7 @@ export default {
     /**
      * Mute dialog
      */
-    'mute-modal.title': 'Mute User',
+    'mute-modal.title': 'Mute user',
 
     'mute-modal.header': 'User $U has been muted until $E',
     // example: "User Ben has been muted until Wed, 14 Jun 2022 07:12:00 GMT"
@@ -290,8 +290,8 @@ export default {
     /**
      * Hide/Show dialog
      */
-    'hide-modal.hideTitle': 'Hide Messages',
-    'hide-modal.showTitle': 'Show Messages',
+    'hide-modal.hideTitle': 'Hide messages',
+    'hide-modal.showTitle': 'Show messages',
 
     'hide-modal.hideHeader': 'Hide all messages posted by $U (they won\'t know you have muted them).',
     // example: "Hide all messages posted by Ben (they won't know you have muted them)."
@@ -313,7 +313,7 @@ export default {
     /**
      * Report dialog
      */
-    'report-modal.title': 'Report Message',
+    'report-modal.title': 'Report message',
 
     'report-modal.header': 'Why are you reporting this message?',
     'report-modal.note': 'If someone is in immediate danger, call the local emergency services - don\'t wait.',
@@ -335,7 +335,7 @@ export default {
     /**
      * Create poll dialog
      */
-    'create-poll-modal.title': 'Create Poll',
+    'create-poll-modal.title': 'Create poll',
 
     'create-poll-modal.questionPlaceholder': 'Question',
     'create-poll-modal.optionPlaceholder': 'Option',
