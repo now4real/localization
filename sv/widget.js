@@ -140,8 +140,7 @@ export default {
     'chat.waitBeforePosting': 'För att hålla samtalet lätt att följa, vänta $Ts innan du skickar igen.',
     // $T is the remaining number of seconds.
 
-    'chat.tooFrequentError': 'Du är lite för snabb...\nSnälla översvämma inte chatten',
-    // \n means to break the line; \' distinguishes the apostrophe from the final apex
+    'chat.tooFrequentError': 'Vänta en stund innan du skickar ett nytt meddelande.',
 
     'chat.blockedError': 'Ledsen, ditt meddelande verkar olämpligt. <a>Läs mer</a>',
     'chat.abortedError': 'Inloggning avbruten eller cookies inaktiverade i den här webbläsaren',

@@ -140,8 +140,7 @@ export default {
     'chat.waitBeforePosting': 'Яриаг уншихад хялбар байлгахын тулд дахин илгээхээсээ өмнө $Ts хүлээнэ үү.',
     // $T is the remaining number of seconds.
 
-    'chat.tooFrequentError': 'Хэт хурдан бичиж байна...\nЧаатыг дүүргэж болохгүй',
-    // \n means to break the line; \' distinguishes the apostrophe from the final apex
+    'chat.tooFrequentError': 'Дараагийн зурвасыг илгээхээсээ өмнө түр хүлээнэ үү.',
 
     'chat.blockedError': 'Уучлаарай, таны зурвас тохиромжгүй байна. <a>Илүү ихийг унших</a>',
     'chat.abortedError': 'Энэ браузераас Нэвтрэхийг хориглосон эсвэл cookie-г идэвхгүй болгосон байна',

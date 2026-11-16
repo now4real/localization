@@ -140,8 +140,7 @@ export default {
     'chat.waitBeforePosting': 'Pentru ca discuția să fie ușor de urmărit, așteaptă $Ts înainte de a trimite din nou.',
     // $T is the remaining number of seconds.
 
-    'chat.tooFrequentError': 'Prea repede ...\nTe rog nu inunda chat-ul cu prea multe mesaje',
-    // \n means to break the line; \' distinguishes the apostrophe from the final apex
+    'chat.tooFrequentError': 'Te rog să aștepți un moment înainte de a trimite un alt mesaj.',
 
     'chat.blockedError': 'Ne pare rău, mesajul dvs. pare inadecvat. <a>Află mai multe</a>',
     'chat.abortedError': 'Intrare esuata sau cookie nu sunt permise in acest browser',

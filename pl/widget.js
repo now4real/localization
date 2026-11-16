@@ -140,8 +140,7 @@ export default {
     'chat.waitBeforePosting': 'Aby rozmowa pozostała czytelna, poczekaj $Ts przed ponownym wysłaniem.',
     // $T is the remaining number of seconds.
 
-    'chat.tooFrequentError': 'Jesteś trochę za szybki...\nProsimy nie zalewać czatu',
-    // \n means to break the line; \' distinguishes the apostrophe from the final apex
+    'chat.tooFrequentError': 'Poczekaj chwilę przed wysłaniem kolejnej wiadomości.',
 
     'chat.blockedError': 'Przepraszamy, Twoja wiadomość wydaje się nieodpowiednia. <a>Dowiedz się więcej</a>',
     'chat.abortedError': 'Nie można się zalogować lub ciasteczka są wyłączone w Twojej przeglądarce',

@@ -140,8 +140,7 @@ export default {
     'chat.waitBeforePosting': 'Damit die Unterhaltung gut lesbar bleibt, warte bitte $Ts, bevor du erneut etwas sendest.',
     // $T is the remaining number of seconds.
 
-    'chat.tooFrequentError': 'Sie sind ein wenig zu schnell...\nbitte nicht zu viel schreiben',
-    // \n means to break the line; \' distinguishes the apostrophe from the final apex
+    'chat.tooFrequentError': 'Bitte warten Sie einen Moment, bevor Sie eine weitere Nachricht senden.',
 
     'chat.blockedError': 'Entschuldigung... diese Nachricht scheint unangemessen zu sein. <a>Mehr erfahren</a>',
     'chat.abortedError': 'Anmelden abgebrochen oder Cookies in diesem Browser deaktiviert',

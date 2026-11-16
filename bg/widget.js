@@ -140,8 +140,7 @@ export default {
     'chat.waitBeforePosting': 'За да бъде разговорът лесен за следене, изчакайте $Ts, преди да изпратите отново.',
     // $T is the remaining number of seconds.
 
-    'chat.tooFrequentError': 'Пишете прекалено бързо...\nНедейте да препълвате чата!',
-    // \n means to break the line; \' distinguishes the apostrophe from the final apex
+    'chat.tooFrequentError': 'Моля, изчакайте малко, преди да изпратите друго съобщение.',
 
     'chat.blockedError': 'Съжаляваме... Това съобщение изглежда неподходящо. <a>Научете повече</a>',
     'chat.abortedError': 'Вписването е отказано или бисквитките на браузера са изключени',
